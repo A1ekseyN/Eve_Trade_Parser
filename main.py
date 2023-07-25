@@ -1,3 +1,4 @@
+
 import requests
 import json
 import time
@@ -7,7 +8,7 @@ from items_all_market import items_eve
 
 # https://www.adam4eve.eu/info_locations.php
 
-
+version = "0.0.1a"
 start_time = time.time()
 
 items = items_eve
@@ -124,13 +125,14 @@ for item in items:
 #                print(f"Не удалось получить цены на товар '{item_name}' в регионе '{region_name}' на станции '{station_name}'")
 
 
-print(f'\nTime: {time.time() - start_time} sec')
 
 with open("output.json", "w", encoding="utf-8") as file:
     json.dump(dump_orders_all, file)
+    print("File saved output.json")
 
 with open("output.txt", "w", encoding="utf-8") as file:
     json.dump(dump_orders_all, file)
+    print("File saved output.txxt")
 
 
 #print(id)
