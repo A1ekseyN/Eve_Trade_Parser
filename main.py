@@ -13,6 +13,7 @@ start_time = time.time()
 
 items = items_eve
 dump_orders_all = []
+filter_price = 200000
 
 
 def get_item_prices(item_id, item_name, region_id, region_name, station_id, station_name, sales_tax):
@@ -73,7 +74,7 @@ regions = [
 ]
 
 stations = [
-    {"id": 60003760, "name": "Jita 4-4 - Caldari Navy Assembly Plant"},
+    {"id": 60003760, "name": "Jita 4-4"},
 #    {"id": 60008494, "name": "Amarr VIII (Oris) - Emperor Family Academy"}
 ]
 
@@ -96,7 +97,7 @@ for item in items:
             if item_prices and station_id in item_prices:
 #                print(f"\nТовар: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
                 for station_id, station_prices in item_prices.items():
-                    if station_prices and station_prices["profit_sell_percentage"] <= 0.1:
+                    if station_prices and station_prices["profit_sell_percentage"] <= 0.1 and station_prices["min_sell_price"] >= filter_price:
                         print(f"\nТовар: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
 
                         min_sell_price = station_prices["min_sell_price"]
@@ -125,16 +126,10 @@ for item in items:
 #                print(f"Не удалось получить цены на товар '{item_name}' в регионе '{region_name}' на станции '{station_name}'")
 
 
-
-with open("output.json", "w", encoding="utf-8") as file:
-    json.dump(dump_orders_all, file)
-    print("File saved output.json")
-
 with open("output.txt", "w", encoding="utf-8") as file:
     json.dump(dump_orders_all, file)
     print("File saved output.txxt")
 
 
 #print(id)
-print(f'\nTime: {time.time() - start_time} sec')
-
+print(f'\nTime: {time.time() - start_time:,.2f} sec')

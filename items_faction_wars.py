@@ -2,9 +2,13 @@ items_component = [
     # Tags
     {"item_name": "Federation Navy Fleet Colonel Insignia I", "id": 15594},
     {"item_name": "Federation Navy Fleet Colonel Insignia II", "id": 15673},
-
     {"item_name": "Federation Navy Command Sergeant Major Insignia I", "id": 15646},
     {"item_name": "Federation Navy Fleet Major Insignia I", "id": 15593},
+    {"item_name": "Federation Navy Fleet Captain Insignia I", "id": 15592},
+
+    {"item_name": "Federation Navy Sergeant Insignia I", "id": 15590},
+    {"item_name": "Federation Navy Sergeant Insignia II", "id": 15594},
+    {"item_name": "Federation Navy Sergeant Insignia III", "id": 16002},
 
     {"item_name": "Dread Guristas Gold Tag", "id": 17248},
 
@@ -23,7 +27,16 @@ items_component = [
     {"item_name": "Cap Booster 800", "id": 11289},
     {"item_name": "Cap Booster 3200", "id": 41489},
 
-    # Resourсes
+    # Launcher
+    {"item_name": "Rapid Light Missile Launcher I", "id": 1875},
+    {"item_name": "Rapid Heavy Missile Launcher I", "id": 33448},
+    {"item_name": "Light Missile Launcher I", "id": 499},
+    {"item_name": "Heavy Missile Launcher I", "id": 501},
+    {"item_name": "Rocket Launcher I", "id": 10629},
+    {"item_name": "Cruise Missile Launcher I", "id": 13320},
+    {"item_name": "Torpedo Launcher I", "id": 503},
+
+    # Resources
     {"item_name": "Megacyte", "id": 40},
     {"item_name": "Zydrine", "id":39},
     {"item_name": "Nocxium", "id":38},
@@ -37,22 +50,23 @@ items_component = [
 
     # Components
     {"item_name": "Core Temperature Regulator", "id": 57479},
-    {"item_name": "Neurolink Protection Cell", "id": 57488},
-    {"item_name": "Capital Sensor Cluster", "id": 21013},
-    {"item_name": "Capital Armor Plates", "id": 21017},
-    {"item_name": "Capital Capacitor Battery", "id": 21019},
-    {"item_name": "Capital Power Generator", "id": 21021},
-    {"item_name": "Capital Jump Drive", "id": 21025},
-    {"item_name": "Capital Construction Parts", "id": 21037},
-    {"item_name": "Capital Corporate Hangar Bay", "id": 24560},
-    {"item_name": "Gravimetric-FTL Interlink Communicator", "id": 57475},
-    {"item_name": "Capital Computer System", "id": 21035},
-    {"item_name": "Capital Propulsion Engine", "id": 21009},
-    {"item_name": "Capital Shield Emitter", "id": 21023},
-    {"item_name": "Capital Ship Maintenance Bay", "id": 24558},
-    {"item_name": "R-O Trigger Neurolink Conduit", "id": 57471},
-    {"item_name": "Capital Siege Array", "id": 21039},
-    {"item_name": "Capital Launcher Hardpoint", "id": 21041},
+    # Capital Components
+#    {"item_name": "Neurolink Protection Cell", "id": 57488},
+#    {"item_name": "Capital Sensor Cluster", "id": 21013},
+#    {"item_name": "Capital Armor Plates", "id": 21017},
+#    {"item_name": "Capital Capacitor Battery", "id": 21019},
+#    {"item_name": "Capital Power Generator", "id": 21021},
+#    {"item_name": "Capital Jump Drive", "id": 21025},
+#    {"item_name": "Capital Construction Parts", "id": 21037},
+#    {"item_name": "Capital Corporate Hangar Bay", "id": 24560},
+#    {"item_name": "Gravimetric-FTL Interlink Communicator", "id": 57475},
+#    {"item_name": "Capital Computer System", "id": 21035},
+#    {"item_name": "Capital Propulsion Engine", "id": 21009},
+#    {"item_name": "Capital Shield Emitter", "id": 21023},
+#    {"item_name": "Capital Ship Maintenance Bay", "id": 24558},
+#    {"item_name": "R-O Trigger Neurolink Conduit", "id": 57471},
+#    {"item_name": "Capital Siege Array", "id": 21039},
+#    {"item_name": "Capital Launcher Hardpoint", "id": 21041},
 
     # Missile
     {"item_name": "Inferno Light Missile", "id": 211},
@@ -191,11 +205,11 @@ items_faction_wars_state_protectorate = [
      "id": 41490, },
 
     # Ships Production
-    {"item_name": "Heron Navy Issue (Production)",
+    {"item_name": "Heron Navy Issue (Production)*",
      "lp_store_components": {"Life Support Backup Unit": 5,  "Megacyte": 10, "Auto-Integrity Preservation Seal": 10, "Zydrine": 20, "Nocxium": 30, "Isogen": 500, "Mexallon": 2500, "Pyerite": 6000, "Tritanium": 32000},
      "lp_price": 4000,
      "isk_price": 2000000,
-     "production_cost": 114000,
+     "production_cost": 114000,         # Jita: 114к, 2.12% - 28к, FW: 6к
      "quantity": 1,
      "id": 72904, },
 
@@ -225,31 +239,31 @@ items_faction_wars_state_protectorate = [
                              "Tritanium": 80000},
      "lp_price": 12000,
      "isk_price": 3500000,
-     "production_cost": 197208,
+     "production_cost": 197208,         # Jita: 197208; 2.12% - 28к; FW: 10к
      "quantity": 1,
      "id": 73795, },
 
-    {"item_name": "Osprey Navy Issue (Production)",
+    {"item_name": "Osprey Navy Issue (Production)*",
      "lp_store_components": {"Life Support Backup Unit": 25, "Megacyte": 500, "Auto-Integrity Preservation Seal": 50,
                              "Zydrine": 1000, "Nocxium": 1500, "Isogen": 10000, "Mexallon": 36000, "Pyerite": 180000,
                              "Tritanium": 540000},
      "lp_price": 18000,
      "isk_price": 5000000,
-     "production_cost": 1972000,
+     "production_cost": None,        # Jita: 1972000; 2.12% - 282к; FW: 106к
      "quantity": 1,
      "id": 29340, },
 
-    {"item_name": "Caracal Navy Issue (Production)",
+    {"item_name": "Caracal Navy Issue (Production)*",
      "lp_store_components": {"Life Support Backup Unit": 25, "Megacyte": 500, "Auto-Integrity Preservation Seal": 50,
                              "Zydrine": 1000, "Nocxium": 1500, "Isogen": 10000, "Mexallon": 36000, "Pyerite": 180000,
                              "Tritanium": 540000},
      "lp_price": 18000,
      "isk_price": 5000000,
-     "production_cost": 1972000,
+     "production_cost": None,        # Jita: 1972000; 2.12% - 282к; FW: 106к
      "quantity": 1,
      "id": 17634, },
 
-    {"item_name": "Drake Navy Issue (Production)",
+    {"item_name": "Drake Navy Issue (Production)*",
      "lp_store_components": {"Life Support Backup Unit": 50, "Megacyte": 2000, "Auto-Integrity Preservation Seal": 100,
                              "Zydrine": 4000, "Nocxium": 10000, "Isogen": 20000, "Mexallon": 180000, "Pyerite": 1000000,
                              "Tritanium": 2800000},
@@ -259,7 +273,7 @@ items_faction_wars_state_protectorate = [
      "quantity": 1,
      "id": 33153, },
 
-    {"item_name": "Ferox Navy Issue (Production)",
+    {"item_name": "Ferox Navy Issue (Production)*",
      "lp_store_components": {"Life Support Backup Unit": 50, "Megacyte": 2000, "Auto-Integrity Preservation Seal": 100,
                              "Zydrine": 4000, "Nocxium": 10000, "Isogen": 20000, "Mexallon": 180000, "Pyerite": 1000000,
                              "Tritanium": 2800000},
@@ -269,7 +283,7 @@ items_faction_wars_state_protectorate = [
      "quantity": 1,
      "id": 72812, },
 
-    {"item_name": "Scorpion Navy Issue (Production)",
+    {"item_name": "Scorpion Navy Issue (Production)*",
      "lp_store_components": {"Core Temperature Regulator": 1, "Life Support Backup Unit": 100, "Megacyte": 4000,
                              "Auto-Integrity Preservation Seal": 200, "Zydrine": 8000, "Nocxium": 30000,
                              "Isogen": 400000, "Mexallon": 600000, "Pyerite": 4000000, "Tritanium": 8000000},
@@ -279,7 +293,7 @@ items_faction_wars_state_protectorate = [
      "quantity": 1,
      "id": 32309, },
 
-    {"item_name": "Raven Navy Issue (Production)",
+    {"item_name": "Raven Navy Issue (Production)*",
      "lp_store_components": {"Core Temperature Regulator": 1, "Life Support Backup Unit": 100, "Megacyte": 4000,
                              "Auto-Integrity Preservation Seal": 200, "Zydrine": 8000, "Nocxium": 30000,
                              "Isogen": 400000, "Mexallon": 600000, "Pyerite": 4000000, "Tritanium": 8000000},
@@ -303,6 +317,89 @@ items_faction_wars_state_protectorate = [
 #    "quantity": 1,
 #     "id": 73793, },
 
+    # Launchers
+    {"item_name": "Caldari Navy Rapid Light Missile Launcher",
+     "lp_store_components": {"Rapid Light Missile Launcher I": 1, "Federation Navy Fleet Captain Insignia I": 63,
+                             "Federation Navy Fleet Major Insignia I": 106, },
+     "lp_price": 24000,
+     "isk_price": 9600000,
+     "quantity": 1,
+     "id": 16061, },
+
+    {"item_name": "Caldari Navy Rapid Heavy Missile Launcher",
+     "lp_store_components": {"Rapid Heavy Missile Launcher I": 1, "Federation Navy Fleet Colonel Insignia I": 10,
+                             "Federation Navy Fleet Major Insignia I": 2,
+                             "Federation Navy Fleet Colonel Insignia II": 14},
+     "lp_price": 26250,
+     "isk_price": 10500000,
+     "quantity": 1,
+     "id": 33446, },
+
+    {"item_name": "Caldari Navy Rapid Heavy Missile Launcher (Prod)*",
+     "lp_store_components": {"Federation Navy Fleet Colonel Insignia I": 29, "Federation Navy Fleet Major Insignia I": 5,
+                             "Federation Navy Fleet Colonel Insignia II": 43, "Megacyte": 160, "Tritanium": 665,
+                             "Pyerite": 7500, "Nocxium": 55, "Zydrine": 20},
+     "lp_price": 75000,
+     "isk_price": 31500000,
+     "quantity": 5,
+     "id": 33446, },
+
+#    {"item_name": "Caldari Navy Rocket Launcher",
+#     "lp_store_components": {"Rocket Launcher I": 1, "Federation Navy Sergeant Insignia II": 112,
+#                             "Federation Navy Sergeant Insignia I": 89, "Federation Navy Sergeant Insignia III": 135},
+#     "lp_price": 18000,
+#     "isk_price": 7200000,
+#     "quantity": 1,
+#     "id": 16065, },
+
+#    {"item_name": "Caldari Navy Rocket Launcher (Production)*",
+#     "lp_store_components": {"Federation Navy Sergeant Insignia I": 270, "Federation Navy Sergeant Insignia II": 336,
+#                             "Federation Navy Sergeant Insignia III": 404, "Tritanium": 2780, "Pyerite": 1390},
+#     "lp_price": 54000,
+#     "isk_price": 21600000,
+#     "quantity": 5,
+#     "id": 16065, },
+
+    {"item_name": "Caldari Navy Cruise Missile Launcher",
+     "lp_store_components": {"Cruise Missile Launcher I": 1, "Federation Navy Fleet Colonel Insignia I": 10,
+                             "Federation Navy Fleet Major Insignia I": 2, "Federation Navy Fleet Colonel Insignia II": 17},
+     "lp_price": 30000,
+     "isk_price": 12000000,
+     "quantity": 1,
+     "id": 16062, },
+
+    {"item_name": "Caldari Navy Cruise Missile Launcher (Prod)*",
+     "lp_store_components": {"Federation Navy Fleet Colonel Insignia I": 33, "Federation Navy Fleet Major Insignia I": 7,
+                             "Federation Navy Fleet Colonel Insignia II": 49, "Megacyte": 110, "Tritanium": 610,
+                             "Pyerite": 6710, "Nocxium": 45, "Zydrine": 20},
+     "lp_price": 90000,
+     "isk_price": 36000000,
+     "quantity": 5,
+     "id": 16062, },
+
+#    {"item_name": "Caldari Navy Light Missile Launcher",
+#    "lp_store_components": {"Light Missile Launcher I": 1, "Federation Navy Sergeant Insignia II": 112,
+#                             "Federation Navy Sergeant Insignia III": 135, "Federation Navy Sergeant Insignia I": 89},
+#     "lp_price": 18000,
+#     "isk_price": 7200000,
+#     "quantity": 1,
+#     "id": 16068, },
+
+    {"item_name": "Caldari Navy Heavy Missile Launcher",
+     "lp_store_components": {"Heavy Missile Launcher I": 1, "Federation Navy Fleet Captain Insignia I": 63,
+                             "Federation Navy Fleet Major Insignia I": 106},
+     "lp_price": 24000,
+     "isk_price": 9600000,
+     "quantity": 1,
+     "id": 16064, },
+
+    {"item_name": "Caldari Navy Torpedo Launcher",
+     "lp_store_components": {"Torpedo Launcher I": 1, "Federation Navy Fleet Colonel Insignia I": 10,
+                             "Federation Navy Fleet Major Insignia I": 2, "Federation Navy Fleet Colonel Insignia II": 17},
+     "lp_price": 30000,
+     "isk_price": 12000000,
+     "quantity": 1,
+     "id": 16067, },
 
     # Missile
     {"item_name": "Caldari Navy Inferno Light Missile",

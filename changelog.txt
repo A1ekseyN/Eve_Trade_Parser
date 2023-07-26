@@ -1,0 +1,4 @@
+Version: 0.0.1a - (26.07.2023)
+- Add buy order volume
+- Calculation result without Capital Components and Capital Ships (Phoenix)
+- Add Missile Launchers
