@@ -1,9 +1,9 @@
-
 import requests
 import json
 import time
 
 from items_all_market import items_eve
+from items_manual import items_sorted_manual
 
 
 # https://www.adam4eve.eu/info_locations.php
@@ -11,9 +11,22 @@ from items_all_market import items_eve
 version = "0.0.1a"
 start_time = time.time()
 
-items = items_eve
+items = items_eve                           # items_sorted_manual         # Список items, которые анализируются из рынка
 dump_orders_all = []
-filter_price = 200000
+filter_price_min = 200000                   # Фильтр минимальной цены
+#filter_price_min = 10000000                   # Фильтр минимальной цены
+
+sales_tax = 0.05                            # Здесь нужно указать комиссию на продажу (например, 0.05 для 5%)
+
+
+print(f'Items Count: {len(items)}')
+
+# Фильтр, который исключает ключевые слова
+excluded_keywords = ['day', 'Days', 'Serenity', 'background', 'Non-interactable', 'non-interactable']
+items = [item for item in items if not any(keyword in item['name'] for keyword in excluded_keywords)]
+print(f'Filtered Items Count: {len(items)}')
+
+#items.reverse()                                   # Сортировка в обратную сторону
 
 
 def get_item_prices(item_id, item_name, region_id, region_name, station_id, station_name, sales_tax):
@@ -63,22 +76,15 @@ def get_item_prices(item_id, item_name, region_id, region_name, station_id, stat
     return prices
 
 
-# Генератор id
-#items = [{'id': id, 'name': id} for id in range(1, 80001)]
-#id = {'id':[]}
-
-
 regions = [
-    {"id": 10000002, "name": "The Forge"},
-#    {"id": 10000043, "name": "Domain"}
+#    {"id": 10000002, "name": "The Forge"},
+    {"id": 10000043, "name": "Domain"}
 ]
 
 stations = [
-    {"id": 60003760, "name": "Jita 4-4"},
-#    {"id": 60008494, "name": "Amarr VIII (Oris) - Emperor Family Academy"}
+#    {"id": 60003760, "name": "Jita 4-4"},
+    {"id": 60008494, "name": "Amarr VIII (Oris) - Emperor Family Academy"}
 ]
-
-sales_tax = 0.05  # Здесь нужно указать комиссию на продажу (например, 0.05 для 5%)
 
 for item in items:
     item_id = item["id"]
@@ -97,30 +103,35 @@ for item in items:
             if item_prices and station_id in item_prices:
 #                print(f"\nТовар: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
                 for station_id, station_prices in item_prices.items():
-                    if station_prices and station_prices["profit_sell_percentage"] <= 0.1 and station_prices["min_sell_price"] >= filter_price:
-                        print(f"\nТовар: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
-
+                    # Поиск ордеров, при выставлении которых допущена ошибка (<= 0.1)
+                    if station_prices and station_prices["profit_sell_percentage"] <= 0.1 and station_prices["min_sell_price"] >= filter_price_min:
+                        print(f"\nТовар [id: {item['id']}]: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
+#                        print('.', end='')
+#                        print(f'id: {item["id"]} - OK ')
                         min_sell_price = station_prices["min_sell_price"]
                         max_buy_price = station_prices["max_buy_price"]
                         trade_volume = station_prices["trade_volume"]
+
                         profit_sell = station_prices["profit_sell"]
                         profit_sell_percentage = station_prices["profit_sell_percentage"]
 
                         print(f"Sell Price: {min_sell_price:,.0f}, Buy Price: {max_buy_price:,.0f}")
-                        print(f"Торговый объем - {trade_volume:,.0f} items")
+                        print(f"Volume: - {trade_volume:,.0f} items")                # !!!
                         print(f"Profit: {profit_sell:,.2f} isk - {profit_sell_percentage:.2f}%")
-###                        print(f"Процент прибыли от продажи - {profit_sell_percentage:.2f}%")
-##                    if station_prices:
-##                        id["id"].append(item_name)
-                    else:
-                        pass
+#                    else:
+#                        print(f"- !!! Товар [id: {item['id']}]: '{item_name}'")
+
+#                        # Проверка товаров
+#                        print(f"- Товар [id: {item['id']}]: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
+
+
+#                    else:
+#                        pass
 #                        print(f"Цены недоступны для станции '{station_name}'")
 ##                        print('.', end="")
                     if station_prices:
+                        # Dump результатов
                         dump_orders_all.append(item_prices)
-#                        print(item_prices)
-#                        print('+')
-#                        print(dump)
             else:
                 pass
 #                print(f"Не удалось получить цены на товар '{item_name}' в регионе '{region_name}' на станции '{station_name}'")
@@ -128,8 +139,7 @@ for item in items:
 
 with open("output.txt", "w", encoding="utf-8") as file:
     json.dump(dump_orders_all, file)
-    print("File saved output.txxt")
+    print("File saved output.txt")
 
 
-#print(id)
 print(f'\nTime: {time.time() - start_time:,.2f} sec')

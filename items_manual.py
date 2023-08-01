@@ -1,4 +1,4 @@
-items = [
+items_sorted_manual = [
     ### Ships
     ## Frigates
     # Frigates Amarr
