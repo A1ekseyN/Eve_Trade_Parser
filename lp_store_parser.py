@@ -7,7 +7,7 @@ import sys
 
 from items_faction_wars import items_faction_wars_state_protectorate, items_component
 from colors import color_lp_profit
-from settings import debug_mode, sort_list, sort_list_counter_2_view, time_update, market_region, sales_tax
+from settings import debug_mode, sort_list, sort_list_counter_2_view, time_update, market_region, sales_tax, version
 
 
 start_time = time.time()
@@ -25,7 +25,7 @@ change_sell_lp_profit = None
 change_buy_volume = None
 
 
-print("LP Store Calculator - Version: 0.0.1b")
+print(f"LP Store Calculator - Version: {version}")
 print(f'Items Components Count: {len(items)}')
 print(f'Items Market Count: {len(items_faction_wars_state_protectorate)}')
 print('Loading Data: 60 sec...', end='')
@@ -282,33 +282,35 @@ def view_result():
     #    print(f"Buy LP Profit: {item_info['buy_lp_profit']}")
     #    print(f"Sell LP Profit: {item_info['sell_lp_profit']}")
     #    print()
+    return items_2_table
 
 
-while True:
-    # Проверка или нет ограничения по времени использования программы.
-    end_datetime = datetime.datetime(2023, 8, 15, 11, 0)
-    current_datetime = datetime.datetime.utcnow()
-    if current_datetime > end_datetime:
-        print("\n\nThe time for using the program has expired. \nThe program will be closed after 1 minute.")
-        time.sleep(60)
-        sys.exit()
+if __name__ == "__main__":
+    while True:
+        # Проверка или нет ограничения по времени использования программы.
+        end_datetime = datetime.datetime(2023, 8, 15, 11, 0)
+        current_datetime = datetime.datetime.utcnow()
+        if current_datetime > end_datetime:
+            print("\n\nThe time for using the program has expired. \nThe program will be closed after 1 minute.")
+            time.sleep(60)
+            sys.exit()
 
-    # Обнуление параметров
-    items = items_faction_wars_state_protectorate + items_component
-    items_prices_parsed = []
-    items_quantity = []
-    items_2_table = []
-    total_price = 0
+        # Обнуление параметров
+        items = items_faction_wars_state_protectorate + items_component
+        items_prices_parsed = []
+        items_quantity = []
+        items_2_table = []
+        total_price = 0
 
-    items_prices()
-    lp_calculator()
-    view_result()
+        items_prices()
+        lp_calculator()
+        view_result()
 
-    print(f'\nTime: {time.time() - start_time:,.2f} sec')
-    print(f'Update after {time_update} min.')
-    time.sleep(time_update * 60)
+        print(f'\nTime: {time.time() - start_time:,.2f} sec')
+        print(f'Update after {time_update} min.')
+        time.sleep(time_update * 60)
 
-    items_2_table_last_request = items_2_table
+        items_2_table_last_request = items_2_table
 
 
 #items_prices()

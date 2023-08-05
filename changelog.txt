@@ -1,3 +1,6 @@
+Version: 0.0.1c
+- Add UI
+
 Version: 0.0.1b (01.08.2023)
 - Add Scorpion Navy and Raven navy build price in Jita (but don't use it)
 - Add all items in store, for prices scan

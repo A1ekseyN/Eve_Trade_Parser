@@ -1,3 +1,4 @@
+# pyinstaller -F --icon=icon_parser.ico main.py
 import requests
 import json
 import time
@@ -77,13 +78,13 @@ def get_item_prices(item_id, item_name, region_id, region_name, station_id, stat
 
 
 regions = [
-#    {"id": 10000002, "name": "The Forge"},
-    {"id": 10000043, "name": "Domain"}
+    {"id": 10000002, "name": "The Forge"},
+#    {"id": 10000043, "name": "Domain"}
 ]
 
 stations = [
-#    {"id": 60003760, "name": "Jita 4-4"},
-    {"id": 60008494, "name": "Amarr VIII (Oris) - Emperor Family Academy"}
+    {"id": 60003760, "name": "Jita 4-4"},
+#    {"id": 60008494, "name": "Amarr VIII (Oris) - Emperor Family Academy"}
 ]
 
 for item in items:
