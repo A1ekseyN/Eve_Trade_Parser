@@ -146,17 +146,19 @@ class Ui_MainWindow(object):
             # Добавьте остальные ключи и значения по необходимости
 
             # Создайте элементы QTableWidgetItem с полученными значениями
-            item_name_item = QTableWidgetItem(str(item_name))
-            item_buy_price_item = QTableWidgetItem(str(int(item_buy_price)))
-            item_sell_price_item = QTableWidgetItem(str(int(item_sell_price)))
-#            item_total_price = QTableWidgetItem(str(item_total_price))
-            buy_lp_profit = QTableWidgetItem(str(buy_lp_profit))
-            sell_lp_profit = QTableWidgetItem(str(sell_lp_profit))
-            buy_volume = QTableWidgetItem(str(buy_volume))
-
+            try:
+                item_name_item = QTableWidgetItem(str(item_name))
+                item_buy_price_item = QTableWidgetItem(str(int(item_buy_price)))
+                item_sell_price_item = QTableWidgetItem(str(int(item_sell_price)))
+#                item_total_price = QTableWidgetItem(str(item_total_price))
+                buy_lp_profit = QTableWidgetItem(str(buy_lp_profit))
+                sell_lp_profit = QTableWidgetItem(str(sell_lp_profit))
+                buy_volume = QTableWidgetItem(str(buy_volume))
+            except:
+                pass
             # Цвет для Sell ордеров
-            if item_sell_price_item >= 1000:
-                item_sell_price_item.setBackground(QtGui.QColor(0, 255, 0))
+#            if item_sell_price_item >= 1000:
+#                item_sell_price_item.setBackground(QtGui.QColor(0, 255, 0))
 
             # Установите ширину столбца с названием предмета
             self.result_lp_table.setColumnWidth(0, 350)
@@ -165,13 +167,16 @@ class Ui_MainWindow(object):
             self.result_lp_table.setColumnWidth(5, 100)
 
             # Установите элементы в таблицу на соответствующие позиции
-            self.result_lp_table.setItem(row_index, 0, item_name_item)
-            self.result_lp_table.setItem(row_index, 1, item_buy_price_item)
-            self.result_lp_table.setItem(row_index, 2, item_sell_price_item)
-#            self.result_lp_table.setItem(row_index, 3, item_total_price)
-            self.result_lp_table.setItem(row_index, 3, buy_lp_profit)
-            self.result_lp_table.setItem(row_index, 4, sell_lp_profit)
-            self.result_lp_table.setItem(row_index, 5, buy_volume)
+            try:
+                self.result_lp_table.setItem(row_index, 0, item_name_item)
+                self.result_lp_table.setItem(row_index, 1, item_buy_price_item)
+                self.result_lp_table.setItem(row_index, 2, item_sell_price_item)
+#                self.result_lp_table.setItem(row_index, 3, item_total_price)
+                self.result_lp_table.setItem(row_index, 3, buy_lp_profit)
+                self.result_lp_table.setItem(row_index, 4, sell_lp_profit)
+                self.result_lp_table.setItem(row_index, 5, buy_volume)
+            except:
+                pass
 
 #            for col_index, cell_data in enumerate(row_data):
 #                item = QTableWidgetItem(str(cell_data))

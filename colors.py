@@ -1,7 +1,7 @@
 from colorama import Fore, Back, Style
 from settings import colors
 
-#x = 1201
+
 color_x = None
 
 

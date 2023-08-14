@@ -7,10 +7,14 @@ import sys
 
 from items_faction_wars import items_faction_wars_state_protectorate, items_component
 from colors import color_lp_profit
-from settings import debug_mode, sort_list, sort_list_counter_2_view, time_update, market_region, sales_tax, version
+from settings import debug_mode, settings, sort_list, sort_list_counter_2_view, auto_time_update, market_region, sales_tax, version, \
+    lp_store_parser_number_view_items, load_settings
+from menu_conlose import menu_greetings, menu_console_interface
+from save_load import save_csv, save_json
 
 
 start_time = time.time()
+load_settings()
 
 
 items = items_faction_wars_state_protectorate + items_component
@@ -25,12 +29,14 @@ change_sell_lp_profit = None
 change_buy_volume = None
 
 
-print(f"LP Store Calculator - Version: {version}")
-print(f'Items Components Count: {len(items)}')
-print(f'Items Market Count: {len(items_faction_wars_state_protectorate)}')
-print('Loading Data: 60 sec...', end='')
-#print('',end='')
-print()
+menu_greetings()
+menu_console_interface()
+#print(f"LP Store Calculator - Version: {version}")
+#print(f'Items Components Count: {len(items)}')
+#print(f'Items Market Count: {len(items_faction_wars_state_protectorate)}')
+#print('Loading Data: 60 sec...', end='')
+##print('',end='')
+#print()
 
 
 def get_item_prices(item_id, item_name, region_id, region_name, station_id, station_name, sales_tax):
@@ -103,6 +109,9 @@ def items_prices():
     # Парсим цены по разным товарам
     global items_prices_parsed
 
+    percentage_complete = 0
+    cnt = 0
+
     for item in items:
         item_id = item["id"]
         item_name = item["item_name"]
@@ -124,6 +133,8 @@ def items_prices():
     #                print(f"\nТовар: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
                     for station_id, station_prices in item_prices.items():
                         if station_prices:
+                            cnt += 1
+                            percentage_complete = ((cnt / len(items)) * 100)  # Прогресс в % для интерфейса
                             if debug_mode:
                                 print(f"\nТовар: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
 
@@ -146,6 +157,9 @@ def items_prices():
                             items_prices_parsed.append(item_prices)
                         else:
                             pass
+                        # Отображение прогресса обновления данных.
+                        if percentage_complete % 25 == 0:
+                            print(f"Loading Data: {percentage_complete:.2f} %")
                 else:
                     pass
 
@@ -161,20 +175,19 @@ def lp_calculator():
                 if component == price[60003760]["item_name"]:
                     if debug_mode:
                         print(f'Component {component} - Price: {price[60003760]["min_sell_price"]}')
-                    total_price += price[60003760]["min_sell_price"] * quantity
                     try:
-                        # Добавление стоимости производства, если оно есть
+                        total_price += price[60003760]["min_sell_price"] * quantity
                         if item["production_cost"] or item["production_cost"] == None:
                             total_price += item["production_cost"]
                     except:
-                        pass
+#                        total_price = 0
+                        continue
 
         total_price += item["isk_price"]       # Добавляем стоимость в isk
         items_quantity.append({"item_name": item["item_name"], "total_price": total_price})
-        total_price = 0
         if debug_mode:
-            print(f'Item: {item["item_name"]}, Cost Price: {total_price:,.0f} isk (ISK: {item["isk_price"]:,.0f} + LP ()) // Buy Income:  // Sell Income: ')
-
+            print(f'Item: {item["item_name"]}, Cost Price: {total_price:,.0f} isk (ISK Price: {item["isk_price"]:,.0f} + LP ()) // Buy Income:  // Sell Income: ')
+        total_price = 0
 
 if debug_mode:
     print('\n+++ Items +++')
@@ -194,6 +207,7 @@ def view_result():
         for item_market in items_prices_parsed:
             if item["item_name"] == item_market[60003760]["item_name"]:
                 for item_counter in items_quantity:                    # Добавляю цикл, чтобы узнать порядок в списке
+#                    buy_lp_profit = None  # Изначально устанавливаем на None
                     if len(items_quantity) > cnt:
                         if items_quantity[cnt]["item_name"] == item["item_name"]:
                             # Формирование списка, и запись в переменную
@@ -201,9 +215,12 @@ def view_result():
                             item_buy_price = item_market[60003760]["max_buy_price"] * item["quantity"]
                             item_sell_price = item_market[60003760]["min_sell_price"]
                             item_total_price = items_quantity[cnt]["total_price"]
-                            buy_lp_profit = ((item_market[60003760]["max_buy_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]
+                            buy_lp_profit = ((item_market[60003760]["max_buy_price"] * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]
+
+                            if debug_mode:
+                                print(f'- {item["item_name"]} Vol: {item["quantity"]} items_quantity[cnt]["total_price"]: {items_quantity[cnt]["total_price"]}')
                             try:
-                                sell_lp_profit = ((item_market[60003760]["min_sell_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]
+                                sell_lp_profit = ((item_market[60003760]["min_sell_price"] * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]
                             except:
                                 if debug_mode:
                                     # Except, если в маркете нет цены sell или buy для товара. Это значит, что скупили все ордера
@@ -211,24 +228,36 @@ def view_result():
 #                                   print(f'Except: {print(item_market)}')
                                 pass
                             buy_lp_profit = int(buy_lp_profit * (1 - sales_tax))         # Отнимаем налог на продажу
-                            sell_lp_profit = int(sell_lp_profit * (1 - sales_tax))      # Отнимаем налог на продажу
+                            sell_lp_profit = int(sell_lp_profit * (1 - sales_tax))       # Отнимаем налог на продажу
                             #                        items_2_table.append({"item_name": item_name, "item_buy_price": item_buy_price, "item_sell_price": item_sell_price, "item_total_price": item_total_price, "buy_lp_profit": buy_lp_profit, "sell_lp_profit": sell_lp_profit})
                             buy_volume = item_market[60003760]["best_buy_volume"]
-                            items_2_table.append({
-                                "item_name": item_name,
-                                "item_buy_price": item_buy_price,
-                                "item_sell_price": item_sell_price,
-                                "item_total_price": item_total_price,
-                                "buy_lp_profit": buy_lp_profit,
-                                "sell_lp_profit": sell_lp_profit,
-                                "buy_volume": buy_volume,
-                            })
+
+                            if item_name and item_buy_price and item_sell_price and buy_lp_profit is not None:
+                                # Проверка, что бы не добавлялись пустые слоты. В принципе, и без этой проверки все работало.
+                                # Проблема с тем, что некоторые ордера неправильно считаются где-то в другом месте
+                                items_2_table.append({
+                                    "item_name": item_name,
+                                    "item_buy_price": item_buy_price,
+                                    "item_sell_price": item_sell_price,
+                                    "item_total_price": item_total_price,
+                                    "buy_lp_profit": buy_lp_profit,
+                                    "sell_lp_profit": sell_lp_profit,
+                                    "buy_volume": buy_volume,
+                                })
+
+                            else:
+                                print()
                             if debug_mode:
-                                print(f'\n{item["item_name"]} - Buy: {item_market[60003760]["max_buy_price"]:,.0f} isk // Sell: {item_market[60003760]["min_sell_price"]:,.0f} isk // Buy Profit: {((item_market[60003760]["max_buy_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]):,.0f} isk // Sell Profit: {(item_market[60003760]["min_sell_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]:,.2f} isk // \nBuy LP Profit: {((item_market[60003760]["max_buy_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]:,.0f} isk-lp // Sell LP Profit: {((item_market[60003760]["min_sell_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]:,.0f} isk-lp ')
+                                try:
+                                    print(f'\n{item["item_name"]} - Buy: {item_market[60003760]["max_buy_price"]:,.0f} isk // Sell: {item_market[60003760]["min_sell_price"]:,.0f} isk // Buy Profit: {((item_market[60003760]["max_buy_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]):,.0f} isk // Sell Profit: {(item_market[60003760]["min_sell_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]:,.2f} isk // \nBuy LP Profit: {((item_market[60003760]["max_buy_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]:,.0f} isk-lp // Sell LP Profit: {((item_market[60003760]["min_sell_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]:,.0f} isk-lp ')
+                                except:
+                                    print(f'Error: {item["item_name"]}')
                             cnt += 1
 
+
     # Сортировка по Sell или Buy ордерам. Меняется в настройках
-    items_2_table = sorted(items_2_table, key=lambda x: x[sort_list], reverse=True)
+    items_2_table = sorted(items_2_table, key=lambda x: x[settings["sort_list"]], reverse=True)
+    save_json(items_2_table)
 
     print()
     print('\n===========================================================================================================')
@@ -236,52 +265,58 @@ def view_result():
     print(f'Название предмета: {30 * " "} isk-LP {5 * " "} Vol {18 * " "} isk-LP Profit')
 
     for item_info in items_2_table:
-        if items_2_table_last_request:
-            # Вычисление изменений в данных (Buy, Sell, Volume).
-            for item_previous_request in items_2_table_last_request:
-                if item_info["item_name"] == item_previous_request["item_name"]:
-#                    print("+")
-                    if item_info['buy_lp_profit'] == item_previous_request["buy_lp_profit"] or item_previous_request["buy_lp_profit"] == None:
-                        change_buy_lp_profit = "-"
-                    elif item_info['buy_lp_profit'] > item_previous_request["buy_lp_profit"]:
-                        change_buy_lp_profit = "+ " + str(int(item_info['buy_lp_profit'] - item_previous_request["buy_lp_profit"]))
-                    elif item_info['buy_lp_profit'] < item_previous_request["buy_lp_profit"]:
-                        change_buy_lp_profit = "- " + str(int(item_previous_request["buy_lp_profit"] - item_info['buy_lp_profit']))
+        if settings["filter_min_isk_per_lp"] <= item_info[settings["sort_list"]]: #item_info["sell_lp_profit"]:        # Проверка на минимальное значение isk pf 1 LP:
 
-                    if item_info['sell_lp_profit'] == item_previous_request["sell_lp_profit"] or item_previous_request["sell_lp_profit"] == None:
-                        change_sell_lp_profit = "-"
-                    elif item_info['sell_lp_profit'] > item_previous_request["sell_lp_profit"]:
-                        change_sell_lp_profit = "+ " + str(int(item_info['sell_lp_profit'] - item_previous_request["sell_lp_profit"]))
-                    elif item_info['sell_lp_profit'] < item_previous_request["sell_lp_profit"]:
-                        change_sell_lp_profit = "- " + str(int(item_previous_request["sell_lp_profit"] - item_info['sell_lp_profit']))
+            if items_2_table_last_request:
+                # Вычисление изменений в данных (Buy, Sell, Volume).
+                for item_previous_request in items_2_table_last_request:
+                    if item_info["item_name"] == item_previous_request["item_name"]:
+    #                    print("+")
+                        if item_info['buy_lp_profit'] == item_previous_request["buy_lp_profit"] or item_previous_request["buy_lp_profit"] == None:
+                            change_buy_lp_profit = "-"
+                        elif item_info['buy_lp_profit'] > item_previous_request["buy_lp_profit"]:
+                            change_buy_lp_profit = "+ " + str(int(item_info['buy_lp_profit'] - item_previous_request["buy_lp_profit"]))
+                        elif item_info['buy_lp_profit'] < item_previous_request["buy_lp_profit"]:
+                            change_buy_lp_profit = "- " + str(int(item_previous_request["buy_lp_profit"] - item_info['buy_lp_profit']))
 
-                    if item_info['buy_volume'] == item_previous_request["buy_volume"] or item_previous_request["buy_volume"] == None:
-                        change_buy_volume = "-"
-                    elif item_info['buy_volume'] > item_previous_request["buy_volume"]:
-                        change_buy_volume = "+ " + str(int(item_info['buy_volume'] - item_previous_request["buy_volume"]))
-                    elif item_info['buy_volume'] < item_previous_request["buy_volume"]:
-                        change_buy_volume = "- " + str(int(item_previous_request["buy_volume"] - item_info['buy_volume']))
-        else:
-            change_buy_lp_profit = "-"
-            change_sell_lp_profit = "-"
-            change_buy_volume = "-"
+                        if item_info['sell_lp_profit'] == item_previous_request["sell_lp_profit"] or item_previous_request["sell_lp_profit"] == None:
+                            change_sell_lp_profit = "-"
+                        elif item_info['sell_lp_profit'] > item_previous_request["sell_lp_profit"]:
+                            change_sell_lp_profit = "+ " + str(int(item_info['sell_lp_profit'] - item_previous_request["sell_lp_profit"]))
+                        elif item_info['sell_lp_profit'] < item_previous_request["sell_lp_profit"]:
+                            change_sell_lp_profit = "- " + str(int(item_previous_request["sell_lp_profit"] - item_info['sell_lp_profit']))
 
-        # Вывод информации
-        if index_number >= sort_list_counter_2_view and sort_list_counter_2_view != 0:
-            break
+                        if item_info['buy_volume'] == item_previous_request["buy_volume"] or item_previous_request["buy_volume"] == None:
+                            change_buy_volume = "-"
+                        elif item_info['buy_volume'] > item_previous_request["buy_volume"]:
+                            change_buy_volume = "+ " + str(int(item_info['buy_volume'] - item_previous_request["buy_volume"]))
+                        elif item_info['buy_volume'] < item_previous_request["buy_volume"]:
+                            change_buy_volume = "- " + str(int(item_previous_request["buy_volume"] - item_info['buy_volume']))
+            else:
+                change_buy_lp_profit = "-"
+                change_sell_lp_profit = "-"
+                change_buy_volume = "-"
 
-        index_number += 1                            # Счётчик порядкового номера
+            # Вывод информации
+            if index_number >= sort_list_counter_2_view and sort_list_counter_2_view != 0:
+                break
 
-        print(f"{index_number}. {item_info['item_name']}: {(45 - len(item_info['item_name'] + str(index_number))) * ' '} "
-              f"Buy: {color_lp_profit(item_info['buy_lp_profit'])} ({change_buy_lp_profit}) [{item_info['buy_volume']}] ({change_buy_volume}){(20 - (len(str(item_info['buy_lp_profit'])) + len(str(item_info['buy_volume'])) + len(change_buy_lp_profit))) * ' '} "
-              f"Sell: {color_lp_profit(item_info['sell_lp_profit'])} ({change_sell_lp_profit})")
-    #    print(f"Item Name: {item_info['item_name']}")
-    #    print(f"Item Buy Price: {item_info['item_buy_price']}")
-    #    print(f"Item Sell Price: {item_info['item_sell_price']}")
-    #    print(f"Item Total Price: {item_info['item_total_price']}")
-    #    print(f"Buy LP Profit: {item_info['buy_lp_profit']}")
-    #    print(f"Sell LP Profit: {item_info['sell_lp_profit']}")
-    #    print()
+            index_number += 1                            # Счётчик порядкового номера
+
+            # Ограничение кол-ва выводимых позиций. Берет настройку из файла settings.py
+            if settings['lp_store_parser_number_view_items'] != 'all' and settings['lp_store_parser_number_view_items'] == index_number - 1:
+                break
+
+            print(f"{index_number}. {item_info['item_name']}: {(45 - len(item_info['item_name'] + str(index_number))) * ' '} "
+                  f"Buy: {color_lp_profit(item_info['buy_lp_profit'])} ({change_buy_lp_profit}) [{item_info['buy_volume']}] ({change_buy_volume}){(20 - (len(str(item_info['buy_lp_profit'])) + len(str(item_info['buy_volume'])) + len(change_buy_lp_profit))) * ' '} "
+                  f"Sell: {color_lp_profit(item_info['sell_lp_profit'])} ({change_sell_lp_profit})")
+        #    print(f"Item Name: {item_info['item_name']}")
+        #    print(f"Item Buy Price: {item_info['item_buy_price']}")
+        #    print(f"Item Sell Price: {item_info['item_sell_price']}")
+        #    print(f"Item Total Price: {item_info['item_total_price']}")
+        #    print(f"Buy LP Profit: {item_info['buy_lp_profit']}")
+        #    print(f"Sell LP Profit: {item_info['sell_lp_profit']}")
+        #    print()
     return items_2_table
 
 
@@ -307,8 +342,9 @@ if __name__ == "__main__":
         view_result()
 
         print(f'\nTime: {time.time() - start_time:,.2f} sec')
-        print(f'Update after {time_update} min.')
-        time.sleep(time_update * 60)
+#        print(f'Update after {auto_time_update} min.')
+#        time.sleep(auto_time_update * 60)
+        menu_console_interface()
 
         items_2_table_last_request = items_2_table
 

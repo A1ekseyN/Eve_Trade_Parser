@@ -1,5 +1,16 @@
 Version: 0.0.1c
 - Add UI
+- Add console interface
+- Add Railguns
+- Add Shield Boosters
+- Add SmartBombs
+- Add some modules
+- Add Books specialization
+- Saving result to a csv file
+- Add Progress Percentage
+- Add Position display limiter
+- Add Sale Tax Filter (but don't calculate)
+- Add Filters: Min isk per LP, How many items show, when sorting
 
 Version: 0.0.1b (01.08.2023)
 - Add Scorpion Navy and Raven navy build price in Jita (but don't use it)

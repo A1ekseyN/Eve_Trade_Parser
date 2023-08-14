@@ -6,7 +6,6 @@ import time
 from items_all_market import items_eve
 from items_manual import items_sorted_manual
 
-
 # https://www.adam4eve.eu/info_locations.php
 
 version = "0.0.1a"
