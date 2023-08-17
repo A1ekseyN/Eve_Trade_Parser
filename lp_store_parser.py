@@ -158,7 +158,7 @@ def items_prices():
                         else:
                             pass
                         # Отображение прогресса обновления данных.
-                        if percentage_complete % 25 == 0:
+                        if percentage_complete % 10 == 0:
                             print(f"Loading Data: {percentage_complete:.2f} %")
                 else:
                     pass
@@ -323,7 +323,7 @@ def view_result():
 if __name__ == "__main__":
     while True:
         # Проверка или нет ограничения по времени использования программы.
-        end_datetime = datetime.datetime(2023, 8, 15, 11, 0)
+        end_datetime = datetime.datetime(2023, 8, 29, 11, 0)
         current_datetime = datetime.datetime.utcnow()
         if current_datetime > end_datetime:
             print("\n\nThe time for using the program has expired. \nThe program will be closed after 1 minute.")

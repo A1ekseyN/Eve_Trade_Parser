@@ -1,0 +1,134 @@
+body, html {
+    background: #8aa6a8;
+    height: 100%;
+    margin: 0;
+}
+
+aside {
+    #position: fixed;
+    float: left;
+    background: #2d2e2e;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 2px solid #4d4d4d;
+}
+
+aside img {
+    width: 60px;
+    float: left
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+aside ul {list-style: none}
+
+aside ul li{
+    color: #fff;
+    display: block;
+    margin-top: 0px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 90%; margin: 20px auto;}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+table {
+    display: table;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 1px;
+    background: #black;
+    color: black;
+    border: 15px solid #dbd9d0;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+td {
+    background: #ece9e0;
+    padding: 1px;
+    padding-left: 5px;
+}
+table th, table td:first-child {
+    background: #dbd9d0;
+    color: black;
+    padding: 0px 20px;
+}
+
+/* Скрыть подменю по умолчанию */
+.submenu {
+    display: none;
+}
+
+/* Отображать подменю при наведении на родительский пункт меню */
+li:hover .submenu {
+    display: block;
+    position: absolute;
+    background: #333;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px; /* Добавляем закругление краев */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+}
+
+.submenu li {
+    margin: 5px 0;
+    margin-top: -4px; /* Уменьшаем расстояние сверху */
+    margin-bottom: -3px;
+}
+
+.submenu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.submenu a:hover {
+    color: #eb5959;
+}
