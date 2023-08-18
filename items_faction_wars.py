@@ -7,7 +7,7 @@ items_component = [
     {"item_name": "Federation Navy Fleet Captain Insignia I", "id": 15592},
 
     {"item_name": "Federation Navy Sergeant Insignia I", "id": 15590},
-    {"item_name": "Federation Navy Sergeant Insignia II", "id": 15594},
+    {"item_name": "Federation Navy Sergeant Insignia II", "id": 15994},
     {"item_name": "Federation Navy Sergeant Insignia III", "id": 16002},
 
     {"item_name": "Dread Guristas Gold Tag", "id": 17248},
@@ -121,7 +121,7 @@ items_component = [
     {"item_name": "Nova Heavy Missile", "id": 206},
     {"item_name": "Scourge Heavy Missile", "id": 209},
 
-    {"item_name": "Inferno Heavy Missile", "id": 20308},
+    {"item_name": "Inferno Heavy Assault Missile", "id": 20308},
     {"item_name": "Mjolnir Heavy Assault Missile", "id": 20306},
     {"item_name": "Nova Heavy Assault Missile", "id": 21867},
     {"item_name": "Scourge Heavy Assault Missile", "id": 20307},
@@ -423,7 +423,7 @@ items_faction_wars_state_protectorate = [
      "lp_store_components": {"Life Support Backup Unit": 5,  "Megacyte": 10, "Auto-Integrity Preservation Seal": 10, "Zydrine": 20, "Nocxium": 30, "Isogen": 500, "Mexallon": 2500, "Pyerite": 6000, "Tritanium": 32000},
      "lp_price": 4000,
      "isk_price": 2000000,
-     "production_cost": None,         # Jita: 114к, 2.12% - 28к, FW: 6к
+     "production_cost": False,         # Jita: 114к, 2.12% - 28к, FW: 6к
      "quantity": 1,
      "id": 72904, },
 
@@ -433,7 +433,7 @@ items_faction_wars_state_protectorate = [
                              "Tritanium": 32000},
      "lp_price": 4000,
      "isk_price": 2000000,
-     "production_cost": None,          # Jita: 114к, 2.12% - 28к, FW: 6к
+     "production_cost": False,          # Jita: 114к, 2.12% - 28к, FW: 6к
      "quantity": 1,
      "id": 17619, },
 
@@ -443,7 +443,7 @@ items_faction_wars_state_protectorate = [
                              "Tritanium": 32000},
      "lp_price": 4000,
      "isk_price": 2000000,
-     "production_cost": None,           # Jita: 114к, 2.12% - 28к, FW: 6к
+     "production_cost": False,           # Jita: 114к, 2.12% - 28к, FW: 6к
      "quantity": 1,
      "id": 37455, },
 
@@ -453,7 +453,7 @@ items_faction_wars_state_protectorate = [
                              "Tritanium": 80000},
      "lp_price": 12000,
      "isk_price": 3500000,
-     "production_cost": None,           # Jita: 197208; 2.12% - 28к; FW: 10к
+     "production_cost": False,           # Jita: 197208; 2.12% - 28к; FW: 10к
      "quantity": 1,
      "id": 73795, },
 
@@ -463,7 +463,7 @@ items_faction_wars_state_protectorate = [
                              "Tritanium": 540000},
      "lp_price": 18000,
      "isk_price": 5000000,
-     "production_cost": None,        # Jita: 1972000; 2.12% - 282к; FW: 106к
+     "production_cost": False,        # Jita: 1972000; 2.12% - 282к; FW: 106к
      "quantity": 1,
      "id": 29340, },
 
@@ -473,7 +473,7 @@ items_faction_wars_state_protectorate = [
                              "Tritanium": 540000},
      "lp_price": 18000,
      "isk_price": 5000000,
-     "production_cost": None,        # Jita: 1972000; 2.12% - 282к; FW: 106к
+     "production_cost": False,        # Jita: 1972000; 2.12% - 282к; FW: 106к
      "quantity": 1,
      "id": 17634, },
 
@@ -483,7 +483,7 @@ items_faction_wars_state_protectorate = [
                              "Tritanium": 2800000},
      "lp_price": 40000,
      "isk_price": 10000000,
-     "production_cost": None,
+     "production_cost": False,
      "quantity": 1,
      "id": 33153, },
 
@@ -493,7 +493,7 @@ items_faction_wars_state_protectorate = [
                              "Tritanium": 2800000},
      "lp_price": 40000,
      "isk_price": 10000000,
-     "production_cost": None,
+     "production_cost": False,
      "quantity": 1,
      "id": 72812, },
 
@@ -503,7 +503,7 @@ items_faction_wars_state_protectorate = [
                              "Isogen": 400000, "Mexallon": 600000, "Pyerite": 4000000, "Tritanium": 8000000},
      "lp_price": 100000,
      "isk_price": 20000000,
-     "production_cost": None,           # Jita: 33.000.000;     HS: 6.730.000
+     "production_cost": False,           # Jita: 33.000.000;     HS: 6.730.000
      "quantity": 1,
      "id": 32309, },
 
@@ -513,7 +513,7 @@ items_faction_wars_state_protectorate = [
                              "Isogen": 400000, "Mexallon": 600000, "Pyerite": 4000000, "Tritanium": 8000000},
      "lp_price": 100000,
      "isk_price": 20000000,
-     "production_cost": None,           # Jita: 33.000.000
+     "production_cost": False,           # Jita: 33.000.000
      "quantity": 1,
      "id": 17636, },
 
@@ -527,7 +527,7 @@ items_faction_wars_state_protectorate = [
 #                             "Life Support Backup Unit": 200, "Auto-Integrity Preservation Seal": 400,},
 #     "lp_price": 1000000,
 #     "isk_price": 200000000,
-#    "production_cost": None,
+#    "production_cost": False,
 #    "quantity": 1,
 #     "id": 73793, },
 
@@ -815,7 +815,7 @@ items_faction_wars_state_protectorate = [
     {"item_name": "Caldari Navy 125mm Railgun",
      "lp_store_components": {"125mm Railgun I": 1, "Federation Navy Sergeant Insignia II": 112,
                              "Federation Navy Sergeant Insignia I": 89, "Federation Navy Sergeant Insignia III": 135},
-     "lp_price": 28000,
+     "lp_price": 18000,
      "isk_price": 7200000,
      "quantity": 1,
      "id": 15824, },
@@ -1392,7 +1392,7 @@ items_faction_wars_state_protectorate = [
      "id": 20213, },
     {"item_name": "Cruise Missile Specialization",
      "lp_store_components": {},
-     "lp_price": 3000,
+     "lp_price": 9000,
      "isk_price": 0,
      "quantity": 1,
      "id": 20212, },

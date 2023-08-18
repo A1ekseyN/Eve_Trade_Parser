@@ -98,6 +98,7 @@ if market_region == 'jita':
 def items_prices():
     # Парсим цены по разным товарам
     global items_prices_parsed
+#    global total_parsed_counter
 
     percentage_complete = 0
     cnt = 0
@@ -141,7 +142,7 @@ def items_prices():
                                     pass
 
                             if DEBUG_MODE:
-                                print(item_prices)
+                                print(f'item_prices: {item_prices}')
 
                             if DEBUG_MODE == False:
                                 print(".", end='' )
@@ -149,8 +150,8 @@ def items_prices():
                             items_prices_parsed.append(item_prices)
                         else:
                             cnt += 1
-                            if DEBUG_MODE:
-                                print(f'!!! {item_prices}')
+#                            if DEBUG_MODE:
+#                                print(f'!!! {item_prices}')
                         # Отображение прогресса обновления данных.
                         if percentage_complete % 10 == 0:
                             print(f"Loading Data: {percentage_complete:.2f} %")
@@ -159,34 +160,49 @@ def items_prices():
 
 
 def lp_calculator():
-    global items_quantity
-    global total_price
+#    global items_quantity
+#    global total_price
 
     # Калькулятор себестоимости обмена LP на предмет
     for item in items_faction_wars_state_protectorate:
+        parsed_price = 0
         total_price = 0
         for component, quantity in item["lp_store_components"].items():
             for price in items_prices_parsed:
                 if component == price[60003760]["item_name"]:
                     if DEBUG_MODE:
+                        print(f'item test: {item}')
+                        print(f'item lp_components: {len(item["lp_store_components"])}')
+                        print(f'Price: {price}')
                         try:
                             print(f'Component: {component}, price: {price[60003760]["min_sell_price"]} * quantity: {quantity}')
                             print(f'Total Price: {total_price}')
+                            print(f'Parsed Price: {parsed_price}')
                         except:
                             pass
-                    try:
+                    if price[60003760]["min_sell_price"] > 0:
                         total_price += price[60003760]["min_sell_price"] * quantity
-                        if item["production_cost"] or item["production_cost"] == None:
+#                        print(f'Total Price: {total_price}')
+#                        total_price += price[60003760]["min_sell_price"] * quantity
+                        parsed_price += 1
+                    try:
+                        if item["production_cost"] != False:
                             total_price += item["production_cost"]
-                            print(f'Total Price: {total_price}')
+#                             print(f'Total Price : {total_price}')
                     except:
-#                        total_price = 0
-                        continue
-                    print(f'Total Price: {total_price}')
-                    print(f'item[isk_price]: {item["isk_price"]}')
+                        pass
+#                    print(f'Total Price: {total_price}')
+#                    print(f'item[isk_price]: {item["isk_price"]}')
 
         total_price += item["isk_price"]       # Добавляем стоимость в isk
-        items_quantity.append({"item_name": item["item_name"], "total_price": total_price})
+
+        if parsed_price == len(item["lp_store_components"]):
+            items_quantity.append({"item_name": item["item_name"], "total_price": total_price})
+        else:
+            print(f'Skip: {item["item_name"]}, Parsed price: {parsed_price}, len: {len(item["lp_store_components"])}')
+#            if DEBUG_MODE:
+#                print(f'Skip: {item["item_name"]}. Parsed price: {parsed_price}, len: {len(item["lp_store_components"])}')
+
         if DEBUG_MODE:
             print(f'Item: {item["item_name"]}. Total Price: {price[60003760]["min_sell_price"]} * {quantity} + {item["isk_price"]}, '
                   f'min_sell_price: {price[60003760]["min_sell_price"]} '
@@ -195,6 +211,8 @@ def lp_calculator():
                   f'')
             print(f'Item: {item["item_name"]}, '
                   f'Cost Price: {total_price:,.0f}, isk (ISK Price: {item["isk_price"]:,.0f} + LP ()) // Buy Income:  // Sell Income: \n')
+    return items_quantity
+
 
 if DEBUG_MODE:
     print('\n+++ Items +++')
@@ -236,7 +254,7 @@ def view_result():
                                       f'buy_lp_profit: {buy_lp_profit} - (({item_market[60003760]["max_buy_price"]} * {item["quantity"]}) - {items_quantity[cnt]["total_price"]}) // ({item["lp_price"]}), ', end='')
                             try:
                                 sell_lp_profit = ((item_market[60003760]["min_sell_price"] * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]
-                                print(f'sell_lp_profit: {sell_lp_profit} (({item_market[60003760]["min_sell_price"]} * {item["quantity"]}) - {items_quantity[cnt]["total_price"]}) // ({item["lp_price"]})', end='')
+#                                print(f'sell_lp_profit: {sell_lp_profit} (({item_market[60003760]["min_sell_price"]} * {item["quantity"]}) - {items_quantity[cnt]["total_price"]}) // ({item["lp_price"]})', end='')
                             except:
                                 if DEBUG_MODE:
                                     # Except, если в маркете нет цены sell или buy для товара. Это значит, что скупили все ордера
@@ -267,7 +285,7 @@ def view_result():
                                 except:
                                     print(f'Error: {item["item_name"]}')
                             cnt += 1
-                            print()
+#                            print()
 
     # Сортировка по Sell или Buy ордерам. Меняется в настройках
     items_2_table = sorted(items_2_table, key=lambda x: x[settings["sort_list"]], reverse=True)
@@ -330,7 +348,6 @@ def view_result():
         #    print(f"Item Total Price: {item_info['item_total_price']}")
         #    print(f"Buy LP Profit: {item_info['buy_lp_profit']}")
         #    print(f"Sell LP Profit: {item_info['sell_lp_profit']}")
-        #    print()
     return items_2_table
 
 
