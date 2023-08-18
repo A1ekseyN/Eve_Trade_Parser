@@ -9,5 +9,6 @@ urlpatterns = [
     path('', views.index, name='home'),
 #    path('news/', views.news_home, name='news_name'),
     path('about', views.about, name='about'),
-    path('table/', views.csv_table, name='table'),
+    path('state_protectorate', views.json_table, name='state_protectorate'),
+    path('lpstore/', views.lpstore, name='lpstore')
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

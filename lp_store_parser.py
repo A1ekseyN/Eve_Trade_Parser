@@ -7,7 +7,7 @@ import sys
 
 from items_faction_wars import items_faction_wars_state_protectorate, items_component
 from colors import color_lp_profit
-from settings import debug_mode, settings, sort_list, sort_list_counter_2_view, auto_time_update, market_region, sales_tax, version, \
+from settings import DEBUG_MODE, settings, sort_list, sort_list_counter_2_view, auto_time_update, market_region, sales_tax, version, \
     lp_store_parser_number_view_items, load_settings
 from menu_conlose import menu_greetings, menu_console_interface
 from save_load import save_csv, save_json
@@ -31,21 +31,12 @@ change_buy_volume = None
 
 menu_greetings()
 menu_console_interface()
-#print(f"LP Store Calculator - Version: {version}")
-#print(f'Items Components Count: {len(items)}')
-#print(f'Items Market Count: {len(items_faction_wars_state_protectorate)}')
-#print('Loading Data: 60 sec...', end='')
-##print('',end='')
-#print()
 
 
 def get_item_prices(item_id, item_name, region_id, region_name, station_id, station_name, sales_tax):
     url = "https://esi.evetech.net/latest/markets/{}/orders/?datasource=tranquility&order_type=all&page=1&type_id={}"
 
-    headers = {
-        'User-Agent': 'LP Calculator'
-    }
-
+    headers = {'User-Agent': 'LP Calculator'}
     prices = {}
 
     region_url = url.format(region_id, item_id)
@@ -81,7 +72,6 @@ def get_item_prices(item_id, item_name, region_id, region_name, station_id, stat
                 "profit_sell": profit_sell,
                 "profit_sell_percentage": profit_sell_percentage
             }
-
     else:
         print(f"Ошибка при получении цен на товар '{item_name}' в регионе '{region_name}': {response.status_code}")
 
@@ -124,9 +114,6 @@ def items_prices():
                 station_id = station["id"]
                 station_name = station["name"]
 
-                if debug_mode:
-                    print(f'Station id: {station["id"]} - {station_name}')
-
                 item_prices = get_item_prices(item_id, item_name, region_id, region_name, station_id, station_name, sales_tax)
 
                 if item_prices and station_id in item_prices:
@@ -135,7 +122,7 @@ def items_prices():
                         if station_prices:
                             cnt += 1
                             percentage_complete = ((cnt / len(items)) * 100)  # Прогресс в % для интерфейса
-                            if debug_mode:
+                            if DEBUG_MODE:
                                 print(f"\nТовар: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
 
                             min_sell_price = station_prices["min_sell_price"]
@@ -145,18 +132,25 @@ def items_prices():
                             profit_sell = station_prices["profit_sell"]
                             profit_sell_percentage = station_prices["profit_sell_percentage"]
 
-                            if debug_mode:
+                            if DEBUG_MODE:
                                 try:
                                     print(f"Sell Price: {min_sell_price:,.0f}, Buy Price: {max_buy_price:,.0f}")
                                     print(f"Торговый объем - {trade_volume:,.0f} items. Buy Vol: {buy_volume}")             # !!!!
                                     print(f"Profit: {profit_sell:,.2f} isk - {profit_sell_percentage:.2f}%")
                                 except:
                                     pass
-                            if debug_mode == False:
+
+                            if DEBUG_MODE:
+                                print(item_prices)
+
+                            if DEBUG_MODE == False:
                                 print(".", end='' )
+
                             items_prices_parsed.append(item_prices)
                         else:
-                            pass
+                            cnt += 1
+                            if DEBUG_MODE:
+                                print(f'!!! {item_prices}')
                         # Отображение прогресса обновления данных.
                         if percentage_complete % 10 == 0:
                             print(f"Loading Data: {percentage_complete:.2f} %")
@@ -170,27 +164,41 @@ def lp_calculator():
 
     # Калькулятор себестоимости обмена LP на предмет
     for item in items_faction_wars_state_protectorate:
+        total_price = 0
         for component, quantity in item["lp_store_components"].items():
             for price in items_prices_parsed:
                 if component == price[60003760]["item_name"]:
-                    if debug_mode:
-                        print(f'Component {component} - Price: {price[60003760]["min_sell_price"]}')
+                    if DEBUG_MODE:
+                        try:
+                            print(f'Component: {component}, price: {price[60003760]["min_sell_price"]} * quantity: {quantity}')
+                            print(f'Total Price: {total_price}')
+                        except:
+                            pass
                     try:
                         total_price += price[60003760]["min_sell_price"] * quantity
                         if item["production_cost"] or item["production_cost"] == None:
                             total_price += item["production_cost"]
+                            print(f'Total Price: {total_price}')
                     except:
 #                        total_price = 0
                         continue
+                    print(f'Total Price: {total_price}')
+                    print(f'item[isk_price]: {item["isk_price"]}')
 
         total_price += item["isk_price"]       # Добавляем стоимость в isk
         items_quantity.append({"item_name": item["item_name"], "total_price": total_price})
-        if debug_mode:
-            print(f'Item: {item["item_name"]}, Cost Price: {total_price:,.0f} isk (ISK Price: {item["isk_price"]:,.0f} + LP ()) // Buy Income:  // Sell Income: ')
-        total_price = 0
+        if DEBUG_MODE:
+            print(f'Item: {item["item_name"]}. Total Price: {price[60003760]["min_sell_price"]} * {quantity} + {item["isk_price"]}, '
+                  f'min_sell_price: {price[60003760]["min_sell_price"]} '
+                  f'quantity: {quantity} '
+                  f'item["isk_price"]: {item["isk_price"]} '
+                  f'')
+            print(f'Item: {item["item_name"]}, '
+                  f'Cost Price: {total_price:,.0f}, isk (ISK Price: {item["isk_price"]:,.0f} + LP ()) // Buy Income:  // Sell Income: \n')
 
-if debug_mode:
+if DEBUG_MODE:
     print('\n+++ Items +++')
+    print()
 
 
 def view_result():
@@ -206,8 +214,10 @@ def view_result():
     for item in items_faction_wars_state_protectorate:
         for item_market in items_prices_parsed:
             if item["item_name"] == item_market[60003760]["item_name"]:
-                for item_counter in items_quantity:                    # Добавляю цикл, чтобы узнать порядок в списке
-#                    buy_lp_profit = None  # Изначально устанавливаем на None
+                for _ in items_quantity:                    # Добавляю цикл, чтобы узнать порядок в списке
+                    item_buy_price = None       # Изначально устанавливаем на None
+                    item_sell_price = None
+                    buy_lp_profit = None
                     if len(items_quantity) > cnt:
                         if items_quantity[cnt]["item_name"] == item["item_name"]:
                             # Формирование списка, и запись в переменную
@@ -217,19 +227,25 @@ def view_result():
                             item_total_price = items_quantity[cnt]["total_price"]
                             buy_lp_profit = ((item_market[60003760]["max_buy_price"] * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]
 
-                            if debug_mode:
-                                print(f'- {item["item_name"]} Vol: {item["quantity"]} items_quantity[cnt]["total_price"]: {items_quantity[cnt]["total_price"]}')
+                            if DEBUG_MODE:
+                                print(f'items_quantity[cnt]["item_name"]: {items_quantity[cnt]["item_name"]}, cnt:{cnt}, '
+                                      f'item_name: {item_name}, '                                      
+                                      f'item_buy_price: {item_buy_price} ({item_market[60003760]["max_buy_price"]} * {item["quantity"]}), '
+                                      f'item_sell_price: {item_sell_price}, '
+                                      f'item_total_price: {item_total_price}, '
+                                      f'buy_lp_profit: {buy_lp_profit} - (({item_market[60003760]["max_buy_price"]} * {item["quantity"]}) - {items_quantity[cnt]["total_price"]}) // ({item["lp_price"]}), ', end='')
                             try:
                                 sell_lp_profit = ((item_market[60003760]["min_sell_price"] * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]
+                                print(f'sell_lp_profit: {sell_lp_profit} (({item_market[60003760]["min_sell_price"]} * {item["quantity"]}) - {items_quantity[cnt]["total_price"]}) // ({item["lp_price"]})', end='')
                             except:
-                                if debug_mode:
+                                if DEBUG_MODE:
                                     # Except, если в маркете нет цены sell или buy для товара. Это значит, что скупили все ордера
-                                    print(f'\nNo prices for item: {item_market[60003760]["item_name"]}')
-#                                   print(f'Except: {print(item_market)}')
-                                pass
+                                    print(f'\nNo Sell prices for item: {item_market[60003760]["item_name"]}')
+                                cnt += 1
+                                continue
+
                             buy_lp_profit = int(buy_lp_profit * (1 - sales_tax))         # Отнимаем налог на продажу
                             sell_lp_profit = int(sell_lp_profit * (1 - sales_tax))       # Отнимаем налог на продажу
-                            #                        items_2_table.append({"item_name": item_name, "item_buy_price": item_buy_price, "item_sell_price": item_sell_price, "item_total_price": item_total_price, "buy_lp_profit": buy_lp_profit, "sell_lp_profit": sell_lp_profit})
                             buy_volume = item_market[60003760]["best_buy_volume"]
 
                             if item_name and item_buy_price and item_sell_price and buy_lp_profit is not None:
@@ -245,15 +261,13 @@ def view_result():
                                     "buy_volume": buy_volume,
                                 })
 
-                            else:
-                                print()
-                            if debug_mode:
+                            if DEBUG_MODE:
                                 try:
                                     print(f'\n{item["item_name"]} - Buy: {item_market[60003760]["max_buy_price"]:,.0f} isk // Sell: {item_market[60003760]["min_sell_price"]:,.0f} isk // Buy Profit: {((item_market[60003760]["max_buy_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]):,.0f} isk // Sell Profit: {(item_market[60003760]["min_sell_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]:,.2f} isk // \nBuy LP Profit: {((item_market[60003760]["max_buy_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]:,.0f} isk-lp // Sell LP Profit: {((item_market[60003760]["min_sell_price"]  * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]:,.0f} isk-lp ')
                                 except:
                                     print(f'Error: {item["item_name"]}')
                             cnt += 1
-
+                            print()
 
     # Сортировка по Sell или Buy ордерам. Меняется в настройках
     items_2_table = sorted(items_2_table, key=lambda x: x[settings["sort_list"]], reverse=True)
@@ -354,6 +368,6 @@ if __name__ == "__main__":
 #view_result()
 
 
-if debug_mode:
+if DEBUG_MODE:
     print('\nPass')
 print(f'\nTime: {time.time() - start_time:,.2f} sec')

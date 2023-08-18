@@ -10,22 +10,19 @@
 </head>
 <body>
     <aside>
-        <img src="{% static 'main/img/logo.png' %}" alt="logo">
-        <span class="logo">Logo</span>
-        <h3>Navigation</h3>
         <ul>
-            <li><i class="fa-solid fa-house"></i> <a href="{% url 'home' %}">Main</a></li>
-            <li><i class="fa-regular fa-newspaper"></i> <a href="{% url 'news_home' %}">News</a></li>
-            <a href=""><li>Page</li></a>
-            <a href="{% url 'about' %}"><li>About us</li></a>
-            <a href="{% url 'table' %}"><li>Table</li></a>
+            <img src="{% static 'main/img/logo.png' %}" alt="logo">
+            <span class="logo">Logo</span>
+            <li><a href="{% url 'home' %}"><i class="fa-solid fa-house"></i> Main</a></li>
+            <li><a href="{% url 'news_home' %}"><i class="fa-regular fa-newspaper"></i> News</a></li>
             <li>
-                <i class="fa-solid fa-shop"></i> <a href="{% url 'home' %}">LP Store</a>
+                <i class="fa-solid fa-shop"></i> <a href="{% url 'lpstore' %}">LP Store</a>
                 <ul class="submenu">
-                    <li><a href="{% url 'table' %}">State Protectorate</a></li>
-                    <li><a href="{% url 'table' %}">Link 2</a></li>
+                    <li><a href="{% url 'state_protectorate' %}">State Protectorate</a></li>
+                    <li><a href="{% url 'lpstore' %}">Link 2</a></li>
                 </ul>
             </li>
+            <li><a href="{% url 'about' %}"><i class="fa-solid fa-user"></i> About us</a></li>
         </ul>
     </aside>
     <main>

@@ -1,5 +1,5 @@
-version = "0.0.1c"
-debug_mode = False
+version = "0.0.1d"
+DEBUG_MODE = True
 colors = True    # Включает и выключает цветовую индикацию. Цвета нужно выключать, когда программа компилируется в *.exe
 
 
@@ -8,7 +8,7 @@ settings = {
             "lp_store_parser_number_view_items": "all",
 #            "sort_list_counter_2_view": "0",
 #            "filter_lp_number": "None",
-            "filter_min_isk_per_lp": 0,
+            "filter_min_isk_per_lp": -20000,
             "market_region": "jita",
             "sales_tax": "0.05"
         }
