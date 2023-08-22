@@ -10,18 +10,18 @@
             <th>Item Name</th>
             <th>Buy Price</th>
             <th>Sell Price</th>
+            <th>Buy Volume</th>
             <th>Buy LP Profit</th>
             <th>Sell LP Profit</th>
-            <th>Buy Volume</th>
         </tr>
         {% for item in state_protectorate %}
         <tr>
             <td>{{ item.item_name }}</td>
             <td>{{ item.item_buy_price }}</td>
             <td>{{ item.item_sell_price }}</td>
+            <td>{{ item.buy_volume }}</td>
             <td>{{ item.buy_lp_profit }}</td>
             <td>{{ item.sell_lp_profit }}</td>
-            <td>{{ item.buy_volume }}</td>
         </tr>
         {% endfor %}
     </table>

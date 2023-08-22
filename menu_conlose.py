@@ -12,22 +12,24 @@ items = items_faction_wars_state_protectorate + items_component
 
 def menu_greetings():
     print(f"LP Store Calculator - Version: {version}")
-    print(f'Items Components Count: {len(items)}')
+    print(f'Items All Count: {len(items)}')
+    print(f'Items Components Count: {len(items_component)}')
     print(f'Items Market Count: {len(items_faction_wars_state_protectorate)}')
-    print('Loading Data: 60 sec...', end='')
+    print(f'\n!!! CAUTION !!!')
+    print('Please be considerate, and check prices. \nSome missiles are not counting correctly at the moment.', end='')
     # print('',end='')
     print()
 
 
 def menu_console_interface():
     print('\n1. Show old Prices'
-          '\n2. Update Prices'
+          f'\n2. Update Prices (≈ {len(items) // 3} sec).'
           '\n3. Settings'
           '\n9. About'
           '\n0. Exit')
 
     try:
-        ask = int(input('\nSelect menu item: '))
+        ask = int(input('\nSelect menu: '))
     except:
         print('Please, enter number')
         ask = None
@@ -40,7 +42,7 @@ def menu_console_interface():
     elif ask == 2:
         # Запуск скрипта
 #        save_json()
-        pass
+        print('\nStart Downloading Prices. (≈ 80 sec)')
     elif ask == 3:
         # Settings Menu
         settings_menu()
@@ -69,7 +71,7 @@ def settings_menu():
           f"\n5. Sale Tax change (Don't work): {sales_tax} %"
           f'\n0. Save and Back')
 
-    ask = int(input('\nSelect menu item: '))
+    ask = int(input('\nSelect menu: '))
 
     if ask == 1:
         print(f'\nNumber of elements to be displayed: {settings["lp_store_parser_number_view_items"]}'

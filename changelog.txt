@@ -1,3 +1,11 @@
+Version: 0.0.1d
+- Add Implants
+- Add Django project
+- Fix but with lp Calculation
+- Fix small bugs
+- Converting Buy Price and Sell Price to int
+- Update Text view formatting
+
 Version: 0.0.1c
 - Add UI
 - Add console interface
