@@ -5,10 +5,12 @@ import time
 import datetime
 import sys
 
-from items_faction_wars import items_faction_wars_state_protectorate, items_component
+#from items_faction_wars import items_faction_wars_state_protectorate, items_component
+
 from colors import color_lp_profit
 from settings import DEBUG_MODE, settings, sort_list, sort_list_counter_2_view, auto_time_update, market_region, \
-    sales_tax, version, lp_store_parser_number_view_items, load_settings
+    regions, stations, sales_tax, version, lp_store_parser_number_view_items, load_settings, items_component_settings, \
+    items_in_lp_store
 from menu_conlose import menu_greetings, menu_console_interface
 from save_load import save_csv, save_json
 
@@ -17,7 +19,8 @@ start_time = time.time()
 load_settings()
 
 
-items = items_faction_wars_state_protectorate + items_component
+#items = items_faction_wars_state_protectorate + items_component
+items = items_component_settings
 items_prices_parsed = []
 items_quantity = []
 items_2_table = []
@@ -36,7 +39,7 @@ menu_console_interface()
 def get_item_prices(item_id, item_name, region_id, region_name, station_id, station_name, sales_tax):
     url = "https://esi.evetech.net/latest/markets/{}/orders/?datasource=tranquility&order_type=all&page=1&type_id={}"
 
-    headers = {'User-Agent': 'LP Calculator'}
+    headers = {'User-Agent': 'LP-Calculator'}
     prices = {}
 
     region_url = url.format(region_id, item_id)
@@ -78,26 +81,8 @@ def get_item_prices(item_id, item_name, region_id, region_name, station_id, stat
     return prices
 
 
-regions = [
-    {"id": 10000002, "name": "The Forge"},
-#    {"id": 10000043, "name": "Domain"}
-]
+#print(stations[0]['id'])
 
-stations = [
-    {"id": 60003760, "name": "Jita 4-4 - Caldari Navy Assembly Plant"},
-#    {"id": 60008494, "name": "Amarr VIII (Oris) - Emperor Family Academy"}
-]
-
-
-# Выбор региона
-if market_region == 'jita':
-    regions = [{"id": 10000002, "name": "The Forge"}]
-    stations = [{"id": 60003760, "name": "Jita 4-4 - Caldari Navy Assembly Plant"}]
-elif market_region == 'amarr':
-    regions = [{"id": 10000043, "name": "Domain"}]
-    stations = [{"id": 60008494, "name": "Amarr VIII (Oris) - Emperor Family Academy"}]
-
-print(stations[0]['id'])
 
 def items_prices():
     # Парсим цены по разным товарам
@@ -159,7 +144,7 @@ def items_prices():
 
                         # Отображение прогресса обновления данных.
 #                        print(percentage_complete)
-                        if percentage_complete % 10 == 0:
+                        if percentage_complete % 10.068649885583524 == 0:
                             print(f"Loading Data: {int(percentage_complete)} %")
 
 
@@ -167,13 +152,19 @@ def lp_calculator():
     global items_quantity
 #    global total_price
 
+    cnt_items_counter_test = 0
+
     # Калькулятор себестоимости обмена LP на предмет
-    for item in items_faction_wars_state_protectorate:
+    for item in items_in_lp_store:
+        cnt_items_counter_test += 1
+
         cnt_parsed_price = 0
         total_price = 0
         for component, quantity in item["lp_store_components"].items():
             for price in items_prices_parsed:
-                if component == price[stations[0]['id']]["item_name"]:
+                if component == price[stations[0]['id']]["item_name"] and price[stations[0]['id']]["min_sell_price"] != None:
+#                    if price[stations[0]['id']]["min_sell_price"] == None:
+#                        print(f'None - {price[stations[0]["id"]]["item_name"]}')
                     if price[stations[0]['id']]["min_sell_price"] > 0:
                         total_price += price[stations[0]['id']]["min_sell_price"] * quantity
 #                        print(f'Total Price: {total_price}')
@@ -224,6 +215,9 @@ def lp_calculator():
                   f'item["isk_price"]: {item["isk_price"]} '
                   f'Item: {item["item_name"]}, '
                   f'Cost Price: {total_price:,.0f}, isk (ISK Price: {item["isk_price"]:,.0f} + LP ()) // Buy Income:  // Sell Income: \n')
+
+    print(f'Items counter: {cnt_items_counter_test}')
+    print(f'len(items_quantity): {len(items_quantity)}')
 #    return items_quantity
 
 
@@ -242,10 +236,20 @@ def view_result():
     cnt = 0
     index_number = 0
 
-    for item in items_faction_wars_state_protectorate:
+#    print(f'\nlen(items_in_lp_store): {len(items_in_lp_store)}')
+#    print(f'len(items_prices_parsed): {len(items_prices_parsed)}')
+#    print(f'len(items_quantity): {len(items_quantity)}')
+#    print()
+
+    for item in items_in_lp_store:
         for item_market in items_prices_parsed:
             if item["item_name"] == item_market[stations[0]["id"]]["item_name"]:
                 for _ in items_quantity:                    # Цикл порядкового номера
+#                    print(f'item: {item}')
+#                    print(f'item_market: {item_market}')
+#                    print(f'_: {_}')
+#                    print(f'_["item_name"]: {item["item_name"]}')
+
                     if len(items_quantity) > cnt:
                         if items_quantity[cnt]["item_name"] == item["item_name"]:
                             # Формирование списка, и запись в переменную
@@ -254,6 +258,9 @@ def view_result():
                             item_sell_price = item_market[stations[0]["id"]]["min_sell_price"]
                             item_total_price = items_quantity[cnt]["total_price"]
                             buy_lp_profit = ((item_market[stations[0]["id"]]["max_buy_price"] * item["quantity"]) - items_quantity[cnt]["total_price"]) // item["lp_price"]
+
+#                            print(f'Tests cnt:: {cnt}')
+#                            print(f'len(items_quantity):: {len(items_quantity)}')
 
                             if DEBUG_MODE:
                                 print(f'items_quantity[cnt]["item_name"]: {items_quantity[cnt]["item_name"]}, cnt:{cnt}, '
@@ -299,9 +306,14 @@ def view_result():
                             cnt += 1
                         else:
                             pass
+                    else:
+                        pass
+#                        print('Tests Counter... >')
 #                            print(f'Сравнение: {items_quantity[cnt]["item_name"]} == {item["item_name"]} - {items_quantity[cnt]}')
     # Сортировка по Sell или Buy ордерам. Меняется в настройках
     items_2_table = sorted(items_2_table, key=lambda x: x[settings["sort_list"]], reverse=True)
+#    print(f'Tests: len(items_2_table): {len(items_2_table)}')
+
     save_json(items_2_table)
 
     print()
@@ -380,15 +392,22 @@ if __name__ == "__main__":
             sys.exit()
 
         # Обнуление параметров
-        items = items_faction_wars_state_protectorate + items_component
+#        items = items_faction_wars_state_protectorate + items_component
+        items = items_component_settings
         items_prices_parsed = []
         items_quantity = []
         items_2_table = []
         total_price = 0
 
-        items_prices()
-        lp_calculator()
-        view_result()
+        try:
+            items_prices()
+            lp_calculator()
+            view_result()
+        except requests.exceptions.ConnectionError as error:
+            print(f'\n\nConnection Error:')
+            print(f'Most likely the number of requests to the server has been exceeded. '
+                  f'\nSo far, no additional information is available.')
+            print(f'{error}')
 
         print(f'\nTime: {time.time() - start_time:,.2f} sec')
 #        print(f'Update after {auto_time_update} min.')

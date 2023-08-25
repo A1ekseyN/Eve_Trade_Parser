@@ -1,5 +1,5 @@
 from settings import version, lp_store_parser_number_view_items, sort_list, sales_tax, filter_lp_number, save_settings, \
-    settings
+    settings, items_component_settings
 from items_faction_wars import items_faction_wars_state_protectorate, items_component
 from save_load import save_json, load_json
 from colors import color_lp_profit
@@ -7,14 +7,14 @@ from colors import color_lp_profit
 import sys
 
 
-items = items_faction_wars_state_protectorate + items_component
+#items = items_faction_wars_state_protectorate + items_component
 
 
 def menu_greetings():
     print(f"LP Store Calculator - Version: {version}")
-    print(f'Items All Count: {len(items)}')
-    print(f'Items Components Count: {len(items_component)}')
-    print(f'Items Market Count: {len(items_faction_wars_state_protectorate)}')
+    print(f'Items All Count: {len(items_component_settings)}')
+    print(f'Items Components Count: {len(items_component)}  !!! Change to Actual LP Store')
+    print(f'Items Market Count: {len(items_faction_wars_state_protectorate)} !!! Change to Actual LP Store')
     print(f'\n!!! CAUTION !!!')
     print('Please be considerate, and check prices. \nSome missiles are not counting correctly at the moment.', end='')
     # print('',end='')
@@ -23,7 +23,7 @@ def menu_greetings():
 
 def menu_console_interface():
     print('\n1. Show old Prices'
-          f'\n2. Update Prices (≈ {len(items) // 3} sec).'
+          f'\n2. Update Prices (≈ {len(items_component_settings) // 3} sec).'
           '\n3. Settings'
           '\n9. About'
           '\n0. Exit')
@@ -42,7 +42,7 @@ def menu_console_interface():
     elif ask == 2:
         # Запуск скрипта
 #        save_json()
-        print('\nStart Downloading Prices. (≈ 80 sec)')
+        print(f'\nStart Downloading Prices. (≈ {len(items_component_settings) // 3} sec)')
     elif ask == 3:
         # Settings Menu
         settings_menu()
@@ -69,6 +69,7 @@ def settings_menu():
 #          f'\n3. Filter by counter of positions: {settings["sort_list_counter_2_view"]}'
           f'\n4. Filter by min isk value: {settings["filter_min_isk_per_lp"]}'
           f"\n5. Sale Tax change (Don't work): {sales_tax} %"
+          f"\n6. LP Store: ({settings['lp_faction']})"
           f'\n0. Save and Back')
 
     ask = int(input('\nSelect menu: '))
@@ -165,6 +166,25 @@ def settings_menu():
             settings_menu()
         else:
             settings_menu()
+    elif ask == 6:
+        print(f"\nLP Store choise: {settings['lp_faction']}")
+        ask_2 = int(input('1. State Protectorate (Caldari Navy)'
+#                          '\n2. Federal Defence Union (Gallente)'
+#                          '\n3. 24th Imperial Crusade (Amarr)'
+#                          '\n4. Tribal Liberation Force (Minmatar)'
+                          '\n5. Sisters Of Eve'
+#                          '\n6. Outer Ring Excavations - ORE'
+                          '\n0. Back'
+                          '\nEnter digit: '))
+        if ask_2 == 1:
+            settings["lp_faction"] = "state_protectorate"
+            return settings["lp_faction"]
+        elif ask_2 == 5:
+            settings["lp_faction"] = "sisters_of_eve"
+            return settings["lp_faction"]
+        elif ask_2 == 0:
+            settings_menu()
+
 
     elif ask == 0:
         save_settings(settings)
@@ -172,4 +192,4 @@ def settings_menu():
     else:
         settings_menu()
 
-    return sort_list, sales_tax, filter_lp_number
+    return sort_list, sales_tax, filter_lp_number, settings

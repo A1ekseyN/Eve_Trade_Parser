@@ -5,6 +5,8 @@ Version: 0.0.1d
 - Fix small bugs
 - Converting Buy Price and Sell Price to int
 - Update Text view formatting
+- Add regions: Dodixie, Hek, Rens
+- Add LP Store: Sisters Of Eve
 
 Version: 0.0.1c
 - Add UI

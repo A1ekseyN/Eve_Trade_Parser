@@ -1,4 +1,4 @@
-items_component = [
+items_component_state_protectorate = [
     # Tags
     {"item_name": "Federation Navy Fleet Colonel Insignia I", "id": 15594},
     {"item_name": "Federation Navy Fleet Colonel Insignia II", "id": 15673},
