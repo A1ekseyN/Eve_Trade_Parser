@@ -17,21 +17,20 @@ csv_file_path = "lp_state_protectorate.csv"
 json_file_path = "lp_state_protectorate.json"
 
 
-def save_csv(items_2_table):
-    # Запись данных в CSV файл с кодировкой UTF-8
-    with open(csv_file_path, mode="w", newline="", encoding="utf-8") as file:
-        fieldnames = ["item_name", "item_buy_price", "item_sell_price", "item_total_price",
-                      "buy_lp_profit", "sell_lp_profit", "buy_volume"]
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
-
-        print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-        writer.writeheader()  # Запись заголовка
-
-        for row in items_2_table:
-            writer.writerow(row)
-
-        print('+')
-        file.write(f"Time of creation: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+#def save_csv(items_2_table):
+#    # Запись данных в CSV файл с кодировкой UTF-8
+#    with open(csv_file_path, mode="w", newline="", encoding="utf-8") as file:
+#        fieldnames = ["item_name", "item_buy_price", "item_sell_price", "item_total_price",
+#                      "buy_lp_profit", "sell_lp_profit", "buy_volume"]
+#        writer = csv.DictWriter(file, fieldnames=fieldnames)
+#
+#        print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+#        writer.writeheader()  # Запись заголовка
+#
+#        for row in items_2_table:
+#            writer.writerow(row)
+#
+#        file.write(f"Time of creation: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
 
 def save_json(items_2_table):
@@ -89,7 +88,6 @@ def load_csv():
             return last_creation_time
         else:
             return None
-#            data.append(row)
 
 
 

@@ -1,260 +1,1687 @@
-{'item_name': '1 x Moros Navy Issue', 'lp_store_components': {}, 'lp_price': 2500000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Moros Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 1000000, 'isk_price': 200000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Dominix Navy Issue', 'lp_store_components': {}, 'lp_price': 250000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Megathron Navy Issue', 'lp_store_components': {}, 'lp_price': 250000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy Large Plasma Smartbomb BPC', 'lp_store_components': {}, 'lp_price': 168750, 'isk_price': 67500000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy Medium Plasma Smartbomb BPC', 'lp_store_components': {}, 'lp_price': 135000, 'isk_price': 54000000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy Small Plasma Smartbomb BPC', 'lp_store_components': {}, 'lp_price': 101250, 'isk_price': 40500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Megathron Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Megathron Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 200000000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Men's 'Sterling' Dress Shirt (white/blue)", 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 100000000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Women's 'Sterling' Dress Blouse (black/white)", 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 100000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Brutix Navy Issue', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Warfare Mindlink', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 100000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Dominix Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Dominix Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 20000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Myrmidon Navy Issue', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy 350mm Railgun BPC', 'lp_store_components': {}, 'lp_price': 90000, 'isk_price': 36000000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Controlled Bursts CB-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Medium Energy Turret ME-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Small Hybrid Turret SH-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Sensor Linking SL-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Acceleration Control AC-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Alchemist' Neurotoxin Control NC-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Surgical Strike SS-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Weapon Disruption WD-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Electronics Upgrades EU-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Large Energy Turret LE-1005", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Repair Proficiency RP-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Sharpshooter ST-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Trajectory Analysis TA-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Electronic Warfare EW-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1005", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Long Range Targeting LT-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Repair Systems RS-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Hull Upgrades HG-1005", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Operation SP-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Cruise Missiles CM-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' CPU Management EE-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Emission Systems SE-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Defender Missiles DM-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Power Grid Management EG-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Missile Bombardment MB-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Upgrades SU-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Missile Projection MP-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Management SM-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Rapid Launch RL-1005", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Remote Armor Repair Systems RA-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Target Navigation Prediction TN-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Guided Missile Precision GP-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Energy Grid Upgrades EU-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Target Painting TG-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Energy Pulse Weapons EP-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Emission Systems ES-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Medium Hybrid Turret MH-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Navigation NN-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Motion Prediction MR-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Signature Analysis SA-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Gunnery RF-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Power Grid Management EG-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Propulsion Jamming PJ-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Alchemist' Biology BY-810", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' FOF Explosion Radius FR-1005Not available anymore", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Management EM-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Light Missiles LM-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Heavy Missiles HM-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Large Hybrid Turret LH-1005", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Systems Operation EO-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Launcher CPU Efficiency LE-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Weapon Upgrades WU-1005", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Torpedoes TD-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Heavy Assault Missiles AM-705", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Afterburner AB-610", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Mechanic MC-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Fuel Conservation FC-805", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Small Energy Turret SE-605", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Rockets RD-905", 'lp_store_components': {}, 'lp_price': 79375, 'isk_price': 79375000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy 200mm Railgun BPC', 'lp_store_components': {}, 'lp_price': 72000, 'isk_price': 28800000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Neural Boost - Improved', 'lp_store_components': {}, 'lp_price': 65000, 'isk_price': 65000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Memory Augmentation - Improved', 'lp_store_components': {}, 'lp_price': 65000, 'isk_price': 65000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Social Adaptation Chip - Improved', 'lp_store_components': {}, 'lp_price': 65000, 'isk_price': 65000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Cybernetic Subprocessor - Improved', 'lp_store_components': {}, 'lp_price': 65000, 'isk_price': 65000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Ocular Filter - Improved', 'lp_store_components': {}, 'lp_price': 65000, 'isk_price': 65000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Large Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 56250, 'isk_price': 22500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x High-grade Spur Omega', 'lp_store_components': {}, 'lp_price': 55000, 'isk_price': 55000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Exequror Navy Issue', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+items_component_federal_defence_union = [
+    {"item_name": "Moros", "id": 19724},
+    {"item_name": "Megathron", "id": 641},
+    {"item_name": "Brutix", "id": 16229},
+    {"item_name": "Myrmidon", "id": 24700},
+    {"item_name": "Exequror", "id": 634},
+    {"item_name": "Vexor", "id": 626},
+    {"item_name": "Catalyst", "id": 16240},
+    {"item_name": "Maulus", "id": 609},
+    {"item_name": "Imicus", "id": 607},
+    {"item_name": "Incursus", "id": 594},
+
+    # Tags & Chips
+    {"item_name": "Gallente Alpha Nexus Chip", "id": 17850},
+    {"item_name": "Caldari Navy Commodore Insignia I", "id": 15602},
+    {"item_name": "Caldari Navy Commodore Insignia II", "id": 15656},
+    {"item_name": "Caldari Navy Vice Admiral Insignia I", "id": 15605},
+    {"item_name": "Caldari Navy Admiral Insignia I", "id": 15604},
+    {"item_name": "Caldari Navy Captain Insignia I", "id": 15599},
+    {"item_name": "Caldari Navy Captain Insignia II", "id": 15600},
+    {"item_name": "Caldari Navy Captain Insignia III", "id": 15601},
+    {"item_name": "Cormack Vaaja's Tag", "id": 17291},
+    {"item_name": "Gallente Beta Nexus Chip", "id": 17849},
+    {"item_name": "Gallente Gamma Nexus Chip", "id": 17848},
+
+    # Implants
+    {"item_name": "Zainou 'Gypsy' Electronics Upgrades EU-603", "id": 13254},
+    {"item_name": "Social Adaptation Chip - Basic", "id": 9956},
+
+    {"item_name": "Cybernetic Subprocessor - Basic", "id": 9943},
+    {"item_name": "Neural Boost - Basic", "id": 9942},
+    {"item_name": "Ocular Filter - Basic", "id": 9899},
+    {"item_name": "Memory Augmentation - Basic", "id": 9941},
+    {"item_name": "Social Adaptation Chip - Basic", "id": 9956},
+    {"item_name": "Limited Neural Boost - Beta", "id": 14296},
+    {"item_name": "Limited Social Adaptation Chip - Beta", "id": 14299},
+    {"item_name": "Limited Cybernetic Subprocessor - Beta", "id": 14298},
+    {"item_name": "Limited Memory Augmentation - Beta", "id": 14297},
+    {"item_name": "Limited Ocular Filter - Beta", "id": 14295},
+    {"item_name": "Zainou 'Gypsy' Electronics Upgrade EU-601", "id": 27129},
+
+    # Drones
+    {"item_name": "Ogre I", "id": 2444},
+    {"item_name": "Hammerhead I", "id": 2183},
+    {"item_name": "Hobgoblin I", "id": 2454},
+    {"item_name": "Garde I", "id": 23561},
+
+    # Modules
+    {"item_name": "", "id":},
+    {"item_name": "", "id":},
+    {"item_name": "", "id":},
+    {"item_name": "", "id":},
+    {"item_name": "", "id":},
+
+
+    # Weapons
+    {"item_name": "Large Plasma Smartbomb I", "id": 3987},
+
+]
+
+items_in_lp_store_federal_defence_union = [
+    {'item_name': 'Moros Navy Issue',
+     'lp_store_components': {"Moros": 1, "Gallente Alpha Nexus Chip": 20},
+     'lp_price': 2500000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 73792},
+#    {'item_name': 'Moros Navy Issue BPC',
+#     'lp_store_components': {},
+#     'lp_price': 1000000,
+#     'isk_price': 200000000,
+#     'quantity': 1,
+#     'id': 0},
+
+    {'item_name': 'Dominix Navy Issue',
+     'lp_store_components': {"Dominix": 1, "Gallente Alpha Nexus Chip": 20},
+     'lp_price': 250000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 32307},
+    {'item_name': 'Megathron Navy Issue',
+     'lp_store_components': {"Megathron": 1, "Gallente Alpha Nexus Chip": 20},
+     'lp_price': 250000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 17728},
+
+    {'item_name': 'Exequror Navy Issue',
+     'lp_store_components': {"Exequror": 1, "Gallente Beta Nexus Chip": 1},
+     'lp_price': 45000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 29344},
+    {'item_name': 'Vexor Navy Issue',
+     'lp_store_components': {"Vexor": 1, "Gallente Beta Nexus Chip": 1},
+     'lp_price': 45000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 0},
+    {'item_name': 'Catalyst Navy Issue',
+     'lp_store_components': {"Catalyst": 1, "Gallente Gamma Nexus Chip": 2},
+     'lp_price': 30000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 0},
+    {'item_name': 'Maulus Navy Issue',
+     'lp_store_components': {"Maulus": 1, "Gallente Gamma Nexus Chip": 1},
+     'lp_price': 10000,
+     'isk_price': 1000000,
+     'quantity': 1,
+     'id': 0},
+    {'item_name': 'Imicus Navy Issue',
+     'lp_store_components': {"Imicus": 1, "Gallente Gamma Nexus Chip": 1},
+     'lp_price': 10000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 0},
+    {'item_name': 'Federation Navy Comet',
+     'lp_store_components': {"Incursus": 1, "Gallente Gamma Nexus Chip": 1},
+     'lp_price': 10000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 0},
+
+
+#    {'item_name': 'Federation Navy Large Plasma Smartbomb BPC',
+#     'lp_store_components': {"Large Plasma Smartbomb I": 1, "Caldari Navy Vice Admiral Insignia I": 62,
+#                             "Caldari Navy Commodore Insignia II": 12, "Caldari Navy Admiral Insignia I": 92},
+#     'lp_price': 168750,
+#     'isk_price': 67500000,
+#     'quantity': 5,
+#     'id': 0},
+
+
+
+
+#    {'item_name': 'Federation Navy Medium Plasma Smartbomb BPC',
+#     'lp_store_components': {"Caldari Navy Commodore Insignia I": 358, "Caldari Navy Commodore Insignia II": 595},
+#     'lp_price': 135000,
+#     'isk_price': 54000000,
+#     'quantity': 5,
+#     'id': 0},     # !!!
+    {'item_name': 'Federation Navy Small Plasma Smartbomb BPC',
+     'lp_store_components': {"Caldari Navy Captain Insignia I": 504, "Caldari Navy Captain Insignia II": 631,
+                             "Caldari Navy Captain Insignia III": 758},
+     'lp_price': 101250,
+     'isk_price': 40500000,
+     'quantity': 1,
+     'id': 5},
+#    {'item_name': '1 x Megathron Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+#    {'item_name': '1 x Megathron Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 200000000, 'quantity': 1, 'id': 0}
+#    {'item_name': "1 x Men's 'Sterling' Dress Shirt (white/blue)", 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 100000000, 'quantity': 1, 'id': 0}
+#    {'item_name': "1 x Women's 'Sterling' Dress Blouse (black/white)", 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 100000000, 'quantity': 1, 'id': 0}
+
+    {'item_name': 'Brutix Navy Issue',
+     'lp_store_components': {"Brutix": 1, "Gallente Beta Nexus Chip": 2},
+     'lp_price': 100000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 33151},
+#    {'item_name': '1 x Federation Navy Warfare Mindlink', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 100000000, 'quantity': 1, 'id': 0}
+#    {'item_name': '1 x Dominix Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+#    {'item_name': '1 x Dominix Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 20000000, 'quantity': 1, 'id': 0}
+
+    {'item_name': 'Myrmidon Navy Issue',
+     'lp_store_components': {"Myrmidon": 1, "Gallente Beta Nexus Chip": 2},
+     'lp_price': 100000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 72869},
+#    {'item_name': 'Federation Navy 350mm Railgun BPC',
+#     'lp_store_components': {"Caldari Navy Commodore Insignia II": 7, "Caldari Navy Vice Admiral Insignia I": 33,
+#                             "Caldari Navy Admiral Insignia I": 49},
+#     'lp_price': 90000,
+#     'isk_price': 36000000,
+#     'quantity': 5,
+#     'id': 0},     # !!!
+
+    # Implants
+    {'item_name': "Inherent Implants 'Lancer' Controlled Bursts CB-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19692},
+    {'item_name': "Inherent Implants 'Lancer' Medium Energy Turret ME-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19695},
+    {'item_name': "Zainou 'Deadeye' Small Hybrid Turret SH-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19700},
+    {'item_name': "Zainou 'Gypsy' Sensor Linking SL-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27232},
+    {'item_name': "Eifyr and Co. 'Rogue' Acceleration Control AC-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16009},
+    {'item_name': "Eifyr and Co. 'Alchemist' Neurotoxin Control NC-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 25546},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Surgical Strike SS-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19687},
+    {'item_name': "Zainou 'Gypsy' Weapon Disruption WD-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27234},
+    {'item_name': "Zainou 'Gypsy' Electronics Upgrades EU-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27128},
+    {'item_name': "Inherent Implants 'Lancer' Large Energy Turret LE-1005",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19694},
+    {'item_name': "Inherent Implants 'Noble' Repair Proficiency RP-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19685},
+    {'item_name': "Zainou 'Deadeye' Sharpshooter ST-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19696},
+    {'item_name': "Zainou 'Deadeye' Trajectory Analysis TA-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19697},
+    {'item_name': "Zainou 'Gypsy' Electronic Warfare EW-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27225},
+    {'item_name': "Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1005",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 25548},
+    {'item_name': "Zainou 'Gypsy' Long Range Targeting LT-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27227},
+    {'item_name': "Inherent Implants 'Noble' Repair Systems RS-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19547},
+    {'item_name': "Inherent Implants 'Noble' Hull Upgrades HG-1005",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19550},
+    {'item_name': "Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16004},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19690},
+    {'item_name': "Zainou 'Gnome' Shield Operation SP-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16248},
+    {'item_name': "Zainou 'Snapshot' Cruise Missiles CM-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27258},
+    {'item_name': "Zainou 'Gypsy' CPU Management EE-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27142},
+    {'item_name': "Zainou 'Gnome' Shield Emission Systems SE-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16247},
+    {'item_name': "Zainou 'Snapshot' Defender Missiles DM-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27243},
+    {'item_name': "Inherent Implants 'Squire' Power Grid Management EG-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27126},
+    {'item_name': "Zainou 'Deadeye' Missile Bombardment MB-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 24636},
+    {'item_name': "Zainou 'Gnome' Shield Upgrades SU-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16245},
+
+    {'item_name': "Zainou 'Deadeye' Missile Projection MP-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 24637},
+    {'item_name': "Zainou 'Gnome' Shield Management SM-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16246},
+    {'item_name': "Zainou 'Deadeye' Rapid Launch RL-1005",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 24638},
+    {'item_name': "Inherent Implants 'Noble' Remote Armor Repair Systems RA-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19548},
+    {'item_name': "Zainou 'Deadeye' Target Navigation Prediction TN-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 24639},
+    {'item_name': "Zainou 'Deadeye' Guided Missile Precision GP-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 24640},
+    {'item_name': "Inherent Implants 'Squire' Energy Grid Upgrades EU-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27124},
+    {'item_name': "Zainou 'Gypsy' Target Painting TG-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27236},
+    {'item_name': "Inherent Implants 'Squire' Energy Pulse Weapons EP-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27122},
+    {'item_name': "Inherent Implants 'Squire' Capacitor Emission Systems ES-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27121},
+    {'item_name': "Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16006},
+    {'item_name': "Zainou 'Deadeye' Medium Hybrid Turret MH-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19699},
+    {'item_name': "Eifyr and Co. 'Rogue' Navigation NN-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16003},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19689},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19688},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Motion Prediction MR-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19686},
+    {'item_name': "Zainou 'Gypsy' Signature Analysis SA-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27130},
+    {'item_name': "Inherent Implants 'Lancer' Gunnery RF-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19693},
+    {'item_name': "Inherent Implants 'Squire' Power Grid Management EG-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27126},
+    {'item_name': "Zainou 'Gypsy' Propulsion Jamming PJ-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27230},
+    {'item_name': "Eifyr and Co. 'Alchemist' Biology BY-810",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27148},
+#    {'item_name': "Zainou 'Snapshot' FOF Explosion Radius FR-1005 (Not available anymore)",
+#     'lp_store_components': {},
+#     'lp_price': 79375,
+#     'isk_price': 79375000,
+#     'quantity': 1,
+#     'id': 0},         # !!! None
+    {'item_name': "Inherent Implants 'Squire' Capacitor Management EM-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27116},
+    {'item_name': "Zainou 'Snapshot' Light Missiles LM-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27252},
+    {'item_name': "Zainou 'Snapshot' Heavy Missiles HM-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27250},
+    {'item_name': "Zainou 'Deadeye' Large Hybrid Turret LH-1005",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19698},
+    {'item_name': "Inherent Implants 'Squire' Capacitor Systems Operation EO-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27118},
+    {'item_name': "Zainou 'Gnome' Launcher CPU Efficiency LE-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 24642},
+    {'item_name': "Zainou 'Gnome' Weapon Upgrades WU-1005",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16249},
+    {'item_name': "Zainou 'Snapshot' Torpedoes TD-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27256},
+    {'item_name': "Zainou 'Snapshot' Heavy Assault Missiles AM-705",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27245},
+    {'item_name': "Eifyr and Co. 'Rogue' Afterburner AB-610",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27110},
+    {'item_name': "Inherent Implants 'Noble' Mechanic MC-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19549},
+    {'item_name': "Eifyr and Co. 'Rogue' Fuel Conservation FC-805",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 16005},
+    {'item_name': "Inherent Implants 'Lancer' Small Energy Turret SE-605",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 19691},
+    {'item_name': "Zainou 'Snapshot' Rockets RD-905",
+     'lp_store_components': {},
+     'lp_price': 79375,
+     'isk_price': 79375000,
+     'quantity': 1,
+     'id': 27254},
+
+    {'item_name': 'Neural Boost - Improved',
+     'lp_store_components': {},
+     'lp_price': 65000,
+     'isk_price': 65000000,
+     'quantity': 1,
+     'id': 10213},
+    {'item_name': 'Memory Augmentation - Improved',
+     'lp_store_components': {},
+     'lp_price': 65000,
+     'isk_price': 65000000,
+     'quantity': 1,
+     'id': 10209},
+    {'item_name': 'Social Adaptation Chip - Improved',
+     'lp_store_components': {},
+     'lp_price': 65000,
+     'isk_price': 65000000,
+     'quantity': 1,
+     'id': 10226},
+    {'item_name': 'Cybernetic Subprocessor - Improved',
+     'lp_store_components': {},
+     'lp_price': 65000,
+     'isk_price': 65000000,
+     'quantity': 1,
+     'id': 10222},
+    {'item_name': 'Ocular Filter - Improved',
+     'lp_store_components': {},
+     'lp_price': 65000,
+     'isk_price': 65000000,
+     'quantity': 1,
+     'id': 10217},
+
+    {'item_name': 'High-grade Spur Omega',
+     'lp_store_components': {"Zainou 'Gypsy' Electronics Upgrades EU-603": 1},
+     'lp_price': 55000,
+     'isk_price': 55000000,
+     'quantity': 1,
+     'id': 31973},
+
+    {'item_name': 'High-grade Spur Epsilon',
+     'lp_store_components': {"Social Adaptation Chip - Basic": 1},
+     'lp_price': 30000,
+     'isk_price': 30000000,
+     'quantity': 1,
+     'id': 31971},
+    {'item_name': 'High-grade Spur Delta',
+     'lp_store_components': {"Cybernetic Subprocessor - Basic": 1},
+     'lp_price': 15000,
+     'isk_price': 15000000,
+     'quantity': 1,
+     'id': 31970},
+
+    {'item_name': 'Cybernetic Subprocessor - Standard',
+     'lp_store_components': {},
+     'lp_price': 12000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 10221},
+    {'item_name': 'Social Adaptation Chip - Standard',
+     'lp_store_components': {},
+     'lp_price': 12000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 10225},
+    {'item_name': 'Ocular Filter - Standard',
+     'lp_store_components': {},
+     'lp_price': 12000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 10216},
+    {'item_name': 'Memory Augmentation - Standard',
+     'lp_store_components': {},
+     'lp_price': 12000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 10208},
+    {'item_name': 'Neural Boost - Standard',
+     'lp_store_components': {},
+     'lp_price': 12000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 10212},
+
+    {'item_name': "Inherent Implants 'Noble' Repair Systems RS-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13258},
+    {'item_name': "Zainou 'Deadeye' Guided Missile Precision GP-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 24632},
+    {'item_name': "Zainou 'Deadeye' Target Navigation Prediction TN-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13250},
+    {'item_name': "Zainou 'Deadeye' Rapid Launch RL-1003",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13249},
+    {'item_name': "Inherent Implants 'Lancer' Controlled Bursts CB-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13246},
+    {'item_name': "Inherent Implants 'Lancer' Small Energy Turret SE-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13223},
+    {'item_name': "Zainou 'Deadeye' Sharpshooter ST-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 10204},
+    {'item_name': "Zainou 'Snapshot' Light Missiles LM-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 27108},
+    {'item_name': "Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13240},
+    {'item_name': "Inherent Implants 'Squire' Capacitor Management EM-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13259},
+    {'item_name': "Zainou 'Deadeye' Trajectory Analysis TA-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13245},
+    {'item_name': "Zainou 'Snapshot' Torpedoes TD-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13231},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Surgical Strike SS-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13244},
+    {'item_name': "Inherent Implants 'Lancer' Medium Energy Turret ME-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13220},
+    {'item_name': "Inherent Implants 'Noble' Mechanic MC-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13257},
+    {'item_name': "Zainou 'Snapshot' Rockets RD-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13230},
+    {'item_name': "Zainou 'Gnome' Shield Upgrades SU-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13253},
+    {'item_name': "Inherent Implants 'Squire' Energy Grid Upgrades EU-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13255},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13225},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13222},
+    {'item_name': "Zainou 'Deadeye' Small Hybrid Turret SH-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13224},
+    {'item_name': "Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13243},
+    {'item_name': "Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1003",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 25547},
+    {'item_name': "Eifyr and Co. 'Rogue' Fuel Conservation FC-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13238},
+    {'item_name': "Eifyr and Co. 'Rogue' Navigation NN-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13237},
+    {'item_name': "Eifyr and Co. 'Rogue' Afterburner AB-606",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13239},
+    {'item_name': "Inherent Implants 'Lancer' Gunnery RF-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13166},
+    {'item_name': "Zainou 'Deadeye' Medium Hybrid Turret MH-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13221},
+    {'item_name': "Zainou 'Gnome' Shield Emission Systems SE-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13262},
+    {'item_name': "Zainou 'Snapshot' Heavy Assault Missiles AM-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 27109},
+    {'item_name': "Zainou 'Snapshot' Cruise Missiles CM-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13226},
+    {'item_name': "Zainou 'Snapshot' Defender Missiles DM-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13227},
+    {'item_name': "Zainou 'Gnome' Shield Management SM-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 10228},
+    {'item_name': "Zainou 'Gypsy' Sensor Linking SL-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13235},
+    {'item_name': "Eifyr and Co. 'Rogue' Acceleration Control AC-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 16008},
+    {'item_name': "Zainou 'Gypsy' Electronics Upgrades EU-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13254},
+    {'item_name': "Zainou 'Gnome' Shield Operation SP-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13263},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Motion Prediction MR-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 9957},
+    {'item_name': "Eifyr and Co. 'Alchemist' Biology BY-805",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 27147},
+    {'item_name': "Inherent Implants 'Squire' Energy Pulse Weapons EP-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13251},
+    {'item_name': "Inherent Implants 'Squire' Power Grid Management EG-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13261},
+    {'item_name': "Zainou 'Gnome' Weapon Upgrades WU-1003",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13252},
+    {'item_name': "Zainou 'Snapshot' Heavy Missiles HM-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13229},
+    {'item_name': "Inherent Implants 'Noble' Repair Proficiency RP-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 19684},
+    # {'item_name': "1 x Zainou 'Snapshot' FOF Explosion Radius FR-1003 (Not available anymore)", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
+    {'item_name': "Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13219},
+    {'item_name': "Inherent Implants 'Noble' Remote Armor Repair Systems RA-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 17871},
+    {'item_name': "Zainou 'Deadeye' Missile Projection MP-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13248},
+    {'item_name': "Zainou 'Deadeye' Large Hybrid Turret LH-1003",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13218},
+    {'item_name': "Inherent Implants 'Noble' Hull Upgrades HG-1003",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13256},
+    {'item_name': "Zainou 'Gypsy' Target Painting TG-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 27224},
+    {'item_name': "Zainou 'Deadeye' Missile Bombardment MB-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13247},
+    {'item_name': "Zainou 'Gypsy' Propulsion Jamming PJ-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13234},
+    {'item_name': "Inherent Implants 'Lancer' Large Energy Turret LE-1003",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13217},
+    {'item_name': "Eifyr and Co. 'Alchemist' Neurotoxin Control NC-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 25545},
+    {'item_name': "Zainou 'Gypsy' Long Range Targeting LT-803",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13233},
+    {'item_name': "Zainou 'Gypsy' Electronic Warfare EW-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13232},
+    {'item_name': "Zainou 'Gypsy' CPU Management EE-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13216},
+    {'item_name': "Zainou 'Gypsy' Signature Analysis SA-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 10244},
+    {'item_name': "Inherent Implants 'Squire' Capacitor Emission Systems ES-703",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13265},
+    {'item_name': "Zainou 'Gypsy' Weapon Disruption WD-903",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13236},
+    {'item_name': "Inherent Implants 'Squire' Capacitor Systems Operation EO-603",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 13260},
+    {'item_name': "Zainou 'Gnome' Launcher CPU Efficiency LE-605",
+     'lp_store_components': {},
+     'lp_price': 10875,
+     'isk_price': 10875000,
+     'quantity': 1,
+     'id': 24642},
+
+
+    {'item_name': 'High-grade Spur Gamma',
+     'lp_store_components': {"Neural Boost - Basic": 1},
+     'lp_price': 10000,
+     'isk_price': 10000000,
+     'quantity': 1,
+     'id': 31972},
+    {'item_name': 'High-grade Spur Beta',
+     'lp_store_components': {"Memory Augmentation - Basic": 1},
+     'lp_price': 6000,
+     'isk_price': 6000000,
+     'quantity': 1,
+     'id': 31969},
+
+
+    {'item_name': 'Ocular Filter - Basic',
+     'lp_store_components': {},
+     'lp_price': 5250,
+     'isk_price': 5250000,
+     'quantity': 1,
+     'id': 9899},
+    {'item_name': 'Social Adaptation Chip - Basic',
+     'lp_store_components': {},
+     'lp_price': 5250,
+     'isk_price': 5250000,
+     'quantity': 1,
+     'id': 9956},
+    {'item_name': 'Memory Augmentation - Basic',
+     'lp_store_components': {},
+     'lp_price': 5250,
+     'isk_price': 5250000,
+     'quantity': 1,
+     'id': 9941},
+    {'item_name': 'Neural Boost - Basic',
+     'lp_store_components': {},
+     'lp_price': 5250,
+     'isk_price': 5250000,
+     'quantity': 1,
+     'id': 9942},
+    {'item_name': 'Cybernetic Subprocessor - Basic',
+     'lp_store_components': {},
+     'lp_price': 5250,
+     'isk_price': 5250000,
+     'quantity': 1,
+     'id': 9943},
+    {'item_name': 'High-grade Spur Alpha',
+     'lp_store_components': {},
+     'lp_price': 5000,
+     'isk_price': 5000000,
+     'quantity': 1,
+     'id': 31968},
+
+    {'item_name': 'Limited Cybernetic Subprocessor - Beta',
+     'lp_store_components': {},
+     'lp_price': 2500,
+     'isk_price': 2500000,
+     'quantity': 1,
+     'id': 14298},
+    {'item_name': 'Limited Memory Augmentation - Beta',
+     'lp_store_components': {},
+     'lp_price': 2500,
+     'isk_price': 2500000,
+     'quantity': 1,
+     'id': 14297},
+    {'item_name': 'Limited Social Adaptation Chip - Beta',
+     'lp_store_components': {},
+     'lp_price': 2500,
+     'isk_price': 2500000,
+     'quantity': 1,
+     'id': 14299},
+    {'item_name': 'Limited Ocular Filter - Beta',
+     'lp_store_components': {},
+     'lp_price': 2500,
+     'isk_price': 2500000,
+     'quantity': 1,
+     'id': 14295},
+    {'item_name': 'Limited Neural Boost - Beta',
+     'lp_store_components': {},
+     'lp_price': 2500,
+     'isk_price': 2500000,
+     'quantity': 1,
+     'id': 14296},
+
+    {'item_name': 'Low-grade Spur Gamma',
+     'lp_store_components': {"Limited Neural Boost - Beta": 1},
+     'lp_price': 2000,
+     'isk_price': 1000000,
+     'quantity': 1,
+     'id': 32111},
+    {'item_name': 'Low-grade Spur Epsilon',
+     'lp_store_components': {"Limited Social Adaptation Chip - Beta": 1},
+     'lp_price': 2000,
+     'isk_price': 1000000,
+     'quantity': 1,
+     'id': 32110},
+    {'item_name': 'Low-grade Spur Delta',
+     'lp_store_components': {"Limited Cybernetic Subprocessor - Beta": 1},
+     'lp_price': 2000,
+     'isk_price': 1000000,
+     'quantity': 1,
+     'id': 32109},
+    {'item_name': 'Low-grade Spur Beta',
+     'lp_store_components': {"Limited Memory Augmentation - Beta": 1},
+     'lp_price': 2000,
+     'isk_price': 1000000,
+     'quantity': 1,
+     'id': 32108},
+    {'item_name': 'Low-grade Spur Alpha',
+     'lp_store_components': {"Limited Ocular Filter - Beta": 1},
+     'lp_price': 2000,
+     'isk_price': 1000000,
+     'quantity': 1,
+     'id': 32107},
+    {'item_name': 'Low-grade Spur Omega',
+     'lp_store_components': {"Zainou 'Gypsy' Electronics Upgrade EU-601": 1},
+     'lp_price': 2000,
+     'isk_price': 1000000,
+     'quantity': 1,
+     'id': 32124},
+
+    {'item_name': 'Limited Ocular Filter',
+     'lp_store_components': {},
+     'lp_price': 750,
+     'isk_price': 750000,
+     'quantity': 1,
+     'id': 13283},
+    {'item_name': 'Limited Memory Augmentation',
+     'lp_store_components': {},
+     'lp_price': 750,
+     'isk_price': 750000,
+     'quantity': 1,
+     'id': 13284},
+    {'item_name': 'Limited Social Adaptation Chip',
+     'lp_store_components': {},
+     'lp_price': 750,
+     'isk_price': 750000,
+     'quantity': 1,
+     'id': 13286},
+    {'item_name': 'Limited Neural Boost',
+     'lp_store_components': {},
+     'lp_price': 750,
+     'isk_price': 750000,
+     'quantity': 1,
+     'id': 13285},
+    {'item_name': 'Limited Cybernetic Subprocessor',
+     'lp_store_components': {},
+     'lp_price': 750,
+     'isk_price': 750000,
+     'quantity': 1,
+     'id': 13287},
+
+    {'item_name': "Eifyr and Co. 'Gunslinger' Surgical Strike SS-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27081},
+    {'item_name': "Inherent Implants 'Squire' Capacitor Systems Operation EO-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27119},
+    {'item_name': "Eifyr and Co. 'Rogue' Afterburner AB-602",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27111},
+    {'item_name': "Inherent Implants 'Squire' Energy Pulse Weapons EP-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27123},
+    {'item_name': "Inherent Implants 'Lancer' Small Energy Turret SE-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27082},
+    {'item_name': "Inherent Implants 'Squire' Energy Grid Upgrades EU-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27125},
+    {'item_name': "Zainou 'Gnome' Shield Emission Systems SE-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27106},
+    {'item_name': "Zainou 'Deadeye' Large Hybrid Turret LH-1001",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27089},
+    {'item_name': "Inherent Implants 'Lancer' Large Energy Turret LE-1001",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27088},
+    {'item_name': "Zainou 'Gnome' Shield Management SM-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27105},
+    {'item_name': "Zainou 'Deadeye' Sharpshooter ST-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27076},
+    {'item_name': "Inherent Implants 'Squire' Capacitor Management EM-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27117},
+    {'item_name': "Inherent Implants 'Squire' Power Grid Management EG-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27127},
+    {'item_name': "Inherent Implants 'Squire' Capacitor Emission Systems ES-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27120},
+    {'item_name': "Inherent Implants 'Lancer' Gunnery RF-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27077},
+    {'item_name': "Inherent Implants 'Lancer' Medium Energy Turret ME-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27085},
+    {'item_name': "Zainou 'Gnome' Shield Upgrades SU-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27104},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27084},
+    {'item_name': "Zainou 'Gnome' Weapon Upgrades WU-1001",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27080},
+    {'item_name': "Inherent Implants 'Lancer' Controlled Bursts CB-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27079},
+    {'item_name': "Zainou 'Deadeye' Medium Hybrid Turret MH-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27086},
+    {'item_name': "Zainou 'Snapshot' Cruise Missiles CM-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27259},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Motion Prediction MR-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27075},
+    {'item_name': "Zainou 'Snapshot' Heavy Missiles HM-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27251},
+    {'item_name': "Zainou 'Deadeye' Missile Projection MP-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27093},
+    {'item_name': "Zainou 'Deadeye' Rapid Launch RL-1001",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27096},
+    {'item_name': "Zainou 'Snapshot' Light Missiles LM-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27253},
+    {'item_name': "Zainou 'Snapshot' Torpedoes TD-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27257},
+    {'item_name': "Eifyr and Co. 'Rogue' Fuel Conservation FC-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27098},
+#    {'item_name': "1 x Zainou 'Snapshot' FOF Explosion Radius FR-1001 (Not available anymore)", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
+    {'item_name': "Zainou 'Gypsy' Propulsion Jamming PJ-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27231},
+    {'item_name': "Zainou 'Gypsy' Sensor Linking SL-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27233},
+    {'item_name': "Zainou 'Gypsy' Target Painting TG-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 23237},
+    {'item_name': "Eifyr and Co. 'Rogue' Navigation NN-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27097},
+    {'item_name': "Zainou 'Snapshot' Defender Missiles DM-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27244},
+    {'item_name': "Zainou 'Snapshot' Heavy Assault Missiles AM-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27246},
+    {'item_name': "Zainou 'Deadeye' Guided Missile Precision GP-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27094},
+    {'item_name': "Zainou 'Gypsy' CPU Management EE-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27143},
+    {'item_name': "Zainou 'Deadeye' Small Hybrid Turret SH-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27083},
+    {'item_name': "Inherent Implants 'Noble' Hull Upgrades HG-1001",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27074},
+    {'item_name': "Zainou 'Deadeye' Trajectory Analysis TA-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27078},
+    {'item_name': "Zainou 'Deadeye' Target Navigation Prediction TN-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27095},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27087},
+    {'item_name': "Inherent Implants 'Noble' Remote Armor Repair Systems RA-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27071},
+    {'item_name': "Zainou 'Gypsy' Signature Analysis SA-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27131},
+    {'item_name': "Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27100},
+    {'item_name': "Zainou 'Gnome' Launcher CPU Efficiency LE-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27091},
+    {'item_name': "Inherent Implants 'Noble' Repair Systems RS-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27070},
+    {'item_name': "Zainou 'Deadeye' Missile Bombardment MB-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27092},
+    {'item_name': "Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001",
+     'lp_store_components': {},
+     'lp_price': 375, 'isk_price': 375000,
+     'quantity': 1,
+     'id': 27090},
+    {'item_name': "Zainou 'Gypsy' Long Range Targeting LT-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27229},
+    {'item_name': "Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27099},
+    {'item_name': "Zainou 'Gypsy' Electronic Warfare EW-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27226},
+    {'item_name': "Eifyr and Co. 'Rogue' Acceleration Control AC-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27101},
+    {'item_name': "Zainou 'Gnome' Shield Operation SP-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27107},
+    {'item_name': "Inherent Implants 'Noble' Repair Proficiency RP-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27073},
+    {'item_name': "Zainou 'Snapshot' Rockets RD-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27255},
+    {'item_name': "Zainou 'Gypsy' Electronics Upgrades EU-601",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27129},
+    {'item_name': "Inherent Implants 'Noble' Mechanic MC-801",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27072},
+    {'item_name': "Zainou 'Gypsy' Weapon Disruption WD-901",
+     'lp_store_components': {},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 1,
+     'id': 27235},
+
+    # Datacore
+    {'item_name': 'Datacore - Electromagnetic Physics',
+     'lp_store_components': {},
+     'lp_price': 250,
+     'isk_price': 250000,
+     'quantity': 5,
+     'id': 20417},
+    {'item_name': 'Datacore - Electronic Engineering',
+     'lp_store_components': {},
+     'lp_price': 250,
+     'isk_price': 250000,
+     'quantity': 5,
+     'id': 20418},
+    {'item_name': 'Datacore - Gallentean Starship Engineering',
+     'lp_store_components': {},
+     'lp_price': 250,
+     'isk_price': 250000,
+     'quantity': 5,
+     'id': 20410},
+    {'item_name': 'Datacore - Mechanical Engineering',
+     'lp_store_components': {},
+     'lp_price': 250,
+     'isk_price': 250000,
+     'quantity': 5,
+     'id': 20424},
+    {'item_name': 'Datacore - Plasma Physics',
+     'lp_store_components': {},
+     'lp_price': 250,
+     'isk_price': 250000,
+     'quantity': 5,
+     'id': 20412},
+
+    # Smartbomb
+    {'item_name': 'Federation Navy Large Plasma Smartbomb',
+     'lp_store_components': {"Large Plasma Smartbomb I": 1, "Caldari Navy Commodore Insignia II": 5,
+                             "Caldari Navy Vice Admiral Insignia I": 20, "Caldari Navy Admiral Insignia I": 31},
+     'lp_price': 56250,
+     'isk_price': 22500000,
+     'quantity': 1,
+     'id': 15955},
+
+    # Drones
+    {'item_name': 'Federation Navy Ogre',
+     'lp_store_components': {"Ogre I", 5},
+     'lp_price': 5000,
+     'isk_price': 5000000,
+     'quantity': 5,
+     'id': 31884},
+    {'item_name': 'Federation Navy Hammerhead',
+     'lp_store_components': {"Hammerhead I": 5},
+     'lp_price': 4000,
+     'isk_price': 4000000,
+     'quantity': 1,
+     'id': 31882},
+    {'item_name': 'Federation Navy Hobgoblin',
+     'lp_store_components': {"Hobgoblin I": 5},
+     'lp_price': 3000,
+     'isk_price': 3000000,
+     'quantity': 1,
+     'id': 31880},
+    {'item_name': 'Federation Navy Garde',
+     'lp_store_components': {"Garde I": 5},
+     'lp_price': 6000,
+     'isk_price': 6000000,
+     'quantity': 1,
+     'id': 31886},
+
+
+    # Specialization
+{'item_name': '1 x Large Blaster Specialization', 'lp_store_components': {}, 'lp_price': 9000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Large Railgun Specialization', 'lp_store_components': {}, 'lp_price': 9000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Gallente Drone Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Medium Blaster Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Medium Railgun Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Small Blaster Specialization', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Small Railgun Specialization', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Security Connections', 'lp_store_components': {}, 'lp_price': 15000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
+
+
+    # Cap Boosters
+{'item_name': '20 x Navy Cap Booster 25', 'lp_store_components': {}, 'lp_price': 60, 'isk_price': 60000, 'quantity': 1, 'id': 0}
+{'item_name': '20 x Navy Cap Booster 400', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
+{'item_name': '20 x Navy Cap Booster 800', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
+{'item_name': '20 x Navy Cap Booster 3200', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 8000000, 'quantity': 1, 'id': 0}
+{'item_name': '20 x Navy Cap Booster 200', 'lp_store_components': {}, 'lp_price': 500, 'isk_price': 500000, 'quantity': 1, 'id': 0}
+{'item_name': '20 x Navy Cap Booster 150', 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
+{'item_name': '20 x Navy Cap Booster 100', 'lp_store_components': {}, 'lp_price': 250, 'isk_price': 250000, 'quantity': 1, 'id': 0}
+{'item_name': '20 x Navy Cap Booster 75', 'lp_store_components': {}, 'lp_price': 185, 'isk_price': 185000, 'quantity': 1, 'id': 0}
+{'item_name': '20 x Navy Cap Booster 50', 'lp_store_components': {}, 'lp_price': 125, 'isk_price': 125000, 'quantity': 1, 'id': 0}
+
+
+    # Modules
 {'item_name': '1 x Federation Navy Large Armor Repairer', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy 500MN Microwarpdrive', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Medium Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Vexor Navy Issue', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 0, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Co-Processor', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 16000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Brutix Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Myrmidon Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy 50MN Microwarpdrive', 'lp_store_components': {}, 'lp_price': 36000, 'isk_price': 14400000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Medium Armor Repairer', 'lp_store_components': {}, 'lp_price': 36000, 'isk_price': 14400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Small Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 33750, 'isk_price': 13500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x High-grade Spur Epsilon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 30000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Drone Damage Amplifier', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Catalyst Navy Issue', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 0, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Magnetic Field Stabilizer', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 350mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Ion Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Electron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Dual 250mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 425mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Neutron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy 5MN Microwarpdrive', 'lp_store_components': {}, 'lp_price': 27000, 'isk_price': 10800000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Small Armor Repairer', 'lp_store_components': {}, 'lp_price': 27000, 'isk_price': 10800000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 250mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Heavy Electron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Heavy Ion Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Dual 150mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 200mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Heavy Neutron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Stasis Webifier', 'lp_store_components': {}, 'lp_price': 20000, 'isk_price': 8000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 75mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Tracking Computer', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Remote Tracking Computer', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Light Neutron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 150mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 125mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Sensor Booster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Light Electron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Light Ion Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Exequror Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Exequror Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 0, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Drone Navigation Computer', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Vexor Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Vexor Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy 100MN Afterburner', 'lp_store_components': {}, 'lp_price': 15000, 'isk_price': 6000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x High-grade Spur Delta', 'lp_store_components': {}, 'lp_price': 15000, 'isk_price': 15000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Security Connections', 'lp_store_components': {}, 'lp_price': 15000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Sensor Booster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy 10MN Afterburner', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 4800000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Cybernetic Subprocessor - Standard', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Social Adaptation Chip - Standard', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Ocular Filter - Standard', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Memory Augmentation - Standard', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Neural Boost - Standard', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Catalyst Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 3500000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Thermal Armor HardenerUse to be called Armor Thermic Hardener', 'lp_store_components': {}, 'lp_price': 11250, 'isk_price': 4500000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy EM Armor HardenerUse to be called Armor EM Hardener', 'lp_store_components': {}, 'lp_price': 11250, 'isk_price': 4500000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Explosive Armor HardenerUse to be called Armor Explosive Hardener', 'lp_store_components': {}, 'lp_price': 11250, 'isk_price': 4500000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Kinetic Armor HardenerUse to be called Armor Kinetic Hardener', 'lp_store_components': {}, 'lp_price': 11250, 'isk_price': 4500000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Repair Systems RS-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Guided Missile Precision GP-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Target Navigation Prediction TN-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Rapid Launch RL-1003", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Controlled Bursts CB-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Small Energy Turret SE-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Sharpshooter ST-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Light Missiles LM-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Management EM-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Trajectory Analysis TA-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Torpedoes TD-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Surgical Strike SS-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Medium Energy Turret ME-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Mechanic MC-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Rockets RD-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Upgrades SU-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Energy Grid Upgrades EU-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Small Hybrid Turret SH-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1003", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Fuel Conservation FC-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Navigation NN-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Afterburner AB-606", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Gunnery RF-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Medium Hybrid Turret MH-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Emission Systems SE-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Heavy Assault Missiles AM-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Cruise Missiles CM-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Defender Missiles DM-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Management SM-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Sensor Linking SL-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Acceleration Control AC-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Electronics Upgrades EU-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Operation SP-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Motion Prediction MR-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Alchemist' Biology BY-805", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Energy Pulse Weapons EP-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Power Grid Management EG-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Weapon Upgrades WU-1003", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Heavy Missiles HM-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Repair Proficiency RP-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' FOF Explosion Radius FR-1003Not available anymore", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Remote Armor Repair Systems RA-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Missile Projection MP-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Large Hybrid Turret LH-1003", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Hull Upgrades HG-1003", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Target Painting TG-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Missile Bombardment MB-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Propulsion Jamming PJ-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Large Energy Turret LE-1003", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Alchemist' Neurotoxin Control NC-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Long Range Targeting LT-803", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Electronic Warfare EW-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' CPU Management EE-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Signature Analysis SA-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Emission Systems ES-703", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Weapon Disruption WD-903", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Systems Operation EO-603", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Launcher CPU Efficiency LE-605", 'lp_store_components': {}, 'lp_price': 10875, 'isk_price': 10875000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x High-grade Spur Gamma', 'lp_store_components': {}, 'lp_price': 10000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy 1600mm Steel Plates', 'lp_store_components': {}, 'lp_price': 10000, 'isk_price': 4000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Omnidirectional Tracking Link', 'lp_store_components': {}, 'lp_price': 10000, 'isk_price': 4000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Maulus Navy Issue', 'lp_store_components': {}, 'lp_price': 10000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Imicus Navy Issue', 'lp_store_components': {}, 'lp_price': 10000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Comet', 'lp_store_components': {}, 'lp_price': 10000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Large Blaster Specialization', 'lp_store_components': {}, 'lp_price': 9000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Large Railgun Specialization', 'lp_store_components': {}, 'lp_price': 9000, 'isk_price': 0, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy 1MN Afterburner', 'lp_store_components': {}, 'lp_price': 9000, 'isk_price': 3600000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Kinetic Energized MembraneUse to be called Energized Kinetic Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Thermal Energized MembraneUse to be called Energized Thermic Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy EM Energized MembraneUse to be called Energized EM Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Multispectrum Energized MembraneUse to be called Energized Adaptive Nano Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Explosive Energized MembraneUse to be called Energized Explosive Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 3200', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 8000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x High-grade Spur Beta', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 6000000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy Garde', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 6000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Multispectrum CoatingUse to be called Adaptive Nano Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy EM CoatingUse to be called EM Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Explosive CoatingUse to be called Explosive Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Kinetic CoatingUse to be called Kinetic Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy Thermal CoatingUse to be called Thermic Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Ocular Filter - Basic', 'lp_store_components': {}, 'lp_price': 5250, 'isk_price': 5250000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Social Adaptation Chip - Basic', 'lp_store_components': {}, 'lp_price': 5250, 'isk_price': 5250000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Memory Augmentation - Basic', 'lp_store_components': {}, 'lp_price': 5250, 'isk_price': 5250000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Neural Boost - Basic', 'lp_store_components': {}, 'lp_price': 5250, 'isk_price': 5250000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Cybernetic Subprocessor - Basic', 'lp_store_components': {}, 'lp_price': 5250, 'isk_price': 5250000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x High-grade Spur Alpha', 'lp_store_components': {}, 'lp_price': 5000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 800mm Steel Plates', 'lp_store_components': {}, 'lp_price': 5000, 'isk_price': 3000000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy Ogre', 'lp_store_components': {}, 'lp_price': 5000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Comet BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Comet BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy Hammerhead', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 4000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Imicus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Imicus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Maulus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 200mm Steel Plates', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Federation Navy 400mm Steel Plates', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Federation Navy Hobgoblin', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 3000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Gallente Drone Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Medium Blaster Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Medium Railgun Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Customs Office Gantry BPC 1-Run', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Cybernetic Subprocessor - Beta', 'lp_store_components': {}, 'lp_price': 2500, 'isk_price': 2500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Memory Augmentation - Beta', 'lp_store_components': {}, 'lp_price': 2500, 'isk_price': 2500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Social Adaptation Chip - Beta', 'lp_store_components': {}, 'lp_price': 2500, 'isk_price': 2500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Ocular Filter - Beta', 'lp_store_components': {}, 'lp_price': 2500, 'isk_price': 2500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Neural Boost - Beta', 'lp_store_components': {}, 'lp_price': 2500, 'isk_price': 2500000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 800mm Steel Plates', 'lp_store_components': {}, 'lp_price': 5000, 'isk_price': 3000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Navy Micro Auxiliary Power Core', 'lp_store_components': {}, 'lp_price': 1500, 'isk_price': 1500000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 100mm Steel Plates', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 500000, 'quantity': 1, 'id': 0}
+
+
+    # Weapons
+{'item_name': '5 x Federation Navy 200mm Railgun BPC', 'lp_store_components': {}, 'lp_price': 72000, 'isk_price': 28800000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Medium Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Small Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 33750, 'isk_price': 13500000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 350mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Ion Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Electron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Dual 250mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 425mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Neutron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 250mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Heavy Electron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Heavy Ion Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Dual 150mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 200mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Heavy Neutron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 75mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Light Neutron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 150mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy 125mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Light Electron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Light Ion Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+
+
+    # Ammo
 {'item_name': '5000 x Federation Navy Antimatter Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Uranium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Lead Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
@@ -263,14 +1690,6 @@
 {'item_name': '5000 x Federation Navy Tungsten Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Thorium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Iridium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 200mm Steel Plates', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 800', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Low-grade Spur Gamma', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Low-grade Spur Epsilon', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Low-grade Spur Delta', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Low-grade Spur Beta', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Low-grade Spur Alpha', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Low-grade Spur Omega', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Thorium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Iron Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Uranium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
@@ -279,7 +1698,6 @@
 {'item_name': '5000 x Federation Navy Antimatter Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Lead Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Tungsten Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Navy Micro Auxiliary Power Core', 'lp_store_components': {}, 'lp_price': 1500, 'isk_price': 1500000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Lead Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Iron Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Uranium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
@@ -288,87 +1706,28 @@
 {'item_name': '5000 x Federation Navy Thorium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Plutonium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
 {'item_name': '5000 x Federation Navy Antimatter Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Small Blaster Specialization', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Small Railgun Specialization', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 400', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 100mm Steel Plates', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Ocular Filter', 'lp_store_components': {}, 'lp_price': 750, 'isk_price': 750000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Memory Augmentation', 'lp_store_components': {}, 'lp_price': 750, 'isk_price': 750000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Social Adaptation Chip', 'lp_store_components': {}, 'lp_price': 750, 'isk_price': 750000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Neural Boost', 'lp_store_components': {}, 'lp_price': 750, 'isk_price': 750000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Limited Cybernetic Subprocessor', 'lp_store_components': {}, 'lp_price': 750, 'isk_price': 750000, 'quantity': 1, 'id': 0}
+
+
+
+]
+
+{'item_name': '1 x Brutix Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Myrmidon Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Exequror Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Exequror Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Vexor Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Vexor Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Catalyst Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 3500000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Imicus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Imicus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Maulus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
+
+
+
+{'item_name': '1 x Federation Navy Comet BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Federation Navy Comet BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
+{'item_name': '1 x Customs Office Gantry BPC 1-Run', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
 {'item_name': '100 x Gallente Federation Starbase Charter', 'lp_store_components': {}, 'lp_price': 500, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 200', 'lp_store_components': {}, 'lp_price': 500, 'isk_price': 500000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Surgical Strike SS-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Systems Operation EO-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Afterburner AB-602", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Energy Pulse Weapons EP-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Small Energy Turret SE-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Energy Grid Upgrades EU-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Emission Systems SE-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Large Hybrid Turret LH-1001", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Large Energy Turret LE-1001", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Management SM-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Sharpshooter ST-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Management EM-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Power Grid Management EG-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Squire' Capacitor Emission Systems ES-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Gunnery RF-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Medium Energy Turret ME-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Upgrades SU-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Weapon Upgrades WU-1001", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Lancer' Controlled Bursts CB-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Medium Hybrid Turret MH-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Cruise Missiles CM-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Motion Prediction MR-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Heavy Missiles HM-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Missile Projection MP-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Rapid Launch RL-1001", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Light Missiles LM-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Torpedoes TD-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Fuel Conservation FC-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' FOF Explosion Radius FR-1001Not available anymore", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Propulsion Jamming PJ-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Sensor Linking SL-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Target Painting TG-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Navigation NN-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Defender Missiles DM-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Heavy Assault Missiles AM-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Guided Missile Precision GP-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' CPU Management EE-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Small Hybrid Turret SH-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Hull Upgrades HG-1001", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Trajectory Analysis TA-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Target Navigation Prediction TN-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Remote Armor Repair Systems RA-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Signature Analysis SA-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Launcher CPU Efficiency LE-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Repair Systems RS-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Deadeye' Missile Bombardment MB-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Long Range Targeting LT-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Electronic Warfare EW-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Eifyr and Co. 'Rogue' Acceleration Control AC-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gnome' Shield Operation SP-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Repair Proficiency RP-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Snapshot' Rockets RD-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Electronics Upgrades EU-601", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Inherent Implants 'Noble' Mechanic MC-801", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 150', 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': "1 x Zainou 'Gypsy' Weapon Disruption WD-901", 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 100', 'lp_store_components': {}, 'lp_price': 250, 'isk_price': 250000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Datacore - Electromagnetic Physics', 'lp_store_components': {}, 'lp_price': 250, 'isk_price': 250000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Datacore - Electronic Engineering', 'lp_store_components': {}, 'lp_price': 250, 'isk_price': 250000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Datacore - Gallentean Starship Engineering', 'lp_store_components': {}, 'lp_price': 250, 'isk_price': 250000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Datacore - Mechanical Engineering', 'lp_store_components': {}, 'lp_price': 250, 'isk_price': 250000, 'quantity': 1, 'id': 0}
-{'item_name': '5 x Datacore - Plasma Physics', 'lp_store_components': {}, 'lp_price': 250, 'isk_price': 250000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 75', 'lp_store_components': {}, 'lp_price': 185, 'isk_price': 185000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 50', 'lp_store_components': {}, 'lp_price': 125, 'isk_price': 125000, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Gallente Listening Outpost', 'lp_store_components': {}, 'lp_price': 100, 'isk_price': 0, 'quantity': 1, 'id': 0}
 {'item_name': '1 x Gallente Propaganda Broadcast Structure', 'lp_store_components': {}, 'lp_price': 100, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 25', 'lp_store_components': {}, 'lp_price': 60, 'isk_price': 60000, 'quantity': 1, 'id': 0}
 

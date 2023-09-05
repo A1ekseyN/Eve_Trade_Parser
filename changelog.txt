@@ -6,7 +6,8 @@ Version: 0.0.1d
 - Converting Buy Price and Sell Price to int
 - Update Text view formatting
 - Add regions: Dodixie, Hek, Rens
-- Add LP Store: Sisters Of Eve
+- Add LP Store: Sisters Of Eve, ORE - Outer Ring Excavations
+- Add Telegram Bot
 
 Version: 0.0.1c
 - Add UI

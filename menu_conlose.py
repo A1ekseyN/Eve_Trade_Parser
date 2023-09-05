@@ -1,6 +1,7 @@
 from settings import version, lp_store_parser_number_view_items, sort_list, sales_tax, filter_lp_number, save_settings, \
-    settings, items_component_settings
+    settings, items_component_settings, change_lp_store, items_in_lp_store
 from items_faction_wars import items_faction_wars_state_protectorate, items_component
+from lp_store_items_state_protectorate import items_component_state_protectorate
 from save_load import save_json, load_json
 from colors import color_lp_profit
 
@@ -167,8 +168,8 @@ def settings_menu():
         else:
             settings_menu()
     elif ask == 6:
-        print(f"\nLP Store choise: {settings['lp_faction']}")
-        ask_2 = int(input('1. State Protectorate (Caldari Navy)'
+        print(f'\nChange LP Store. Now: {settings["lp_faction"]}')
+        ask_lp_store = int(input('1. State Protectorate (Caldari Navy)'
 #                          '\n2. Federal Defence Union (Gallente)'
 #                          '\n3. 24th Imperial Crusade (Amarr)'
 #                          '\n4. Tribal Liberation Force (Minmatar)'
@@ -176,14 +177,24 @@ def settings_menu():
 #                          '\n6. Outer Ring Excavations - ORE'
                           '\n0. Back'
                           '\nEnter digit: '))
-        if ask_2 == 1:
+        if ask_lp_store == 1:
             settings["lp_faction"] = "state_protectorate"
-            return settings["lp_faction"]
-        elif ask_2 == 5:
+            print(f'\nLP Store Change to: {settings["lp_faction"]}')
+            change_lp_store(ask_lp_store)
+#            save_settings(settings)
+#            items_component_settings = items_component_state_protectorate + items_faction_wars_state_protectorate
+#            items_in_lp_store = items_faction_wars_state_protectorate
+            return items_component_settings, items_in_lp_store, settings
+        elif ask_lp_store == 5:
+#            lp_faction = "sisters_of_eve"
             settings["lp_faction"] = "sisters_of_eve"
-            return settings["lp_faction"]
-        elif ask_2 == 0:
+            change_lp_store(ask_lp_store)
+            print(f'\nLP Store Change to: {settings["lp_faction"]}')
+            save_settings(settings)
+#            return settings["lp_faction"]
+        else:
             settings_menu()
+        return items_component_settings, items_in_lp_store, settings
 
 
     elif ask == 0:

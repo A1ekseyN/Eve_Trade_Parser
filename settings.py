@@ -1,5 +1,6 @@
 from lp_store_items_state_protectorate import *
 from lp_store_items_sisters_of_eve import *
+from lp_store_items_outer_ring_excavations import *
 
 
 version = "0.0.1d"
@@ -9,6 +10,7 @@ colors = True    # Включает и выключает цветовую ин�
 
 settings = {"lp_faction": "state_protectorate",
 #            "lp_faction": "sisters_of_eve",
+#            "lp_faction": "outer_ring_excavations",
             "sort_list": "sell_lp_profit",
             "lp_store_parser_number_view_items": "all",
 #            "sort_list_counter_2_view": "0",
@@ -60,7 +62,7 @@ auto_time_update = 5                             # Настройка време
 
 
 # Настройка региона
-lp_faction = settings["lp_faction"]
+#lp_faction = settings["lp_faction"]
 market_region = settings["market_region"]                      # jita, amarr, hek, rens
 sales_tax = settings["sales_tax"]                              # Изменение налога на продажу (например, 0.05 для 5%)
 
@@ -87,11 +89,32 @@ elif market_region == 'rens':
 
 # Настройка Фракции.
 # Сюда нужно добавить items, которые собираются в зависимости от фракции
-if lp_faction == "state_protectorate":
+if settings['lp_faction'] == "state_protectorate":
 #    lp_faction = "state_protectorate"
     items_component_settings = items_component_state_protectorate + items_faction_wars_state_protectorate
     items_in_lp_store = items_faction_wars_state_protectorate
-elif lp_faction == "sisters_of_eve":
+elif settings['lp_faction'] == "sisters_of_eve":
 #    lp_faction = "sisters_of_eve"
     items_component_settings = items_component_sisters_of_eve + items_in_lp_store_sisters_of_eve
     items_in_lp_store = items_in_lp_store_sisters_of_eve
+elif settings['lp_faction'] == "outer_ring_excavations":
+    items_component_settings = items_component_outer_ring_excavations + items_in_lp_store_ore_outer_ring_excavations
+    items_in_lp_store = items_in_lp_store_ore_outer_ring_excavations
+
+
+def change_lp_store(ask_lp_store):
+    if ask_lp_store == 1:
+#        lp_faction = "state_protectorate"
+        settings["lp_faction"] = "state_protectorate"
+        items_component_settings = items_component_state_protectorate + items_faction_wars_state_protectorate
+        items_in_lp_store = items_faction_wars_state_protectorate
+        print('Change LP Store')
+        save_settings(settings)
+        return items_component_settings, items_in_lp_store, settings
+
+    elif settings['lp_faction'] == "sisters_of_eve":
+    #    lp_faction = "sisters_of_eve"
+        items_component_settings = items_component_sisters_of_eve + items_in_lp_store_sisters_of_eve
+        items_in_lp_store = items_in_lp_store_sisters_of_eve
+    return items_component_settings, items_in_lp_store
+

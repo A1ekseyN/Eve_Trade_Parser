@@ -15,6 +15,8 @@ start_time = time.time()
 work_time = 0
 
 base_url = "https://www.ellatha.com/eve/LPIndex-"
+# Need to test this page, for more speed
+# https://www.ellatha.com/eve/lp/Federal-Defence-Union?pageno=11
 
 page_index = 1
 #page_index = 101

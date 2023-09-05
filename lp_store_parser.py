@@ -1,5 +1,8 @@
 # pyinstaller -F --icon=icon.ico lp_store_parser.py
 
+# Idea:
+# Отображение иконок. Можно добавить информацию о отображаемой иконке в цикл файла. С переменную, возле названия.
+
 import requests
 import time
 import datetime
@@ -12,7 +15,7 @@ from settings import DEBUG_MODE, settings, sort_list, sort_list_counter_2_view, 
     regions, stations, sales_tax, version, lp_store_parser_number_view_items, load_settings, items_component_settings, \
     items_in_lp_store
 from menu_conlose import menu_greetings, menu_console_interface
-from save_load import save_csv, save_json
+from save_load import save_json
 
 
 start_time = time.time()
@@ -384,7 +387,7 @@ def view_result():
 if __name__ == "__main__":
     while True:
         # Проверка или нет ограничения по времени использования программы.
-        end_datetime = datetime.datetime(2023, 8, 29, 11, 0)
+        end_datetime = datetime.datetime(2023, 9, 12, 11, 0)
         current_datetime = datetime.datetime.utcnow()
         if current_datetime > end_datetime:
             print("\n\nThe time for using the program has expired. \nThe program will be closed after 1 minute.")
