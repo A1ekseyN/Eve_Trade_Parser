@@ -1,3 +1,5 @@
+#   {"item_name": "", "id":},
+
 items_component_federal_defence_union = [
     {"item_name": "Moros", "id": 19724},
     {"item_name": "Megathron", "id": 641},
@@ -44,14 +46,56 @@ items_component_federal_defence_union = [
     {"item_name": "Hammerhead I", "id": 2183},
     {"item_name": "Hobgoblin I", "id": 2454},
     {"item_name": "Garde I", "id": 23561},
+    {"item_name": "Drone Navigation Computer I", "id": 24395},
+    {"item_name": "Drone Damage Amplifier I", "id": 4393},
 
     # Modules
-    {"item_name": "", "id":},
-    {"item_name": "", "id":},
-    {"item_name": "", "id":},
-    {"item_name": "", "id":},
-    {"item_name": "", "id":},
+    {"item_name": "1MN Afterburner I", "id": 439},
+    {"item_name": "10MN Afterburner I", "id": 12056},
+    {"item_name": "100MN Afterburner I", "id": 12066},
+    {"item_name": "5MN Microwarpdrive I", "id": 434},
+    {"item_name": "50MN Microwarpdrive I", "id": 12052},
+    {"item_name": "500MN Microwarpdrive I", "id": 12054},
+    {"item_name": "Small Armor Repairer I", "id": 523},
+    {"item_name": "Medium Armor Repairer I", "id": 3528},
+    {"item_name": "Large Armor Repairer I", "id": 3538},
+    {"item_name": "Co-Processor I", "id": 3887},
+    {"item_name": "Micro Auxiliary Power Core I", "id": 11563},
+    {"item_name": "Magnetic Field Stabilizer I", "id": 9944},
+    {"item_name": "Tracking Computer I", "id": 1977},
+    {"item_name": "Remote Tracking Computer I", "id": 2103},
+    {"item_name": "Sensor Booster I", "id": 1973},
+    {"item_name": "Omnidirectional Tracking Link I", "id": 23533},
+    {"item_name": "Stasis Webifier I", "id": 526},
+    {"item_name": "100mm Steel Plate I", "id": 11293},
+    {"item_name": "200mm Steel Plates I", "id": 11295},
+    {"item_name": "400mm Steel Plates I", "id": 11297},
+    {"item_name": "800mm Steel Plates I", "id": 11299},
+    {"item_name": "1600mm Steel Plate I", "id": 11279},
+    {"item_name": "Thermal Armor Hardener I", "id": 11277},
+    {"item_name": "Explosive Armor Hardener I", "id": 11303},
+    {"item_name": "EM Armor Hardener I", "id": 11301},
+    {"item_name": "Kinetic Armor Hardener I", "id": 11305},
+    {"item_name": "Kinetic Energized Membrane I", "id": 11247},
+    {"item_name": "Thermal Energized Membrane I", "id": 11257},
+    {"item_name": "EM Energized Membrane I", "id": 11217},
+    {"item_name": "Multispectrum Energized Membrane I", "id": 11267},
+    {"item_name": "Multispectrum Coating I", "id": 1304},
+    {"item_name": "EM Coating I", "id": 1197},
+    {"item_name": "Thermal Coating I", "id": 1197},
+    {"item_name": "Kinetic Coating I", "id": 1284},
+    {"item_name": "Explosive Coating I", "id": 1264},
 
+    # Cap Boosters
+    {"item_name": "Cap Booster 25", "id": 263},
+    {"item_name": "Cap Booster 50", "id": 264},
+    {"item_name": "Cap Booster 75", "id": 3552},
+    {"item_name": "Cap Booster 100", "id": 3553},
+    {"item_name": "Cap Booster 150", "id": 11283},
+    {"item_name": "Cap Booster 200", "id": 11285},
+    {"item_name": "Cap Booster 400", "id": 11287},
+    {"item_name": "Cap Booster 800", "id": 11289},
+    {"item_name": "Cap Booster 3200", "id": 41489},
 
     # Weapons
     {"item_name": "Large Plasma Smartbomb I", "id": 3987},
@@ -96,31 +140,31 @@ items_in_lp_store_federal_defence_union = [
      'lp_price': 45000,
      'isk_price': 0,
      'quantity': 1,
-     'id': 0},
+     'id': 17843},
     {'item_name': 'Catalyst Navy Issue',
      'lp_store_components': {"Catalyst": 1, "Gallente Gamma Nexus Chip": 2},
      'lp_price': 30000,
      'isk_price': 0,
      'quantity': 1,
-     'id': 0},
+     'id': 73796},
     {'item_name': 'Maulus Navy Issue',
      'lp_store_components': {"Maulus": 1, "Gallente Gamma Nexus Chip": 1},
      'lp_price': 10000,
      'isk_price': 1000000,
      'quantity': 1,
-     'id': 0},
+     'id': 37456},
     {'item_name': 'Imicus Navy Issue',
      'lp_store_components': {"Imicus": 1, "Gallente Gamma Nexus Chip": 1},
      'lp_price': 10000,
      'isk_price': 0,
      'quantity': 1,
-     'id': 0},
+     'id': 72913},
     {'item_name': 'Federation Navy Comet',
      'lp_store_components': {"Incursus": 1, "Gallente Gamma Nexus Chip": 1},
      'lp_price': 10000,
      'isk_price': 0,
      'quantity': 1,
-     'id': 0},
+     'id': 17841},
 
 
 #    {'item_name': 'Federation Navy Large Plasma Smartbomb BPC',
@@ -140,13 +184,13 @@ items_in_lp_store_federal_defence_union = [
 #     'isk_price': 54000000,
 #     'quantity': 5,
 #     'id': 0},     # !!!
-    {'item_name': 'Federation Navy Small Plasma Smartbomb BPC',
-     'lp_store_components': {"Caldari Navy Captain Insignia I": 504, "Caldari Navy Captain Insignia II": 631,
-                             "Caldari Navy Captain Insignia III": 758},
-     'lp_price': 101250,
-     'isk_price': 40500000,
-     'quantity': 1,
-     'id': 5},
+#    {'item_name': 'Federation Navy Small Plasma Smartbomb BPC',
+#     'lp_store_components': {"Caldari Navy Captain Insignia I": 504, "Caldari Navy Captain Insignia II": 631,
+#                             "Caldari Navy Captain Insignia III": 758},
+#     'lp_price': 101250,
+#     'isk_price': 40500000,
+#     'quantity': 1,
+#     'id': 15950},
 #    {'item_name': '1 x Megathron Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 0, 'quantity': 1, 'id': 0}
 #    {'item_name': '1 x Megathron Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 200000000, 'quantity': 1, 'id': 0}
 #    {'item_name': "1 x Men's 'Sterling' Dress Shirt (white/blue)", 'lp_store_components': {}, 'lp_price': 100000, 'isk_price': 100000000, 'quantity': 1, 'id': 0}
@@ -1568,7 +1612,7 @@ items_in_lp_store_federal_defence_union = [
 
     # Drones
     {'item_name': 'Federation Navy Ogre',
-     'lp_store_components': {"Ogre I", 5},
+     'lp_store_components': {"Ogre I": 5},
      'lp_price': 5000,
      'isk_price': 5000000,
      'quantity': 5,
@@ -1577,157 +1621,477 @@ items_in_lp_store_federal_defence_union = [
      'lp_store_components': {"Hammerhead I": 5},
      'lp_price': 4000,
      'isk_price': 4000000,
-     'quantity': 1,
+     'quantity': 5,
      'id': 31882},
     {'item_name': 'Federation Navy Hobgoblin',
      'lp_store_components': {"Hobgoblin I": 5},
      'lp_price': 3000,
      'isk_price': 3000000,
-     'quantity': 1,
+     'quantity': 5,
      'id': 31880},
     {'item_name': 'Federation Navy Garde',
      'lp_store_components': {"Garde I": 5},
      'lp_price': 6000,
      'isk_price': 6000000,
-     'quantity': 1,
+     'quantity': 5,
      'id': 31886},
 
 
     # Specialization
-{'item_name': '1 x Large Blaster Specialization', 'lp_store_components': {}, 'lp_price': 9000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Large Railgun Specialization', 'lp_store_components': {}, 'lp_price': 9000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Gallente Drone Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Medium Blaster Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Medium Railgun Specialization', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Small Blaster Specialization', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Small Railgun Specialization', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Security Connections', 'lp_store_components': {}, 'lp_price': 15000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
+    {'item_name': 'Large Blaster Specialization',
+     'lp_store_components': {},
+     'lp_price': 9000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 12212},
+    {'item_name': 'Large Railgun Specialization',
+     'lp_store_components': {},
+     'lp_price': 9000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 12207},
+    {'item_name': 'Gallente Drone Specialization',
+     'lp_store_components': {},
+     'lp_price': 3000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 12486},
+    {'item_name': 'Medium Blaster Specialization',
+     'lp_store_components': {},
+     'lp_price': 3000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 12211},
+    {'item_name': 'Medium Railgun Specialization',
+     'lp_store_components': {},
+     'lp_price': 3000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 12206},
+    {'item_name': 'Small Blaster Specialization',
+     'lp_store_components': {},
+     'lp_price': 1000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 12210},
+    {'item_name': 'Small Railgun Specialization',
+     'lp_store_components': {},
+     'lp_price': 1000,
+     'isk_price': 0,
+     'quantity': 1,
+     'id': 11082},
+    {'item_name': 'Security Connections',
+     'lp_store_components': {},
+     'lp_price': 15000,
+     'isk_price': 10000000,
+     'quantity': 1,
+     'id': 3895},
 
 
     # Cap Boosters
-{'item_name': '20 x Navy Cap Booster 25', 'lp_store_components': {}, 'lp_price': 60, 'isk_price': 60000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 400', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 800', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 3200', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 8000000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 200', 'lp_store_components': {}, 'lp_price': 500, 'isk_price': 500000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 150', 'lp_store_components': {}, 'lp_price': 375, 'isk_price': 375000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 100', 'lp_store_components': {}, 'lp_price': 250, 'isk_price': 250000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 75', 'lp_store_components': {}, 'lp_price': 185, 'isk_price': 185000, 'quantity': 1, 'id': 0}
-{'item_name': '20 x Navy Cap Booster 50', 'lp_store_components': {}, 'lp_price': 125, 'isk_price': 125000, 'quantity': 1, 'id': 0}
+    {'item_name': 'Navy Cap Booster 25',
+     'lp_store_components': {"Cap Booster 25": 20},
+     'lp_price': 60,
+     'isk_price': 60000,
+     'quantity': 20,
+     'id': 33330},
+    {'item_name': 'Navy Cap Booster 50',
+     'lp_store_components': {"Cap Booster 50": 20},
+     'lp_price': 125,
+     'isk_price': 125000,
+     'quantity': 20,
+     'id': 33332},
+    {'item_name': 'Navy Cap Booster 75',
+     'lp_store_components': {"Cap Booster 75": 20},
+     'lp_price': 185,
+     'isk_price': 185000,
+     'quantity': 20,
+     'id': 33334},
+    {'item_name': 'Navy Cap Booster 100',
+     'lp_store_components': {"Cap Booster 100": 20},
+     'lp_price': 250,
+     'isk_price': 250000,
+     'quantity': 20,
+     'id': 31982},
+    {'item_name': 'Navy Cap Booster 150',
+     'lp_store_components': {"Cap Booster 150": 20},
+     'lp_price': 375,
+     'isk_price': 375000,
+     'quantity': 20,
+     'id': 31990},
+    {'item_name': 'Navy Cap Booster 200',
+     'lp_store_components': {"Cap Booster 200": 20},
+     'lp_price': 500,
+     'isk_price': 500000,
+     'quantity': 20,
+     'id': 31998},
+    {'item_name': 'Navy Cap Booster 400',
+     'lp_store_components': {"Cap Booster 400": 20},
+     'lp_price': 1000,
+     'isk_price': 1000000,
+     'quantity': 20,
+     'id': 32006},
+    {'item_name': 'Navy Cap Booster 800',
+     'lp_store_components': {"Cap Booster 800": 20},
+     'lp_price': 2000,
+     'isk_price': 2000000,
+     'quantity': 20,
+     'id': 32014},
+    {'item_name': 'Navy Cap Booster 3200',
+     'lp_store_components': {"Cap Booster 3200": 20},
+     'lp_price': 8000,
+     'isk_price': 8000000,
+     'quantity': 20,
+     'id': 41490},
 
 
     # Modules
-{'item_name': '1 x Federation Navy Large Armor Repairer', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 500MN Microwarpdrive', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Co-Processor', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 16000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 50MN Microwarpdrive', 'lp_store_components': {}, 'lp_price': 36000, 'isk_price': 14400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Medium Armor Repairer', 'lp_store_components': {}, 'lp_price': 36000, 'isk_price': 14400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Drone Damage Amplifier', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Magnetic Field Stabilizer', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 5MN Microwarpdrive', 'lp_store_components': {}, 'lp_price': 27000, 'isk_price': 10800000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Small Armor Repairer', 'lp_store_components': {}, 'lp_price': 27000, 'isk_price': 10800000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Stasis Webifier', 'lp_store_components': {}, 'lp_price': 20000, 'isk_price': 8000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Tracking Computer', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Remote Tracking Computer', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Drone Navigation Computer', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 100MN Afterburner', 'lp_store_components': {}, 'lp_price': 15000, 'isk_price': 6000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Sensor Booster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 10MN Afterburner', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 4800000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Thermal Armor HardenerUse to be called Armor Thermic Hardener', 'lp_store_components': {}, 'lp_price': 11250, 'isk_price': 4500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy EM Armor HardenerUse to be called Armor EM Hardener', 'lp_store_components': {}, 'lp_price': 11250, 'isk_price': 4500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Explosive Armor HardenerUse to be called Armor Explosive Hardener', 'lp_store_components': {}, 'lp_price': 11250, 'isk_price': 4500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Kinetic Armor HardenerUse to be called Armor Kinetic Hardener', 'lp_store_components': {}, 'lp_price': 11250, 'isk_price': 4500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 1600mm Steel Plates', 'lp_store_components': {}, 'lp_price': 10000, 'isk_price': 4000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Omnidirectional Tracking Link', 'lp_store_components': {}, 'lp_price': 10000, 'isk_price': 4000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 1MN Afterburner', 'lp_store_components': {}, 'lp_price': 9000, 'isk_price': 3600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Kinetic Energized MembraneUse to be called Energized Kinetic Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Thermal Energized MembraneUse to be called Energized Thermic Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy EM Energized MembraneUse to be called Energized EM Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Multispectrum Energized MembraneUse to be called Energized Adaptive Nano Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Explosive Energized MembraneUse to be called Energized Explosive Membrane', 'lp_store_components': {}, 'lp_price': 8000, 'isk_price': 3200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Multispectrum CoatingUse to be called Adaptive Nano Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy EM CoatingUse to be called EM Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Explosive CoatingUse to be called Explosive Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Kinetic CoatingUse to be called Kinetic Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Thermal CoatingUse to be called Thermic Plating', 'lp_store_components': {}, 'lp_price': 6000, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 200mm Steel Plates', 'lp_store_components': {}, 'lp_price': 2000, 'isk_price': 1000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 400mm Steel Plates', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 800mm Steel Plates', 'lp_store_components': {}, 'lp_price': 5000, 'isk_price': 3000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Navy Micro Auxiliary Power Core', 'lp_store_components': {}, 'lp_price': 1500, 'isk_price': 1500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 100mm Steel Plates', 'lp_store_components': {}, 'lp_price': 1000, 'isk_price': 500000, 'quantity': 1, 'id': 0}
+    {'item_name': 'Federation Navy Large Armor Repairer',
+     'lp_store_components': {"Large Armor Repairer I": 1, "Caldari Navy Commodore Insignia II": 5,
+                             "Caldari Navy Vice Admiral Insignia I": 17, "Caldari Navy Admiral Insignia I": 24},
+     'lp_price': 45000,
+     'isk_price': 18000000,
+     'quantity': 1,
+     'id': 15746},
+    {'item_name': 'Federation Navy 500MN Microwarpdrive',
+     'lp_store_components': {"500MN Microwarpdrive I": 1, "Caldari Navy Commodore Insignia II": 5,
+                             "Caldari Navy Vice Admiral Insignia I": 17, "Caldari Navy Admiral Insignia I": 24},
+     'lp_price': 45000,
+     'isk_price': 18000000,
+     'quantity': 1,
+     'id': 12768},
+    {'item_name': 'Federation Navy Co-Processor',
+     'lp_store_components': {"Co-Processor I": 1, "Caldari Navy Commodore Insignia I": 106,
+                             "Caldari Navy Commodore Insignia II": 177},
+     'lp_price': 40000,
+     'isk_price': 16000000,
+     'quantity': 1,
+     'id': 15677},
+    {'item_name': 'Federation Navy 50MN Microwarpdrive',
+     'lp_store_components': {"50MN Microwarpdrive I": 1, "Caldari Navy Commodore Insignia I": 95,
+                             "Caldari Navy Commodore Insignia II": 159},
+     'lp_price': 36000,
+     'isk_price': 14400000,
+     'quantity': 1,
+     'id': 15764},
+    {'item_name': 'Federation Navy Medium Armor Repairer',
+     'lp_store_components': {"Medium Armor Repairer I": 1, "Caldari Navy Commodore Insignia I": 95,
+                             "Caldari Navy Commodore Insignia II": 159},
+     'lp_price': 36000,
+     'isk_price': 14400000,
+     'quantity': 1,
+     'id': 15745},
+    {'item_name': 'Federation Navy Drone Damage Amplifier',
+     'lp_store_components': {"Drone Damage Amplifier I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 10, "Caldari Navy Admiral Insignia I": 17},
+     'lp_price': 30000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 33842},
+    {'item_name': 'Federation Navy Magnetic Field Stabilizer',
+     'lp_store_components': {"Magnetic Field Stabilizer I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 10, "Caldari Navy Admiral Insignia I": 17},
+     'lp_price': 30000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 15895},
+    {'item_name': 'Federation Navy 5MN Microwarpdrive',
+     'lp_store_components': {"5MN Microwarpdrive I": 1, "Caldari Navy Captain Insignia I": 135,
+                             "Caldari Navy Captain Insignia II": 168, "Caldari Navy Captain Insignia III": 202},
+     'lp_price': 27000,
+     'isk_price': 10800000,
+     'quantity': 1,
+     'id': 15759},
+    {'item_name': 'Federation Navy Small Armor Repairer',
+     'lp_store_components': {"Small Armor Repairer I": 1, "Caldari Navy Captain Insignia I": 135,
+                             "Caldari Navy Captain Insignia II": 168, "Caldari Navy Captain Insignia III": 202},
+     'lp_price': 27000,
+     'isk_price': 10800000,
+     'quantity': 1,
+     'id': 15744},
+    {'item_name': 'Federation Navy Stasis Webifier',
+     'lp_store_components': {"Stasis Webifier I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 7, "Caldari Navy Admiral Insignia I": 11},
+     'lp_price': 20000,
+     'isk_price': 8000000,
+     'quantity': 1,
+     'id': 17559},
+    {'item_name': 'Federation Navy Tracking Computer',
+     'lp_store_components': {"Tracking Computer I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 15792},
+    {'item_name': 'Federation Navy Remote Tracking Computer',
+     'lp_store_components': {"Remote Tracking Computer I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 15967},
+    {'item_name': 'Federation Navy Drone Navigation Computer',
+     'lp_store_components': {"Drone Navigation Computer I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 33850},
+    {'item_name': 'Federation Navy Sensor Booster',
+     'lp_store_components': {"Sensor Booster I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 17520},
+    {'item_name': 'Federation Navy 100MN Afterburner',
+     'lp_store_components': {"100MN Afterburner I": 1, "Caldari Navy Commodore Insignia II": 5,
+                             "Caldari Navy Vice Admiral Insignia I": 5, "Caldari Navy Admiral Insignia I": 8},
+     'lp_price': 15000,
+     'isk_price': 6000000,
+     'quantity': 1,
+     'id': 15770},
+    {'item_name': 'Federation Navy 10MN Afterburner',
+     'lp_store_components': {"10MN Afterburner I": 1, "Caldari Navy Commodore Insignia I": 31,
+                             "Caldari Navy Commodore Insignia II": 53},
+     'lp_price': 12000,
+     'isk_price': 4800000,
+     'quantity': 1,
+     'id': 15766},
 
 
-    # Weapons
-{'item_name': '5 x Federation Navy 200mm Railgun BPC', 'lp_store_components': {}, 'lp_price': 72000, 'isk_price': 28800000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Medium Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Small Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 33750, 'isk_price': 13500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 350mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Ion Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Electron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Dual 250mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 425mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Neutron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 250mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Heavy Electron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Heavy Ion Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Dual 150mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 200mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Heavy Neutron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 75mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Light Neutron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 150mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy 125mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Light Electron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Light Ion Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+    {'item_name': 'Federation Navy Thermal Armor Hardener',
+     'lp_store_components': {"Thermal Armor Hardener I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 4, "Caldari Navy Admiral Insignia I": 6},
+     'lp_price': 11250,
+     'isk_price': 4500000,
+     'quantity': 1,
+     'id': 17838},
+    {'item_name': 'Federation Navy EM Armor Hardener',
+     'lp_store_components': {"Explosive Armor Hardener I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 4, "Caldari Navy Admiral Insignia I": 6},
+     'lp_price': 11250,
+     'isk_price': 4500000,
+     'quantity': 1,
+     'id': 17832},
+    {'item_name': 'Federation Navy Explosive Armor Hardener',
+     'lp_store_components': {"EM Armor Hardener I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 4, "Caldari Navy Admiral Insignia I": 6},
+     'lp_price': 11250,
+     'isk_price': 4500000,
+     'quantity': 1,
+     'id': 17834},
+    {'item_name': 'Federation Navy Kinetic Armor Hardener',
+     'lp_store_components': {"Kinetic Armor Hardener I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 4, "Caldari Navy Admiral Insignia I": 6},
+     'lp_price': 11250,
+     'isk_price': 4500000,
+     'quantity': 1,
+     'id': 17836},
+    {'item_name': 'Federation Navy 1600mm Steel Plates',
+     'lp_store_components': {"1600mm Steel Plate I": 1, "Caldari Navy Admiral Insignia I": 4,
+                             "Caldari Navy Vice Admiral Insignia I": 2},
+     'lp_price': 10000,
+     'isk_price': 4000000,
+     'quantity': 1,
+     'id': 31902},
+    {'item_name': 'Federation Navy Omnidirectional Tracking Link',
+     'lp_store_components': {"Omnidirectional Tracking Link I": 1, "Caldari Navy Admiral Insignia I": 4,
+                             "Caldari Navy Vice Admiral Insignia I": 2},
+     'lp_price': 10000,
+     'isk_price': 4000000,
+     'quantity': 1,
+     'id': 31942},
+    {'item_name': 'Federation Navy 1MN Afterburner',
+     'lp_store_components': {"1MN Afterburner I": 1, "Caldari Navy Captain Insignia I": 44,
+                             "Caldari Navy Captain Insignia II": 56, "Caldari Navy Captain Insignia III": 68},
+     'lp_price': 9000,
+     'isk_price': 3600000,
+     'quantity': 1,
+     'id': 15761},
+    {'item_name': 'Federation Navy Kinetic Energized Membrane',
+     'lp_store_components': {"Kinetic Energized Membrane I": 1, "Caldari Navy Commodore Insignia I": 21,
+                             "Caldari Navy Commodore Insignia II": 35},
+     'lp_price': 8000,
+     'isk_price': 3200000,
+     'quantity': 1,
+     'id': 15737},
+    {'item_name': 'Federation Navy Thermal Energized Membrane',
+     'lp_store_components': {"Thermal Energized Membrane I": 1, "Caldari Navy Commodore Insignia I": 21,
+                             "Caldari Navy Commodore Insignia II": 35},
+     'lp_price': 8000,
+     'isk_price': 3200000,
+     'quantity': 1,
+     'id': 15731},
+    {'item_name': 'Federation Navy EM Energized Membrane',
+     'lp_store_components': {"EM Energized Membrane I": 1, "Caldari Navy Commodore Insignia I": 21,
+                             "Caldari Navy Commodore Insignia II": 35},
+     'lp_price': 8000,
+     'isk_price': 3200000,
+     'quantity': 1,
+     'id': 15733},
+    {'item_name': 'Federation Navy Multispectrum Energized Membrane',
+     'lp_store_components': {"Multispectrum Energized Membrane I": 1, "Caldari Navy Commodore Insignia I": 21,
+                             "Caldari Navy Commodore Insignia II": 35},
+     'lp_price': 8000,
+     'isk_price': 3200000,
+     'quantity': 1,
+     'id': 15739},
+    {'item_name': 'Federation Navy Explosive Energized Membrane',
+     'lp_store_components': {"Explosive Energized Membrane I": 1, "Caldari Navy Commodore Insignia I": 21,
+                             "Caldari Navy Commodore Insignia II": 35},
+     'lp_price': 8000,
+     'isk_price': 3200000,
+     'quantity': 1,
+     'id': 15735},
+
+    {'item_name': 'Federation Navy Multispectrum Coating',
+     'lp_store_components': {"Multispectrum Coating I": 1, "Caldari Navy Captain Insignia I": 29,
+                             "Caldari Navy Captain Insignia II": 38, "Caldari Navy Captain Insignia III": 45},
+     'lp_price': 6000,
+     'isk_price': 2400000,
+     'quantity': 1,
+     'id': 17549},
+    {'item_name': 'Federation Navy EM Coating',
+     'lp_store_components': {"EM Coating I": 1, "Caldari Navy Captain Insignia I": 29,
+                             "Caldari Navy Captain Insignia II": 38, "Caldari Navy Captain Insignia III": 45},
+     'lp_price': 6000,
+     'isk_price': 2400000,
+     'quantity': 1,
+     'id': 17555},
+    {'item_name': 'Federation Navy Explosive Coating',
+     'lp_store_components': {"Explosive Coating I": 1, "Caldari Navy Captain Insignia I": 29,
+                             "Caldari Navy Captain Insignia II": 38, "Caldari Navy Captain Insignia III": 45},
+     'lp_price': 6000,
+     'isk_price': 2400000,
+     'quantity': 1,
+     'id': 17553},
+    {'item_name': 'Federation Navy Kinetic Coating',
+     'lp_store_components': {"Kinetic Coating I": 1, "Caldari Navy Captain Insignia I": 29,
+                             "Caldari Navy Captain Insignia II": 38, "Caldari Navy Captain Insignia III": 45},
+     'lp_price': 6000,
+     'isk_price': 2400000,
+     'quantity': 1,
+     'id': 17551},
+    {'item_name': 'Federation Navy Thermal Coating',
+     'lp_store_components': {"Thermal Coating I": 1, "Caldari Navy Captain Insignia I": 29,
+                             "Caldari Navy Captain Insignia II": 38, "Caldari Navy Captain Insignia III": 45},
+     'lp_price': 6000,
+     'isk_price': 2400000,
+     'quantity': 1,
+     'id': 17557},
+
+    {'item_name': 'Federation Navy 100mm Steel Plates',
+     'lp_store_components': {"100mm Steel Plate I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Captain Insignia V": 1},
+     'lp_price': 1000,
+     'isk_price': 500000,
+     'quantity': 1,
+     'id': 31898},
+    {'item_name': 'Federation Navy 200mm Steel Plates',
+     'lp_store_components': {"200mm Steel Plates I": 1, "Caldari Navy Vice Admiral Insignia I": 1},
+     'lp_price': 2000,
+     'isk_price': 1000000,
+     'quantity': 1,
+     'id': 31906},
+    {'item_name': 'Federation Navy 400mm Steel Plates',
+     'lp_store_components': {"400mm Steel Plates I": 1, "Caldari Navy Vice Admiral Insignia I": 2},
+     'lp_price': 3000,
+     'isk_price': 2000000,
+     'quantity': 1,
+     'id': 31910},
+    {'item_name': 'Federation Navy 800mm Steel Plates',
+     'lp_store_components': {"800mm Steel Plates I": 1, "Caldari Navy Admiral Insignia I": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 1},
+     'lp_price': 5000,
+     'isk_price': 3000000,
+     'quantity': 1,
+     'id': 31918},
+    {'item_name': 'Navy Micro Auxiliary Power Core',
+     'lp_store_components': {"Micro Auxiliary Power Core I": 1, "Caldari Navy Vice Admiral Insignia I": 2},
+     'lp_price': 1500,
+     'isk_price': 1500000,
+     'quantity': 1,
+     'id': 31936},
 
 
-    # Ammo
-{'item_name': '5000 x Federation Navy Antimatter Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Uranium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Lead Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Iron Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Plutonium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Tungsten Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Thorium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Iridium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Thorium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Iron Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Uranium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Iridium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Plutonium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Antimatter Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Lead Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Tungsten Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Lead Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Iron Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Uranium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Iridium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Tungsten Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Thorium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Plutonium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-{'item_name': '5000 x Federation Navy Antimatter Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
 
-
-
+#     # Weapons
+# {'item_name': '1 x Federation Navy Medium Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Small Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 33750, 'isk_price': 13500000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy 350mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Ion Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Electron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Dual 250mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy 425mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Neutron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy 250mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Heavy Electron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Heavy Ion Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Dual 150mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy 200mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Heavy Neutron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy 75mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Light Neutron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy 150mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy 125mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Light Electron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Light Ion Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
+#
+#
+#     # Ammo
+# {'item_name': '5000 x Federation Navy Antimatter Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Uranium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Lead Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Iron Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Plutonium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Tungsten Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Thorium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Iridium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Thorium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Iron Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Uranium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Iridium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Plutonium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Antimatter Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Lead Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Tungsten Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Lead Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Iron Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Uranium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Iridium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Tungsten Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Thorium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Plutonium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
+# {'item_name': '5000 x Federation Navy Antimatter Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
+#
+#
+#
+# ]
+#
+#
+#
+# # С BluePrints нужно протестировать или все работает.
+# # BluePrints
+# {'item_name': '5 x Federation Navy 200mm Railgun BPC', 'lp_store_components': {}, 'lp_price': 72000, 'isk_price': 28800000, 'quantity': 1, 'id': 0}
+#
+# {'item_name': '1 x Brutix Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Myrmidon Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Exequror Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Exequror Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Vexor Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Vexor Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Catalyst Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 3500000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Imicus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Imicus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Maulus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Comet BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 0, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Federation Navy Comet BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
+#
+# # Other
+# {'item_name': '1 x Customs Office Gantry BPC 1-Run', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
+# {'item_name': '100 x Gallente Federation Starbase Charter', 'lp_store_components': {}, 'lp_price': 500, 'isk_price': 0, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Gallente Listening Outpost', 'lp_store_components': {}, 'lp_price': 100, 'isk_price': 0, 'quantity': 1, 'id': 0}
+# {'item_name': '1 x Gallente Propaganda Broadcast Structure', 'lp_store_components': {}, 'lp_price': 100, 'isk_price': 0, 'quantity': 1, 'id': 0}
 ]
-
-{'item_name': '1 x Brutix Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Myrmidon Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 40000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Exequror Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Exequror Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Vexor Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Vexor Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 5000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Catalyst Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 12000, 'isk_price': 3500000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Imicus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Imicus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Maulus Navy Issue BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-
-
-
-{'item_name': '1 x Federation Navy Comet BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Federation Navy Comet BPC', 'lp_store_components': {}, 'lp_price': 4000, 'isk_price': 2000000, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Customs Office Gantry BPC 1-Run', 'lp_store_components': {}, 'lp_price': 3000, 'isk_price': 10000000, 'quantity': 1, 'id': 0}
-{'item_name': '100 x Gallente Federation Starbase Charter', 'lp_store_components': {}, 'lp_price': 500, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Gallente Listening Outpost', 'lp_store_components': {}, 'lp_price': 100, 'isk_price': 0, 'quantity': 1, 'id': 0}
-{'item_name': '1 x Gallente Propaganda Broadcast Structure', 'lp_store_components': {}, 'lp_price': 100, 'isk_price': 0, 'quantity': 1, 'id': 0}
 

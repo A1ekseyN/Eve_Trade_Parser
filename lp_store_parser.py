@@ -221,6 +221,8 @@ def lp_calculator():
 
     print(f'Items counter: {cnt_items_counter_test}')
     print(f'len(items_quantity): {len(items_quantity)}')
+    print(f'Items LP Store Counter: {len(items_in_lp_store)}')
+    print(f'Items Component Counter: {len(items_component_settings)}')
 #    return items_quantity
 
 

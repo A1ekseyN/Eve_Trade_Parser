@@ -1,6 +1,7 @@
 from lp_store_items_state_protectorate import *
 from lp_store_items_sisters_of_eve import *
 from lp_store_items_outer_ring_excavations import *
+from lp_store_items_federal_defence_union import *
 
 
 version = "0.0.1d"
@@ -93,6 +94,9 @@ if settings['lp_faction'] == "state_protectorate":
 #    lp_faction = "state_protectorate"
     items_component_settings = items_component_state_protectorate + items_faction_wars_state_protectorate
     items_in_lp_store = items_faction_wars_state_protectorate
+elif settings['lp_faction'] == 'federal_defence_union':
+    items_component_settings = items_component_federal_defence_union + items_in_lp_store_federal_defence_union
+    items_in_lp_store = items_in_lp_store_federal_defence_union
 elif settings['lp_faction'] == "sisters_of_eve":
 #    lp_faction = "sisters_of_eve"
     items_component_settings = items_component_sisters_of_eve + items_in_lp_store_sisters_of_eve
