@@ -99,7 +99,45 @@ items_component_federal_defence_union = [
 
     # Weapons
     {"item_name": "Large Plasma Smartbomb I", "id": 3987},
+    {"item_name": "Medium Plasma Smartbomb I", "id": 3947},
+    {"item_name": "Small Plasma Smartbomb I", "id": 1557},
+    {"item_name": "350mm Railgun I", "id": 12354},
+    {"item_name": "200mm Railgun I", "id": 12344},
+    {"item_name": "250mm Railgun I", "id": 570},
+    {"item_name": "425mm Railgun I", "id": 474},
+    {"item_name": "75mm Gatling Rail I", "id": 561},
+    {"item_name": "150mm Railgun I", "id": 565},
+    {"item_name": "Dual 150mm Railgun I", "id": 567},
+    {"item_name": "Dual 250mm Railgun I", "id": 572},
+    {"item_name": "Ion Blaster Cannon I", "id": 575},
+    {"item_name": "Electron Blaster Cannon I", "id": 571},
+    {"item_name": "Neutron Blaster Cannon I", "id": 573},
+    {"item_name": "Heavy Neutron Blaster I", "id": 568},
+    {"item_name": "Heavy Ion Blaster I", "id": 569},
+    {"item_name": "Heavy Electron Blaster I", "id": 566},
+    {"item_name": "Light Neutron Blaster I", "id": 564},
 
+    # Ammo
+    {"item_name": "Antimatter Charge L", "id": 238},
+    {"item_name": "Uranium Charge L", "id": 236},
+    {"item_name": "Lead Charge L", "id": 234},
+    {"item_name": "Iron Charge L", "id": 231},
+    {"item_name": "Plutonium Charge L", "id": 237},
+    {"item_name": "Tungsten Charge L", "id": 232},
+    {"item_name": "Thorium Charge L", "id": 235},
+    {"item_name": "Iridium Charge L", "id": 233},
+    {"item_name": "Thorium Charge M", "id": 227},
+    {"item_name": "Iron Charge M", "id": 223},
+    {"item_name": "Uranium Charge M", "id": 228},
+    {"item_name": "Iridium Charge M", "id": 225},
+    {"item_name": "Plutonium Charge M", "id": 229},
+    {"item_name": "Antimatter Charge M", "id": 230},
+    {"item_name": "Lead Charge M", "id": 226},
+    {"item_name": "Iridium Charge S", "id": 217},
+    {"item_name": "Tungsten Charge S", "id": 216},
+    {"item_name": "Thorium Charge S", "id": 219},
+    {"item_name": "Plutonium Charge S", "id": 221},
+    {"item_name": "Antimatter Charge S", "id": 222},
 ]
 
 items_in_lp_store_federal_defence_union = [
@@ -1601,15 +1639,6 @@ items_in_lp_store_federal_defence_union = [
      'quantity': 5,
      'id': 20412},
 
-    # Smartbomb
-    {'item_name': 'Federation Navy Large Plasma Smartbomb',
-     'lp_store_components': {"Large Plasma Smartbomb I": 1, "Caldari Navy Commodore Insignia II": 5,
-                             "Caldari Navy Vice Admiral Insignia I": 20, "Caldari Navy Admiral Insignia I": 31},
-     'lp_price': 56250,
-     'isk_price': 22500000,
-     'quantity': 1,
-     'id': 15955},
-
     # Drones
     {'item_name': 'Federation Navy Ogre',
      'lp_store_components': {"Ogre I": 5},
@@ -2015,62 +2044,307 @@ items_in_lp_store_federal_defence_union = [
      'id': 31936},
 
 
+    # Weapons
+    # Smartbomb
+    {'item_name': 'Federation Navy Large Plasma Smartbomb',
+     'lp_store_components': {"Large Plasma Smartbomb I": 1, "Caldari Navy Commodore Insignia II": 5,
+                             "Caldari Navy Vice Admiral Insignia I": 20, "Caldari Navy Admiral Insignia I": 31},
+     'lp_price': 56250,
+     'isk_price': 22500000,
+     'quantity': 1,
+     'id': 15955},
+    {'item_name': 'Federation Navy Medium Plasma Smartbomb',
+     'lp_store_components': {"Medium Plasma Smartbomb I": 1, "Caldari Navy Commodore Insignia I": 120,
+                             "Caldari Navy Commodore Insignia II": 198},
+     'lp_price': 45000,
+     'isk_price': 18000000,
+     'quantity': 1,
+     'id': 15953},
+    {'item_name': 'Federation Navy Small Plasma Smartbomb',
+     'lp_store_components': {"Small Plasma Smartbomb I": 1, "Caldari Navy Captain Insignia I": 168,
+                             "Caldari Navy Captain Insignia II": 210, "Caldari Navy Captain Insignia III": 253},
+     'lp_price': 33750,
+     'isk_price': 13500000,
+     'quantity': 1,
+     'id': 15949},
 
-#     # Weapons
-# {'item_name': '1 x Federation Navy Medium Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 45000, 'isk_price': 18000000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Small Plasma Smartbomb', 'lp_store_components': {}, 'lp_price': 33750, 'isk_price': 13500000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy 350mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Ion Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Electron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Dual 250mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy 425mm Railgun', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Neutron Blaster Cannon', 'lp_store_components': {}, 'lp_price': 30000, 'isk_price': 12000000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy 250mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Heavy Electron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Heavy Ion Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Dual 150mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy 200mm Railgun', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Heavy Neutron Blaster', 'lp_store_components': {}, 'lp_price': 24000, 'isk_price': 9600000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy 75mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Light Neutron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy 150mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy 125mm Railgun', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Light Electron Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-# {'item_name': '1 x Federation Navy Light Ion Blaster', 'lp_store_components': {}, 'lp_price': 18000, 'isk_price': 7200000, 'quantity': 1, 'id': 0}
-#
-#
-#     # Ammo
-# {'item_name': '5000 x Federation Navy Antimatter Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Uranium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Lead Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Iron Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Plutonium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Tungsten Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Thorium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Iridium Charge L', 'lp_store_components': {}, 'lp_price': 2400, 'isk_price': 2400000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Thorium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Iron Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Uranium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Iridium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Plutonium Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Antimatter Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Lead Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Tungsten Charge M', 'lp_store_components': {}, 'lp_price': 1600, 'isk_price': 1600000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Lead Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Iron Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Uranium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Iridium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Tungsten Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Thorium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Plutonium Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-# {'item_name': '5000 x Federation Navy Antimatter Charge S', 'lp_store_components': {}, 'lp_price': 1200, 'isk_price': 1200000, 'quantity': 1, 'id': 0}
-#
-#
-#
-# ]
-#
-#
-#
+    #     # Weapons
+    {'item_name': 'Federation Navy 350mm Railgun',
+     'lp_store_components': {"350mm Railgun I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 10, "Caldari Navy Admiral Insignia I": 17},
+     'lp_price': 30000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 15838},
+    {'item_name': 'Federation Navy Ion Blaster Cannon',
+     'lp_store_components': {"Ion Blaster Cannon I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 10, "Caldari Navy Admiral Insignia I": 17},
+     'lp_price': 30000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 15829},
+    {'item_name': 'Federation Navy Electron Blaster Cannon',
+     'lp_store_components': {"Electron Blaster Cannon I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 10, "Caldari Navy Admiral Insignia I": 17},
+     'lp_price': 30000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 15833},
+    {'item_name': 'Federation Navy Dual 250mm Railgun',
+     'lp_store_components': {"Dual 250mm Railgun I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 10, "Caldari Navy Admiral Insignia I": 17},
+     'lp_price': 30000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 15834},
+    {'item_name': 'Federation Navy 425mm Railgun',
+     'lp_store_components': {"425mm Railgun I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 10, "Caldari Navy Admiral Insignia I": 17},
+     'lp_price': 30000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 15837},
+    {'item_name': 'Federation Navy Neutron Blaster Cannon',
+     'lp_store_components': {"Neutron Blaster Cannon I": 1, "Caldari Navy Commodore Insignia II": 2,
+                             "Caldari Navy Vice Admiral Insignia I": 10, "Caldari Navy Admiral Insignia I": 17},
+     'lp_price': 30000,
+     'isk_price': 12000000,
+     'quantity': 1,
+     'id': 15825},
+    {'item_name': 'Federation Navy 250mm Railgun',
+     'lp_store_components': {"250mm Railgun I": 1, "Caldari Navy Commodore Insignia I": 63,
+                             "Caldari Navy Commodore Insignia II": 106},
+     'lp_price': 24000,
+     'isk_price': 9600000,
+     'quantity': 1,
+     'id': 15840},
+    {'item_name': 'Federation Navy Heavy Electron Blaster',
+     'lp_store_components': {"Heavy Electron Blaster I": 1, "Caldari Navy Commodore Insignia I": 63,
+                             "Caldari Navy Commodore Insignia II": 106},
+     'lp_price': 24000,
+     'isk_price': 9600000,
+     'quantity': 1,
+     'id': 15832},
+    {'item_name': 'Federation Navy Heavy Ion Blaster',
+     'lp_store_components': {"Heavy Ion Blaster I": 1, "Caldari Navy Commodore Insignia I": 63,
+                             "Caldari Navy Commodore Insignia II": 106},
+     'lp_price': 24000,
+     'isk_price': 9600000,
+     'quantity': 1,
+     'id': 15831},
+    {'item_name': 'Federation Navy Dual 150mm Railgun',
+     'lp_store_components': {"Dual 150mm Railgun I": 1, "Caldari Navy Commodore Insignia I": 63,
+                             "Caldari Navy Commodore Insignia II": 106},
+     'lp_price': 24000,
+     'isk_price': 9600000,
+     'quantity': 1,
+     'id': 15835},
+    {'item_name': 'Federation Navy 200mm Railgun',
+     'lp_store_components': {"200mm Railgun I": 1, "Caldari Navy Commodore Insignia I": 63,
+                             "Caldari Navy Commodore Insignia II": 106},
+     'lp_price': 24000,
+     'isk_price': 9600000,
+     'quantity': 1,
+     'id': 15841},
+    {'item_name': 'Federation Navy Heavy Neutron Blaster',
+     'lp_store_components': {"Heavy Ion Blaster I": 1, "Caldari Navy Commodore Insignia I": 63,
+                             "Caldari Navy Commodore Insignia II": 106},
+     'lp_price': 24000,
+     'isk_price': 9600000,
+     'quantity': 1,
+     'id': 15830},
+    {'item_name': 'Federation Navy 75mm Railgun',
+     'lp_store_components': {"75mm Gatling Rail I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 15836},
+    {'item_name': 'Federation Navy Light Neutron Blaster',
+     'lp_store_components': {"Light Neutron Blaster I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 15826},
+    {'item_name': 'Federation Navy 150mm Railgun',
+     'lp_store_components': {"150mm Railgun I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 15843},
+    {'item_name': 'Federation Navy 125mm Railgun',
+     'lp_store_components': {"125mm Railgun I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 15844},
+    {'item_name': 'Federation Navy Light Electron Blaster',
+     'lp_store_components': {"Light Electron Blaster I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 15828},
+    {'item_name': 'Federation Navy Light Ion Blaster',
+     'lp_store_components': {"Light Ion Blaster I": 1, "Caldari Navy Captain Insignia I": 89,
+                             "Caldari Navy Captain Insignia II": 112, "Caldari Navy Captain Insignia III": 135},
+     'lp_price': 18000,
+     'isk_price': 7200000,
+     'quantity': 1,
+     'id': 15827},
+
+
+     # Ammo
+    {'item_name': 'Federation Navy Antimatter Charge L',
+     'lp_store_components': {"Antimatter Charge L": 5000},
+     'lp_price': 2400,
+     'isk_price': 2400000,
+     'quantity': 5000,
+     'id': 22993},
+    {'item_name': 'Federation Navy Uranium Charge L',
+     'lp_store_components': {"Uranium Charge L": 5000},
+     'lp_price': 2400,
+     'isk_price': 2400000,
+     'quantity': 5000,
+     'id': 22997},
+    {'item_name': 'Federation Navy Lead Charge L',
+     'lp_store_components': {"Lead Charge L": 5000},
+     'lp_price': 2400,
+     'isk_price': 2400000,
+     'quantity': 5000,
+     'id': 23001},
+    {'item_name': 'Federation Navy Iron Charge L',
+     'lp_store_components': {"Iron Charge L": 5000},
+     'lp_price': 2400,
+     'isk_price': 2400000,
+     'quantity': 5000,
+     'id': 23007},
+    {'item_name': 'Federation Navy Plutonium Charge L',
+     'lp_store_components': {"Plutonium Charge L": 5000},
+     'lp_price': 2400,
+     'isk_price': 2400000,
+     'quantity': 5000,
+     'id': 22995},
+    {'item_name': 'Federation Navy Tungsten Charge L',
+     'lp_store_components': {"Tungsten Charge L": 5000},
+     'lp_price': 2400,
+     'isk_price': 2400000,
+     'quantity': 5000,
+     'id': 23005},
+    {'item_name': 'Federation Navy Thorium Charge L',
+     'lp_store_components': {"Thorium Charge L": 5000},
+     'lp_price': 2400,
+     'isk_price': 2400000,
+     'quantity': 5000,
+     'id': 22999},
+    {'item_name': 'Federation Navy Iridium Charge L',
+     'lp_store_components': {"Iridium Charge L": 5000},
+     'lp_price': 2400,
+     'isk_price': 2400000,
+     'quantity': 5000,
+     'id': 23003},
+    {'item_name': 'Federation Navy Thorium Charge M',
+     'lp_store_components': {"Thorium Charge M": 5000},
+     'lp_price': 1600,
+     'isk_price': 1600000,
+     'quantity': 5000,
+     'id': 22983},
+    {'item_name': 'Federation Navy Iron Charge M',
+     'lp_store_components': {"Iron Charge M": 5000},
+     'lp_price': 1600,
+     'isk_price': 1600000,
+     'quantity': 5000,
+     'id': 22991},
+    {'item_name': 'Federation Navy Uranium Charge M',
+     'lp_store_components': {"Uranium Charge M": 5000},
+     'lp_price': 1600,
+     'isk_price': 1600000,
+     'quantity': 5000,
+     'id': 22981},
+    {'item_name': 'Federation Navy Iridium Charge M',
+     'lp_store_components': {"Iridium Charge M": 5000},
+     'lp_price': 1600,
+     'isk_price': 1600000,
+     'quantity': 5000,
+     'id': 22987},
+    {'item_name': 'Federation Navy Plutonium Charge M',
+     'lp_store_components': {"Plutonium Charge M": 5000},
+     'lp_price': 1600,
+     'isk_price': 1600000,
+     'quantity': 5000,
+     'id': 22979},
+    {'item_name': 'Federation Navy Antimatter Charge M',
+     'lp_store_components': {"Antimatter Charge M": 5000},
+     'lp_price': 1600,
+     'isk_price': 1600000,
+     'quantity': 5000,
+     'id': 22977},
+    {'item_name': 'Federation Navy Lead Charge M',
+     'lp_store_components': {"Lead Charge M": 5000},
+     'lp_price': 1600,
+     'isk_price': 1600000,
+     'quantity': 5000,
+     'id': 22985},
+    {'item_name': 'Federation Navy Tungsten Charge M',
+     'lp_store_components': {"Tungsten Charge M": 5000},
+     'lp_price': 1600,
+     'isk_price': 1600000,
+     'quantity': 5000,
+     'id': 22989},
+    {'item_name': 'Federation Navy Lead Charge S',
+     'lp_store_components': {"Lead Charge S": 5000},
+     'lp_price': 1200,
+     'isk_price': 1200000,
+     'quantity': 5000,
+     'id': 22969},
+    {'item_name': 'Federation Navy Iron Charge S',
+     'lp_store_components': {"Iron Charge S": 5000},
+     'lp_price': 1200,
+     'isk_price': 1200000,
+     'quantity': 5000,
+     'id': 22975},
+    {'item_name': 'Federation Navy Uranium Charge S',
+     'lp_store_components': {"Uranium Charge S": 5000},
+     'lp_price': 1200,
+     'isk_price': 1200000,
+     'quantity': 5000,
+     'id': 22965},
+    {'item_name': 'Federation Navy Iridium Charge S',
+     'lp_store_components': {"Iridium Charge S": 5000},
+     'lp_price': 1200,
+     'isk_price': 1200000,
+     'quantity': 5000,
+     'id': 22971},
+    {'item_name': 'Federation Navy Tungsten Charge S',
+     'lp_store_components': {"Tungsten Charge S": 5000},
+     'lp_price': 1200,
+     'isk_price': 1200000,
+     'quantity': 5000,
+     'id': 22973},
+    {'item_name': 'Federation Navy Thorium Charge S',
+     'lp_store_components': {"Thorium Charge S": 5000},
+     'lp_price': 1200,
+     'isk_price': 1200000,
+     'quantity': 5000,
+     'id': 22967},
+    {'item_name': 'Federation Navy Plutonium Charge S',
+     'lp_store_components': {"Plutonium Charge S": 5000},
+     'lp_price': 1200,
+     'isk_price': 1200000,
+     'quantity': 5000,
+     'id': 22963},
+    {'item_name': 'Federation Navy Antimatter Charge S',
+     'lp_store_components': {"Antimatter Charge S": 5000},
+     'lp_price': 1200,
+     'isk_price': 1200000,
+     'quantity': 5000,
+     'id': 22961},
+]
+
+
 # # С BluePrints нужно протестировать или все работает.
 # # BluePrints
 # {'item_name': '5 x Federation Navy 200mm Railgun BPC', 'lp_store_components': {}, 'lp_price': 72000, 'isk_price': 28800000, 'quantity': 1, 'id': 0}
@@ -2093,5 +2367,5 @@ items_in_lp_store_federal_defence_union = [
 # {'item_name': '100 x Gallente Federation Starbase Charter', 'lp_store_components': {}, 'lp_price': 500, 'isk_price': 0, 'quantity': 1, 'id': 0}
 # {'item_name': '1 x Gallente Listening Outpost', 'lp_store_components': {}, 'lp_price': 100, 'isk_price': 0, 'quantity': 1, 'id': 0}
 # {'item_name': '1 x Gallente Propaganda Broadcast Structure', 'lp_store_components': {}, 'lp_price': 100, 'isk_price': 0, 'quantity': 1, 'id': 0}
-]
+
 

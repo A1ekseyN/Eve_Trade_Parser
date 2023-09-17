@@ -389,7 +389,7 @@ def view_result():
 if __name__ == "__main__":
     while True:
         # Проверка или нет ограничения по времени использования программы.
-        end_datetime = datetime.datetime(2023, 9, 12, 11, 0)
+        end_datetime = datetime.datetime(2023, 9, 26, 11, 0)
         current_datetime = datetime.datetime.utcnow()
         if current_datetime > end_datetime:
             print("\n\nThe time for using the program has expired. \nThe program will be closed after 1 minute.")

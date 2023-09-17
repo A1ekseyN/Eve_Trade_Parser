@@ -9,7 +9,7 @@ DEBUG_MODE = False
 colors = True    # Включает и выключает цветовую индикацию. Цвета нужно выключать, когда программа компилируется в *.exe
 
 
-settings = {"lp_faction": "state_protectorate",
+settings = {"lp_faction": "state_protectorate",     # state_protectorate, federal_defence_union,
 #            "lp_faction": "sisters_of_eve",
 #            "lp_faction": "outer_ring_excavations",
             "sort_list": "sell_lp_profit",
