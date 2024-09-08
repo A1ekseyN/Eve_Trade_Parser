@@ -1,3 +1,11 @@
+Version: 0.0.3a
+- Add file with some ships (No Full list)
+
+Version: 0.0.2a ()
+- Added a file that collects filtered information about the prices of items. main_downloading_prices.py
+- Delete file: telegram_bot.py
+- Delete file to Qt5
+
 Version: 0.0.1d
 - Add Implants
 - Add Django project

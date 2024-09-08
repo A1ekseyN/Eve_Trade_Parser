@@ -1,7 +1,7 @@
-# pyinstaller -F --icon=icon.ico lp_store_parser.py
+# pyinstaller -F --icon=icon.ico main_lp_store_parser.py
 
 # Idea:
-# Отображение иконок. Можно добавить информацию о отображаемой иконке в цикл файла. С переменную, возле названия.
+# Отображение иконок. Можно добавить информацию об отображаемой иконке в цикл файла. С переменную, возле названия.
 
 import requests
 import time
@@ -386,40 +386,49 @@ def view_result():
 #    print(items_prices_parsed)
 
 
+def check_time_limit():
+    """
+    Функция для проверки лимитов по времени.
+    Используется для распространения скрипта через интернет
+    """
+    end_datetime = datetime.datetime(2024, 12, 31, 11, 0)
+    current_datetime = datetime.datetime.utcnow()
+    if current_datetime > end_datetime:
+        print("\n\nThe time for using the program has expired. \nThe program will be closed after 1 minute.")
+        time.sleep(60)
+        sys.exit()
+    else:
+        return True
+
+
 if __name__ == "__main__":
     while True:
-        # Проверка или нет ограничения по времени использования программы.
-        end_datetime = datetime.datetime(2023, 9, 26, 11, 0)
-        current_datetime = datetime.datetime.utcnow()
-        if current_datetime > end_datetime:
-            print("\n\nThe time for using the program has expired. \nThe program will be closed after 1 minute.")
-            time.sleep(60)
-            sys.exit()
+        if check_time_limit():
 
-        # Обнуление параметров
-#        items = items_faction_wars_state_protectorate + items_component
-        items = items_component_settings
-        items_prices_parsed = []
-        items_quantity = []
-        items_2_table = []
-        total_price = 0
+            # Обнуление параметров
+    #        items = items_faction_wars_state_protectorate + items_component
+            items = items_component_settings
+            items_prices_parsed = []
+            items_quantity = []
+            items_2_table = []
+            total_price = 0
 
-        try:
-            items_prices()
-            lp_calculator()
-            view_result()
-        except requests.exceptions.ConnectionError as error:
-            print(f'\n\nConnection Error:')
-            print(f'Most likely the number of requests to the server has been exceeded. '
-                  f'\nSo far, no additional information is available.')
-            print(f'{error}')
+            try:
+                items_prices()
+                lp_calculator()
+                view_result()
+            except requests.exceptions.ConnectionError as error:
+                print(f'\n\nConnection Error:')
+                print(f'Most likely the number of requests to the server has been exceeded. '
+                      f'\nSo far, no additional information is available.')
+                print(f'{error}')
 
-        print(f'\nTime: {time.time() - start_time:,.2f} sec')
-#        print(f'Update after {auto_time_update} min.')
-#        time.sleep(auto_time_update * 60)
-        menu_console_interface()
+            print(f'\nTime: {time.time() - start_time:,.2f} sec')
+    #        print(f'Update after {auto_time_update} min.')
+    #        time.sleep(auto_time_update * 60)
+            menu_console_interface()
 
-        items_2_table_last_request = items_2_table
+            items_2_table_last_request = items_2_table
 
 
 #items_prices()

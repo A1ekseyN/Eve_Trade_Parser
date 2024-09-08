@@ -1,0 +1,6 @@
+lp_faction = state_protectorate
+sort_list = sell_lp_profit
+lp_store_parser_number_view_items = all
+filter_min_isk_per_lp = -200000
+market_region = jita
+sales_tax = 0.05
