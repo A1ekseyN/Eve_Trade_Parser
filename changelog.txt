@@ -1,3 +1,8 @@
+Version: 0.0.4a (14.09.2024)
+- Add item file with ships
+- Add item file with modules
+- Added an infinite loop that monitors ships and modules
+
 Version: 0.0.3a
 - Add file with some ships (No Full list)
 
