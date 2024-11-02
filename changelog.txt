@@ -1,3 +1,12 @@
+Version: 0.0.4c
+- Added the sequence number of the item in this cycle
+- Added: Probe Launchers
+
+
+Version: 0.0.4b ()
+- Add items to file items_modules.py
+- Fix some modules names
+
 Version: 0.0.4a (14.09.2024)
 - Add item file with ships
 - Add item file with modules

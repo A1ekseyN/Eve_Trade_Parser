@@ -2,21 +2,21 @@
 
 items_modules = [
     # Multispectrum Shield Hardeners
-    {"id": 2281, "name": "Multispectum Shield Hardener II"},
-    {"id": 17498, "name": "Caldari Navy Multispectum Shield Hardener"},
-    {"id": 13998, "name": "Domination Multispectum Shield Hardener I"},
-    {"id": 13969, "name": "Dread Guristas Multispectum Shield Hardener"},
-    {"id": 20637, "name": "'Posse' Multispectum Shield Hardener I"},
-    {"id": 4346, "name": "Gistum A-Type Multispectum Shield Hardener"},
-    {"id": 4345, "name": "Gistum B-Type Multispectum Shield Hardener"},
-    {"id": 2050, "name": "Gistum C-Type Multispectum Shield Hardener"},
-    {"id": 4347, "name": "Pithum A-Type Multispectum Shield Hardener"},
-    {"id": 4348, "name": "Pithum B-Type Multispectum Shield Hardener"},
-    {"id": 4349, "name": "Pithum C-Type Multispectum Shield Hardener"},
-    {"id": 14767, "name": "Estamel's Modified Multispectum Shield Hardener"},
-    {"id": 14764, "name": "Kaikka's Modified Multispectum Shield Hardener"},
-    {"id": 14765, "name": "Thon's Modified Multispectum Shield Hardener"},
-    {"id": 14766, "name": "Vepas' Modified Multispectum Shield Hardener"},
+    {"id": 2281, "name": "Multispectrum Shield Hardener II"},
+    {"id": 17498, "name": "Caldari Navy Multispectrum Shield Hardener"},
+    {"id": 13998, "name": "Domination Multispectrum Shield Hardener"},
+    {"id": 13969, "name": "Dread Guristas Multispectrum Shield Hardener"},
+    {"id": 20637, "name": "'Posse' Multispectrum Shield Hardener I"},
+    {"id": 4346, "name": "Gistum A-Type Multispectrum Shield Hardener"},
+    {"id": 4345, "name": "Gistum B-Type Multispectrum Shield Hardener"},
+    {"id": 2050, "name": "Gistum C-Type Multispectrum Shield Hardener"},
+    {"id": 4347, "name": "Pithum A-Type Multispectrum Shield Hardener"},
+    {"id": 4348, "name": "Pithum B-Type Multispectrum Shield Hardener"},
+    {"id": 4349, "name": "Pithum C-Type Multispectrum Shield Hardener"},
+    {"id": 14767, "name": "Estamel's Modified Multispectrum Shield Hardener"},
+    {"id": 14764, "name": "Kaikka's Modified Multispectrum Shield Hardener"},
+    {"id": 14765, "name": "Thon's Modified Multispectrum Shield Hardener"},
+    {"id": 14766, "name": "Vepas' Modified Multispectrum Shield Hardener"},
 
     # EM Shield Hardeners
     {"id": 2301, "name": "EM Shield Hardener II"},
@@ -290,6 +290,18 @@ items_modules = [
     {'name': '50MN Microwarpdrive II', 'id': 12076},
     {'name': '500MN Microwarpdrive II', 'id': 12084},
     {'name': '50000MN Microwarpdrive II', 'id': 41253},
+    {'group_name': 'None', 'name': 'Domination 1MN Afterburner', 'id': 14110},
+    {'group_name': 'None', 'name': 'Shadow Serpentis 1MN Afterburner', 'id': 14112},
+    {'group_name': 'None', 'name': 'Domination 5MN Microwarpdrive', 'id': 14122},
+    {'group_name': 'None', 'name': 'Shadow Serpentis 5MN Microwarpdrive', 'id': 14124},
+    {'group_name': 'None', 'name': 'Domination 10MN Afterburner', 'id': 14106},
+    {'group_name': 'None', 'name': 'Shadow Serpentis 10MN Afterburner', 'id': 14108},
+    {'group_name': 'None', 'name': 'Domination 50MN Microwarpdrive', 'id': 14118},
+    {'group_name': 'None', 'name': 'Shadow Serpentis 50MN Microwarpdrive', 'id': 14120},
+    {'group_name': 'None', 'name': 'Domination 100MN Afterburner', 'id': 14102},
+    {'group_name': 'None', 'name': 'Shadow Serpentis 100MN Afterburner', 'id': 14104},
+    {'group_name': 'None', 'name': 'Domination 500MN Microwarpdrive', 'id': 14114},
+    {'group_name': 'None', 'name': 'Shadow Serpentis 500MN Microwarpdrive', 'id': 14116},
 
     {'name': 'Coreli C-Type 5MN Microwarpdrive', 'id': 19313},
     {'name': 'Corelum C-Type 50MN Microwarpdrive', 'id': 19315},
@@ -314,6 +326,258 @@ items_modules = [
     {'name': 'Corpum B-Type EM Energized Membrane', 'id': 19361},
     {'name': 'Centum B-Type EM Energized Membrane', 'id': 19363},
 
+    # Graplers
+    {'name': 'Heavy Gunnar Compact Stasis Grappler', 'id': 41054},
+    {'name': 'Heavy Karelin Scoped Stasis Grappler', 'id': 41055},
+    {'name': 'Heavy Jigoro Enduring Stasis Grappler', 'id': 41056},
+    {'name': 'Heavy Stasis Grappler II', 'id': 41057},
+    {'name': 'Shadow Serpentis Heavy Stasis Grappler', 'id': 41058},
+    {'name': 'Domination Heavy Stasis Grappler', 'id': 41059},
+    {'name': 'Federation Navy Warp Scrambler', 'id': 41061},
+
+    # Disruptors
+    {'group_name': 'None', 'name': 'Republic Fleet Warp Disruptor', 'id': 15891},
+    {'group_name': 'None', 'name': 'Dark Blood Warp Disruptor', 'id': 14242},
+    {'group_name': 'None', 'name': 'Domination Warp Disruptor', 'id': 14244},
+    {'group_name': 'None', 'name': 'Dread Guristas Warp Disruptor', 'id': 14246},
+    {'group_name': 'None', 'name': 'True Sansha Warp Disruptor', 'id': 14248},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Warp Disruptor', 'id': 14250},
+
+    # Scramblers
+    {'group_name': 'None', 'name': 'Caldari Navy Warp Scrambler', 'id': 15887},
+    {'group_name': 'None', 'name': 'Republic Fleet Warp Scrambler', 'id': 15893},
+    {'group_name': 'None', 'name': 'Dark Blood Warp Scrambler', 'id': 14252},
+    {'group_name': 'None', 'name': 'Domination Warp Scrambler', 'id': 14254},
+    {'group_name': 'None', 'name': 'Dread Guristas Warp Scrambler', 'id': 14256},
+    {'group_name': 'None', 'name': 'True Sansha Warp Scrambler', 'id': 14258},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Warp Scrambler', 'id': 14260},
+
+    # Webifier
+    {'group_name': 'None', 'name': 'Dark Blood Stasis Webifier', 'id': 14262},
+    {'group_name': 'None', 'name': 'Domination Stasis Webifier', 'id': 14264},
+    {'group_name': 'None', 'name': 'Dread Guristas Stasis Webifier', 'id': 14266},
+    {'group_name': 'None', 'name': 'True Sansha Stasis Webifier', 'id': 14268},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Stasis Webifier', 'id': 14270},
+
+    # Rockets
+    # Light Missile Launher
+    {'group_name': 'None', 'name': 'Domination Rapid Light Missile Launcher', 'id': 13919},
+    {'group_name': 'None', 'name': 'Domination Light Missile Launcher', 'id': 13925},
+    {'group_name': 'None', 'name': 'Dread Guristas Light Missile Launcher', 'id': 13926},
+
+    # Heavy Missile Launcher
+    {'group_name': 'None', 'name': 'Domination Heavy Missile Launcher', 'id': 13921},
+    {'group_name': 'None', 'name': 'Dread Guristas Heavy Missile Launcher', 'id': 13922},
+
+    # Light Rapid Launcher
+    {'group_name': 'None', 'name': 'Dread Guristas Rapid Light Missile Launcher', 'id': 13920},
+
+    # Torpedos
+    {'group_name': 'None', 'name': 'Domination Torpedo Launcher', 'id': 13923},
+    {'group_name': 'None', 'name': 'Dread Guristas Torpedo Launcher', 'id': 13924},
+
+    # Cruise Missile Launcher
+    {'group_name': 'None', 'name': 'Domination Cruise Missile Launcher', 'id': 13927},
+    {'group_name': 'None', 'name': 'Dread Guristas Cruise Missile Launcher', 'id': 13929},
+
+    # Rocket Launcher
+    {'group_name': 'None', 'name': 'Domination Rocket Launcher', 'id': 13931},
+    {'group_name': 'None', 'name': 'Dread Guristas Rocket Launcher', 'id': 13933},
+
+
+    # Shield Boosters
+    {'group_name': 'None', 'name': 'Dread Guristas Large Shield Booster', 'id': 13947},
+    {'group_name': 'None', 'name': 'Domination Large Shield Booster', 'id': 13948},
+    {'group_name': 'None', 'name': 'Dread Guristas Medium Shield Booster', 'id': 13949},
+    {'group_name': 'None', 'name': 'Domination Medium Shield Booster', 'id': 13950},
+    {'group_name': 'None', 'name': 'Dread Guristas Small Shield Booster', 'id': 13951},
+    {'group_name': 'None', 'name': 'Domination Small Shield Booster', 'id': 13952},
+    {'group_name': 'None', 'name': 'Dread Guristas X-Large Shield Booster', 'id': 13953},
+    {'group_name': 'None', 'name': 'Domination X-Large Shield Booster', 'id': 13954},
+
+    # Armor Repairer
+    {'group_name': 'None', 'name': 'Domination Large Armor Repairer', 'id': 13955},
+    {'group_name': 'None', 'name': 'True Sansha Large Armor Repairer', 'id': 13956},
+    {'group_name': 'None', 'name': 'Dark Blood Large Armor Repairer', 'id': 13957},
+    {'group_name': 'None', 'name': 'Domination Medium Armor Repairer', 'id': 13958},
+    {'group_name': 'None', 'name': 'True Sansha Medium Armor Repairer', 'id': 13959},
+    {'group_name': 'None', 'name': 'Dark Blood Medium Armor Repairer', 'id': 13960},
+    {'group_name': 'None', 'name': 'Domination Small Armor Repairer', 'id': 13962},
+    {'group_name': 'None', 'name': 'True Sansha Small Armor Repairer', 'id': 13963},
+    {'group_name': 'None', 'name': 'Dark Blood Small Armor Repairer', 'id': 13964},
+
+
+    # Armor Hardener
+    {'group_name': 'None', 'name': 'True Sansha EM Armor Hardener', 'id': 13970},
+    {'group_name': 'None', 'name': 'Dark Blood EM Armor Hardener', 'id': 13972},
+    {'group_name': 'None', 'name': 'True Sansha Explosive Armor Hardener', 'id': 13974},
+    {'group_name': 'None', 'name': 'Dark Blood Explosive Armor Hardener', 'id': 13976},
+    {'group_name': 'None', 'name': 'True Sansha Kinetic Armor Hardener', 'id': 13978},
+    {'group_name': 'None', 'name': 'Dark Blood Kinetic Armor Hardener', 'id': 13980},
+    {'group_name': 'None', 'name': 'True Sansha Thermal Armor Hardener', 'id': 13982},
+    {'group_name': 'None', 'name': 'Dark Blood Thermal Armor Hardener', 'id': 13984},
+    {'group_name': 'None', 'name': 'Domination EM Armor Hardener', 'id': 13986},
+    {'group_name': 'None', 'name': 'Domination Explosive Armor Hardener', 'id': 13988},
+    {'group_name': 'None', 'name': 'Domination Kinetic Armor Hardener', 'id': 13990},
+    {'group_name': 'None', 'name': 'Domination Thermal Armor Hardener', 'id': 13992},
+    {'group_name': 'None', 'name': 'Domination EM Shield Hardener', 'id': 13994},
+    {'group_name': 'None', 'name': 'Domination Thermal Shield Hardener', 'id': 13995},
+    {'group_name': 'None', 'name': 'Domination Explosive Shield Hardener', 'id': 13996},
+    {'group_name': 'None', 'name': 'Domination Kinetic Shield Hardener', 'id': 13997},
+
+    # Multispectrum Coating
+    {'group_name': 'None', 'name': 'Domination Multispectrum Coating', 'id': 13999},
+    {'group_name': 'None', 'name': 'True Sansha Multispectrum Coating', 'id': 14001},
+    {'group_name': 'None', 'name': 'Dark Blood Multispectrum Coating', 'id': 14003},
+    {'group_name': 'None', 'name': 'Domination Kinetic Coating', 'id': 14005},
+    {'group_name': 'None', 'name': 'True Sansha Kinetic Coating', 'id': 14007},
+    {'group_name': 'None', 'name': 'Dark Blood Kinetic Coating', 'id': 14009},
+    {'group_name': 'None', 'name': 'Domination Explosive Coating', 'id': 14011},
+    {'group_name': 'None', 'name': 'True Sansha Explosive Coating', 'id': 14013},
+    {'group_name': 'None', 'name': 'Dark Blood Explosive Coating', 'id': 14015},
+    {'group_name': 'None', 'name': 'Domination EM Coating', 'id': 14017},
+    {'group_name': 'None', 'name': 'True Sansha EM Coating', 'id': 14019},
+    {'group_name': 'None', 'name': 'Dark Blood EM Coating', 'id': 14021},
+    {'group_name': 'None', 'name': 'Domination Thermal Coating', 'id': 14023},
+    {'group_name': 'None', 'name': 'True Sansha Thermal Coating', 'id': 14025},
+    {'group_name': 'None', 'name': 'Dark Blood Thermal Coating', 'id': 14027},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Multispectrum Coating', 'id': 14049},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Kinetic Coating', 'id': 14051},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Explosive Coating', 'id': 14053},
+    {'group_name': 'None', 'name': 'Shadow Serpentis EM Coating', 'id': 14055},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Thermal Coating', 'id': 14057},
+    {'group_name': 'None', 'name': 'Shadow Serpentis EM Armor Hardener', 'id': 14059},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Explosive Armor Hardener', 'id': 14061},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Kinetic Armor Hardener', 'id': 14063},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Thermal Armor Hardener', 'id': 14065},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Large Armor Repairer', 'id': 14067},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Medium Armor Repairer', 'id': 14068},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Small Armor Repairer', 'id': 14069},
+
+    # Multispectrum Energized Membrane
+    {'group_name': 'None', 'name': 'Dark Blood Multispectrum Energized Membrane', 'id': 14070},
+    {'group_name': 'None', 'name': 'True Sansha Multispectrum Energized Membrane', 'id': 14072},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Multispectrum Energized Membrane', 'id': 14074},
+    {'group_name': 'None', 'name': 'Dark Blood Kinetic Energized Membrane', 'id': 14076},
+    {'group_name': 'None', 'name': 'True Sansha Kinetic Energized Membrane', 'id': 14078},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Kinetic Energized Membrane', 'id': 14080},
+    {'group_name': 'None', 'name': 'Dark Blood Explosive Energized Membrane', 'id': 14082},
+    {'group_name': 'None', 'name': 'True Sansha Explosive Energized Membrane', 'id': 14084},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Explosive Energized Membrane', 'id': 14086},
+    {'group_name': 'None', 'name': 'Dark Blood EM Energized Membrane', 'id': 14088},
+    {'group_name': 'None', 'name': 'True Sansha EM Energized Membrane', 'id': 14090},
+    {'group_name': 'None', 'name': 'Shadow Serpentis EM Energized Membrane', 'id': 14092},
+    {'group_name': 'None', 'name': 'Dark Blood Thermal Energized Membrane', 'id': 14094},
+    {'group_name': 'None', 'name': 'True Sansha Thermal Energized Membrane', 'id': 14096},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Thermal Energized Membrane', 'id': 14098},
+
+    # Tracking Enhancer
+    {'group_name': 'None', 'name': 'Domination Tracking Enhancer', 'id': 14100},
+
+    # Overdrive Injector
+    {'group_name': 'None', 'name': 'Domination Overdrive Injector', 'id': 14126},
+
+    # Nanofiber
+    {'group_name': 'None', 'name': 'Domination Nanofiber Structure', 'id': 14127},
+
+    # Reactor Control Unit
+    {'group_name': 'None', 'name': 'Dark Blood Reactor Control Unit', 'id': 14128},
+    {'group_name': 'None', 'name': 'True Sansha Reactor Control Unit', 'id': 14130},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Reactor Control Unit', 'id': 14132},
+
+    # Power Diagnostic System
+    {'group_name': 'None', 'name': 'Dark Blood Power Diagnostic System', 'id': 14134},
+    {'group_name': 'None', 'name': 'True Sansha Power Diagnostic System', 'id': 14136},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Power Diagnostic System', 'id': 14138},
+
+    # Cap Recharger
+    {'group_name': 'None', 'name': 'True Sansha Cap Recharger', 'id': 14140},
+    {'group_name': 'None', 'name': 'Dark Blood Cap Recharger', 'id': 14142},
+
+    # Capacitor Power Relay
+    {'group_name': 'None', 'name': 'Dark Blood Capacitor Power Relay', 'id': 14144},
+    {'group_name': 'None', 'name': 'True Sansha Capacitor Power Relay', 'id': 14146},
+
+
+    # Nosferatu
+    {'group_name': 'None', 'name': 'Dark Blood Small Energy Nosferatu', 'id': 14148},
+    {'group_name': 'None', 'name': 'True Sansha Small Energy Nosferatu', 'id': 14150},
+    {'group_name': 'None', 'name': 'Dark Blood Heavy Energy Nosferatu', 'id': 14152},
+    {'group_name': 'None', 'name': 'True Sansha Heavy Energy Nosferatu', 'id': 14154},
+    {'group_name': 'None', 'name': 'Dark Blood Medium Energy Nosferatu', 'id': 14156},
+    {'group_name': 'None', 'name': 'True Sansha Medium Energy Nosferatu', 'id': 14158},
+
+    # Neutralizer
+    {'group_name': 'None', 'name': 'Dark Blood Small Energy Neutralizer', 'id': 14160},
+    {'group_name': 'None', 'name': 'True Sansha Small Energy Neutralizer', 'id': 14162},
+    {'group_name': 'None', 'name': 'Dark Blood Medium Energy Neutralizer', 'id': 14164},
+    {'group_name': 'None', 'name': 'True Sansha Medium Energy Neutralizer', 'id': 14166},
+    {'group_name': 'None', 'name': 'Dark Blood Heavy Energy Neutralizer', 'id': 14168},
+    {'group_name': 'None', 'name': 'True Sansha Heavy Energy Neutralizer', 'id': 14170},
+    {'group_name': 'None', 'name': 'Dark Blood Heavy Capacitor Booster', 'id': 14172},
+
+    # Capacitor Booster
+    {'group_name': 'None', 'name': 'True Sansha Heavy Capacitor Booster', 'id': 14174},
+    {'group_name': 'None', 'name': 'Dark Blood Medium Capacitor Booster', 'id': 14176},
+    {'group_name': 'None', 'name': 'True Sansha Medium Capacitor Booster', 'id': 14178},
+    {'group_name': 'None', 'name': 'Dark Blood Micro Capacitor Booster', 'id': 14180},
+    {'group_name': 'None', 'name': 'True Sansha Micro Capacitor Booster', 'id': 14182},
+    {'group_name': 'None', 'name': 'Dark Blood Small Capacitor Booster', 'id': 14184},
+    {'group_name': 'None', 'name': 'True Sansha Small Capacitor Booster', 'id': 14186},
+
+
+    # Smartbomb
+    {'group_name': 'None', 'name': 'Dark Blood Large EMP Smartbomb', 'id': 14188},
+    {'group_name': 'None', 'name': 'True Sansha Large EMP Smartbomb', 'id': 14190},
+    {'group_name': 'None', 'name': 'Dark Blood Medium EMP Smartbomb', 'id': 14192},
+    {'group_name': 'None', 'name': 'True Sansha Medium EMP Smartbomb', 'id': 14194},
+    {'group_name': 'None', 'name': 'Dark Blood Micro EMP Smartbomb', 'id': 14196},
+    {'group_name': 'None', 'name': 'True Sansha Micro EMP Smartbomb', 'id': 14198},
+    {'group_name': 'None', 'name': 'Dark Blood Small EMP Smartbomb', 'id': 14200},
+    {'group_name': 'None', 'name': 'True Sansha Small EMP Smartbomb', 'id': 14202},
+    {'group_name': 'None', 'name': 'Dread Guristas Large Graviton Smartbomb', 'id': 14204},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Large Plasma Smartbomb', 'id': 14206},
+    {'group_name': 'None', 'name': 'Domination Large Proton Smartbomb', 'id': 14208},
+    {'group_name': 'None', 'name': 'Dread Guristas Medium Graviton Smartbomb', 'id': 14210},
+    {'group_name': 'None', 'name': 'Dread Guristas Micro Graviton Smartbomb', 'id': 14212},
+    {'group_name': 'None', 'name': 'Dread Guristas Small Graviton Smartbomb', 'id': 14214},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Micro Plasma Smartbomb', 'id': 14218},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Medium Plasma Smartbomb', 'id': 14220},
+    {'group_name': 'None', 'name': 'Domination Medium Proton Smartbomb', 'id': 14222},
+    {'group_name': 'None', 'name': 'Domination Micro Proton Smartbomb', 'id': 14224},
+    {'group_name': 'None', 'name': 'Domination Small Proton Smartbomb', 'id': 14226},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Small Plasma Smartbomb', 'id': 14228},
+
+    # Co-Processor
+    {'group_name': 'None', 'name': 'Dread Guristas Co-Processor', 'id': 14230},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Co-Processor', 'id': 14232},
+    {'group_name': 'None', 'name': 'Dread Guristas Cloaking Device', 'id': 14234},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Sensor Booster', 'id': 14236},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Tracking Computer', 'id': 14238},
+    {'group_name': 'None', 'name': 'Shadow Serpentis Remote Tracking Computer', 'id': 14240},
+
+
+    # Ballistic Control
+    {'group_name': 'None', 'name': 'Domination Ballistic Control System', 'id': 13935},
+    {'group_name': 'None', 'name': 'Dread Guristas Ballistic Control System', 'id': 13937},
+
+    # Gyrostabilizer
+    {'group_name': 'None', 'name': 'Domination Gyrostabilizer', 'id': 13939},
+
+    # Heat Sink
+    {'group_name': 'None', 'name': 'Dark Blood Heat Sink', 'id': 13941},
+    {'group_name': 'None', 'name': 'True Sansha Heat Sink', 'id': 13943},
+
+    # Magnetic Field Stabilizer
+    {'group_name': 'None', 'name': 'Shadow Serpentis Magnetic Field Stabilizer', 'id': 13945},
+
+    # Implants
+    {'group_name': 'None', 'name': 'Limited Ocular Filter - Beta', 'id': 14295},
+    {'group_name': 'None', 'name': 'Limited Neural Boost - Beta', 'id': 14296},
+    {'group_name': 'None', 'name': 'Limited Memory Augmentation - Beta', 'id': 14297},
+    {'group_name': 'None', 'name': 'Limited Cybernetic Subprocessor - Beta', 'id': 14298},
+    {'group_name': 'None', 'name': 'Limited Social Adaptation Chip - Beta', 'id': 14299},
+
     # Standard Citadels
     {'name': 'Astrahus', 'id': 35832},
     {'name': 'Fortizar', 'id': 35833},
@@ -330,25 +594,6 @@ items_modules = [
     {'name': 'Amarr Control Tower Medium', 'id': 20059},
     {'name': 'Amarr Control Tower Small', 'id': 20060},
 
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-    {'name': 'Raitaru', 'id': 35825},
-
     # Other modules
     {'name': 'Navy Micro Auxiliary Power Core', 'id': 31936},
     {'name': 'Federation Navy Omnidirectional Tracking Link', 'id': 31942},
@@ -358,5 +603,97 @@ items_modules = [
     {'name': 'Imperial Navy Small Remote Capacitor Transmitter', 'id': 31950},
     {'name': 'Caldari Navy Power Diagnostic System', 'id': 31952},
 
+    # Probe Launchers
+    {'name': 'Sisters Core Probe Launcher', 'id': 28758},
+    {'name': 'Sisters Expanded Probe Launcher', 'id': 28756},
+    {'name': 'Sisters Core Scanner Probe', 'id': 30488},
+    {'name': 'Sisters Combat Scanner Probe', 'id': 30486},
 
+
+    # Riggs
+    # Shield Riggs
+    {'name': 'Small Core Defense Capacitor Safeguard I', 'id': 31764},
+    {'name': 'Small Core Defense Capacitor Safeguard II', 'id': 31770},
+    {'name': 'Small Core Defense Charge Economizer I', 'id': 31776},
+    {'name': 'Small Core Defense Charge Economizer II', 'id': 31782},
+    {'name': 'Small Core Defense Field Extender I', 'id': 31788},
+    {'name': 'Small Core Defense Field Extender II', 'id': 31794},
+    {'name': 'Small Core Defense Field Purger I', 'id': 31800},
+    {'name': 'Small Core Defense Field Purger II', 'id': 31810},
+    {'name': 'Small Core Defense Operational Solidifier I', 'id': 31816},
+    {'name': 'Small Core Defense Operational Solidifier II', 'id': 31822},
+    {'name': 'Small EM Shield Reinforcer I', 'id': 31716},
+    {'name': 'Small EM Shield Reinforcer II', 'id': 31722},
+    {'name': 'Small Explosive Shield Reinforcer I', 'id': 31728},
+    {'name': 'Small Explosive Shield Reinforcer II', 'id': 31734},
+    {'name': 'Small Kinetic Shield Reinforcer I', 'id': 31740},
+    {'name': 'Small Kinetic Shield Reinforcer II', 'id': 31746},
+    {'name': 'Small Thermal Shield Reinforcer I', 'id': 31752},
+    {'name': 'Small Thermal Shield Reinforcer II', 'id': 31758},
+
+    {'name': 'Medium Core Defense Capacitor Safeguard I', 'id': 31766},
+    {'name': 'Medium Core Defense Capacitor Safeguard II', 'id': 31772},
+    {'name': 'Medium Core Defense Charge Economizer I', 'id': 31778},
+    {'name': 'Medium Core Defense Charge Economizer II', 'id': 31784},
+    {'name': 'Medium Core Defense Field Extender I', 'id': 31790},
+    {'name': 'Medium Core Defense Field Extender II', 'id': 31796},
+    {'name': 'Medium Core Defense Field Purger I', 'id': 31802},
+    {'name': 'Medium Core Defense Field Purger II', 'id': 31812},
+    {'name': 'Medium Core Defense Operational Solidifier I', 'id': 31818},
+    {'name': 'Medium Core Defense Operational Solidifier II', 'id': 31824},
+    {'name': 'Medium EM Shield Reinforcer I', 'id': 31718},
+    {'name': 'Medium EM Shield Reinforcer II', 'id': 31724},
+    {'name': 'Medium Explosive Shield Reinforcer I', 'id': 31730},
+    {'name': 'Medium Explosive Shield Reinforcer II', 'id': 31736},
+    {'name': 'Medium Kinetic Shield Reinforcer I', 'id': 31742},
+    {'name': 'Medium Kinetic Shield Reinforcer II', 'id': 31748},
+    {'name': 'Medium Thermal Shield Reinforcer I', 'id': 31754},
+    {'name': 'Medium Thermal Shield Reinforcer II', 'id': 31760},
+
+    {'name': 'Large Core Defense Capacitor Safeguard I', 'id': 25906},
+    {'name': 'Large Core Defense Capacitor Safeguard II', 'id': 26444},
+    {'name': 'Large Core Defense Charge Economizer I', 'id': 26090},
+    {'name': 'Large Core Defense Charge Economizer II', 'id': 26446},
+    {'name': 'Large Core Defense Field Extender I', 'id': 26088},
+    {'name': 'Large Core Defense Field Extender II', 'id': 26448},
+    {'name': 'Large Core Defense Field Purger I', 'id': 26084},
+    {'name': 'Large Core Defense Field Purger II', 'id': 26450},
+    {'name': 'Large Core Defense Operational Solidifier I', 'id': 26086},
+    {'name': 'Large Core Defense Operational Solidifier II', 'id': 26452},
+    {'name': 'Large EM Shield Reinforcer I', 'id': 26076},
+    {'name': 'Large EM Shield Reinforcer II', 'id': 26436},
+    {'name': 'Large Explosive Shield Reinforcer I', 'id': 26078},
+    {'name': 'Large Explosive Shield Reinforcer II', 'id': 26438},
+    {'name': 'Large Kinetic Shield Reinforcer I', 'id': 26080},
+    {'name': 'Large Kinetic Shield Reinforcer II', 'id': 26440},
+    {'name': 'Large Thermal Shield Reinforcer I', 'id': 26082},
+    {'name': 'Large Thermal Shield Reinforcer II', 'id': 26442},
+
+    {'name': 'Capital Core Defense Capacitor Safeguard I', 'id': 31768},
+    {'name': 'Capital Core Defense Capacitor Safeguard II', 'id': 31774},
+    {'name': 'Capital Core Defense Charge Economizer I', 'id': 31780},
+    {'name': 'Capital Core Defense Charge Economizer II', 'id': 31786},
+    {'name': 'Capital Core Defense Field Extender I', 'id': 31792},
+    {'name': 'Capital Core Defense Field Extender II', 'id': 31798},
+    {'name': 'Capital Core Defense Field Purger I', 'id': 31804},
+    {'name': 'Capital Core Defense Field Purger II', 'id': 31814},
+    {'name': 'Capital Core Defense Operational Solidifier I', 'id': 31820},
+    {'name': 'Capital Core Defense Operational Solidifier II', 'id': 31826},
+    {'name': 'Capital EM Shield Reinforcer I', 'id': 31720},
+    {'name': 'Capital EM Shield Reinforcer II', 'id': 31726},
+    {'name': 'Capital Explosive Shield Reinforcer I', 'id': 31732},
+    {'name': 'Capital Explosive Shield Reinforcer II', 'id': 31738},
+    {'name': 'Capital Kinetic Shield Reinforcer I', 'id': 31744},
+    {'name': 'Capital Kinetic Shield Reinforcer II', 'id': 31750},
+    {'name': 'Capital Thermal Shield Reinforcer I', 'id': 31756},
+    {'name': 'Capital Thermal Shield Reinforcer II', 'id': 31762},
+
+    # Riggs Armor
 ]
+
+
+# Добавить модули
+# Rigs
+# Модули для строений
+
+#   {'name': '', 'id': },

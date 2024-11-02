@@ -4,6 +4,7 @@
 import requests
 import json
 import time
+from datetime import datetime
 from tqdm import tqdm
 
 from items_all_market import items_eve
@@ -78,8 +79,8 @@ def get_item_prices(item_id, item_name, region_id, region_name, station_id, stat
                 "profit_sell_percentage": profit_sell_percentage
             }
 
-    else:
-        print(f"Ошибка при получении цен на товар '{item_name}' в регионе '{region_name}': {response.status_code}")
+#    else:
+#        print(f"Ошибка при получении цен на товар '{item_name}' в регионе '{region_name}': {response.status_code}")
 
     return prices
 
@@ -96,8 +97,10 @@ stations = [
 
 # Анализируем товары, прогресс будет отслеживаться только по товарам
 while True:
-#    for item in items:
-    for item in tqdm(items, desc=f"Analyzing items {regions[0]['name']}", colour="green"):
+    item_cnt = 0
+    cnt = 0
+    for idx, item in enumerate(tqdm(items, desc=f"{regions[0]['name']}", colour="green"), 1):
+        item_cnt += 1
         item_id = item["id"]
         item_name = item["name"]
 
@@ -118,7 +121,15 @@ while True:
         if item_prices and station_id in item_prices:
             station_prices = item_prices[station_id]
             if station_prices["profit_sell_percentage"] <= 0.1 and station_prices["min_sell_price"] >= filter_price_min:
-                print(f"\nТовар [id: {item['id']}]: '{item_name}' в регионе '{region_name}' на станции '{station_name}':")
+                cnt += 1
+                current_time = datetime.now().time()
+                formatted_time = current_time.strftime("%H:%M:%S")
+
+                print(f"\n{cnt}. '{item_name}' в регионе '{region_name}': "
+                      f"[id: {item['id']}] "
+                      f"[{item_cnt}/{len(items)}] " 
+                      f"[{formatted_time}]")
+
                 min_sell_price = station_prices["min_sell_price"]
                 max_buy_price = station_prices["max_buy_price"]
                 trade_volume = station_prices["trade_volume"]
@@ -127,17 +138,10 @@ while True:
                 profit_sell_percentage = station_prices["profit_sell_percentage"]
 
                 print(f"Sell Price: {min_sell_price:,.0f}, Buy Price: {max_buy_price:,.0f}")
-    #            print(f"Volume: - {trade_volume:,.0f} items")
-    #            print(f"Profit: {profit_sell:,.2f} isk - {profit_sell_percentage:.2f}%")
                 print()
 
         if station_prices:
             dump_orders_all.append(item_prices)
+#    print("\n==========================================")
 
-
-#with open("output.txt", "w", encoding="utf-8") as file:
-#    json.dump(dump_orders_all, file)
-#    print("File saved output.txt")
-
-
-print(f'\nTime: {time.time() - start_time:,.2f} sec')
+#print(f'\nTime: {time.time() - start_time:,.2f} sec')
