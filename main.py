@@ -79,9 +79,6 @@ def get_item_prices(item_id, item_name, region_id, region_name, station_id, stat
                 "profit_sell_percentage": profit_sell_percentage
             }
 
-#    else:
-#        print(f"Ошибка при получении цен на товар '{item_name}' в регионе '{region_name}': {response.status_code}")
-
     return prices
 
 
@@ -142,6 +139,3 @@ while True:
 
         if station_prices:
             dump_orders_all.append(item_prices)
-#    print("\n==========================================")
-
-#print(f'\nTime: {time.time() - start_time:,.2f} sec')

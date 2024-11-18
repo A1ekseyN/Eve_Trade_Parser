@@ -689,6 +689,85 @@ items_modules = [
     {'name': 'Capital Thermal Shield Reinforcer II', 'id': 31762},
 
     # Riggs Armor
+    # Capital Armor Rigs
+    {'name': 'Capital Auxiliary Nano Pump I', 'id': 27064},
+    {'name': 'Capital Auxiliary Nano Pump II', 'id': 31049},
+    {'name': 'Capital EM Armor Reinforcer I', 'id': 31001},
+    {'name': 'Capital EM Armor Reinforcer II', 'id': 31007},
+    {'name': 'Capital Explosive Armor Reinforcer I', 'id': 31013},
+    {'name': 'Capital Explosive Armor Reinforcer II', 'id': 31019},
+    {'name': 'Capital Kinetic Armor Reinforcer I', 'id': 31025},
+    {'name': 'Capital Kinetic Armor Reinforcer II', 'id': 31031},
+    {'name': 'Capital Nanobot Accelerator I', 'id': 31067},
+    {'name': 'Capital Nanobot Accelerator II', 'id': 27066},
+    {'name': 'Capital Remote Repair Augmentor I', 'id': 31075},
+    {'name': 'Capital Remote Repair Augmentor II', 'id': 31081},
+    {'name': 'Capital Thermal Armor Reinforcer I', 'id': 31037},
+    {'name': 'Capital Thermal Armor Reinforcer II', 'id': 31043},
+    {'name': 'Capital Transverse Bulkhead I', 'id': 33902},
+    {'name': 'Capital Transverse Bulkhead II', 'id': 33904},
+    {'name': 'Capital Trimark Armor Pump I', 'id': 30993},
+    {'name': 'Capital Trimark Armor Pump II', 'id': 31061},
+
+    # Large Armor Rigs
+    {'name': 'Large Auxiliary Nano Pump I', 'id': 25896},
+    {'name': 'Large Auxiliary Nano Pump II', 'id': 26294},
+    {'name': 'Large EM Armor Reinforcer I', 'id': 25736},
+    {'name': 'Large EM Armor Reinforcer II', 'id': 26286},
+    {'name': 'Large Explosive Armor Reinforcer I', 'id': 25888},
+    {'name': 'Large Explosive Armor Reinforcer II', 'id': 26288},
+    {'name': 'Large Kinetic Armor Reinforcer I', 'id': 25890},
+    {'name': 'Large Kinetic Armor Reinforcer II', 'id': 26290},
+    {'name': 'Large Nanobot Accelerator I', 'id': 25898},
+    {'name': 'Large Nanobot Accelerator II', 'id': 26296},
+    {'name': 'Large Remote Repair Augmentor I', 'id': 25900},
+    {'name': 'Large Remote Repair Augmentor II', 'id': 26298},
+    {'name': 'Large Thermal Armor Reinforcer I', 'id': 25892},
+    {'name': 'Large Thermal Armor Reinforcer II', 'id': 26292},
+    {'name': 'Large Transverse Bulkhead I', 'id': 33898},
+    {'name': 'Large Transverse Bulkhead II', 'id': 33900},
+    {'name': 'Large Trimark Armor Pump I', 'id': 25894},
+    {'name': 'Large Trimark Armor Pump II', 'id': 26302},
+
+    # Medium Armor Rigs
+    {'name': 'Medium Auxiliary Nano Pump I', 'id': 31047},
+    {'name': 'Medium Auxiliary Nano Pump II', 'id': 31053},
+    {'name': 'Medium EM Armor Reinforcer I', 'id': 30999},
+    {'name': 'Medium EM Armor Reinforcer II', 'id': 31005},
+    {'name': 'Medium Explosive Armor Reinforcer I', 'id': 31011},
+    {'name': 'Medium Explosive Armor Reinforcer II', 'id': 31017},
+    {'name': 'Medium Kinetic Armor Reinforcer I', 'id': 31023},
+    {'name': 'Medium Kinetic Armor Reinforcer II', 'id': 31029},
+    {'name': 'Medium Nanobot Accelerator I', 'id': 31065},
+    {'name': 'Medium Nanobot Accelerator II', 'id': 31071},
+    {'name': 'Medium Remote Repair Augmentor I', 'id': 31073},
+    {'name': 'Medium Remote Repair Augmentor II', 'id': 31079},
+    {'name': 'Medium Thermal Armor Reinforcer I', 'id': 31035},
+    {'name': 'Medium Thermal Armor Reinforcer II', 'id': 31041},
+    {'name': 'Medium Transverse Bulkhead I', 'id': 33894},
+    {'name': 'Medium Transverse Bulkhead II', 'id': 33896},
+    {'name': 'Medium Trimark Armor Pump I', 'id': 31055},
+    {'name': 'Medium Trimark Armor Pump II', 'id': 31059},
+
+    # Small Armor Rigs
+    {'name': 'Small Auxiliary Nano Pump I', 'id': 31045},
+    {'name': 'Small Auxiliary Nano Pump II', 'id': 31051},
+    {'name': 'Small EM Armor Reinforcer I', 'id': 30997},
+    {'name': 'Small EM Armor Reinforcer II', 'id': 31003},
+    {'name': 'Small Explosive Armor Reinforcer I', 'id': 31009},
+    {'name': 'Small Explosive Armor Reinforcer II', 'id': 31015},
+    {'name': 'Small Kinetic Armor Reinforcer I', 'id': 31021},
+    {'name': 'Small Kinetic Armor Reinforcer II', 'id': 31027},
+    {'name': 'Small Nanobot Accelerator I', 'id': 31063},
+    {'name': 'Small Nanobot Accelerator II', 'id': 31069},
+    {'name': 'Small Remote Repair Augmentor I', 'id': 27068},
+    {'name': 'Small Remote Repair Augmentor II', 'id': 31077},
+    {'name': 'Small Thermal Armor Reinforcer I', 'id': 31033},
+    {'name': 'Small Thermal Armor Reinforcer II', 'id': 31039},
+    {'name': 'Small Transverse Bulkhead I', 'id': 33890},
+    {'name': 'Small Transverse Bulkhead II', 'id': 33892},
+    {'name': 'Small Trimark Armor Pump I', 'id': 30987},
+    {'name': 'Small Trimark Armor Pump II', 'id': 31057}
 ]
 
 
@@ -697,3 +776,7 @@ items_modules = [
 # Модули для строений
 
 #   {'name': '', 'id': },
+
+
+
+print(f"Total Modules: {len(items_modules)}")

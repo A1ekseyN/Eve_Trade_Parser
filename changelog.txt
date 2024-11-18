@@ -1,7 +1,10 @@
+Version: 0.0.4b
+- Added creation of a table with analysis of prices on different markets
+- Added Armor Rigs
+
 Version: 0.0.4c
 - Added the sequence number of the item in this cycle
 - Added: Probe Launchers
-
 
 Version: 0.0.4b ()
 - Add items to file items_modules.py
