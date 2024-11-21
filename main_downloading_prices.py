@@ -12,10 +12,13 @@ from items_modules import items_modules
 
 class EveMarketParser:
     def __init__(self, items, locations, user_agent='your_user_agent', format_large_numbers=False):
-        self.items = self.filter_items(items)
         self.locations = locations
         self.user_agent = user_agent
         self.format_large_numbers = format_large_numbers
+        self.apply_price_limit = False                              # Вкл/выкл лимит на цену
+        self.price_limit = 1000000                                  # Price limit to write csv
+        self.max_items = 100000                                         # Количество Items по которым делаются запросы
+        self.items = self.filter_items(items)[:self.max_items]      # Ограничение на количество
         self.dump_orders_all = defaultdict(lambda: {
             "price_sell_jita": None,
             "price_buy_jita": None,
@@ -155,9 +158,23 @@ class EveMarketParser:
             "jita_to_amarr_buy_sell_%"
         ]
 
+        # Фильтруем данные по сумме объемов в столбиках C, D, I, J, если флаг apply_volume_limit включен
+        if self.apply_price_limit:
+            filtered_data = [
+                item for item in self.dump_orders_all.values()
+                if (
+                       (item.get("sell_vol_jita", 0) or 0) +
+                       (item.get("buy_vol_jita", 0) or 0) +
+                       (item.get("sell_vol_amarr", 0) or 0) +
+                       (item.get("buy_vol_amarr", 0) or 0)
+                   ) >= self.price_limit
+            ]
+        else:
+            filtered_data = list(self.dump_orders_all.values())
+
         # Сортировка данных по указанной колонке
         sorted_data = sorted(
-            self.dump_orders_all.values(),
+            filtered_data,
             key=lambda x: x.get(sort_by_column, float('-inf')) if x.get(sort_by_column) is not None else float('-inf'),
             reverse=True  # Сортировка по убыванию
         )
@@ -172,7 +189,6 @@ class EveMarketParser:
             writer.writeheader()
             for item_data in sorted_data:
                 # Форматируем значения, если включено format_large_numbers
-#                print(f'items: {item_data}')
                 formatted_data = {
                     key: (
                         f"{self.format_number(value)}" if key in currency_columns and isinstance(value, (int, float))

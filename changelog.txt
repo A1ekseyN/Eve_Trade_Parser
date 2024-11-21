@@ -1,3 +1,7 @@
+Version: 0.0.4c
+- Added a limit on the minimum amount to be written to a csv table
+- Added a limit on the number of items for which information is requested. For tests.
+
 Version: 0.0.4b
 - Added creation of a table with analysis of prices on different markets
 - Added Armor Rigs
